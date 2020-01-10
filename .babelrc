@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    "@babel/transform-react-jsx-source",
+    "babel-plugin-styled-components",
+    "emotion"
+    // ["module-resolver", {
+    //     "root": ["./"],
+    //     "alias": {
+    //       "@screens": "./src/screens/",
+    //       "@shared": "./src/shared/",
+    //       "@features": "./src/features/",
+    //       "@bootstrap": "./src/bootstrap/"
+    //     }
+    //   }
+    // ]
+  ]
+}

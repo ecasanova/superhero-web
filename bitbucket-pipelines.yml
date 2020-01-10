@@ -1,0 +1,53 @@
+# This is a sample build configuration for .NET Core.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:9.6.1
+options:
+  size: 2x  # all steps in this repo get 8GB memory
+definitions:
+  services:
+    docker:
+      memory: 4096
+  steps:
+    - step: &Deploy-step
+        name: Deploy 
+        script: # Modify the commands below to build your repository.
+          # AWS SDK
+          # Download AWS SDK
+          - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+
+          # Unzip the AWS SDK and Install
+          - apt-get update
+          - apt-get install jq --assume-yes
+          - apt-get install unzip
+          - unzip awscli-bundle.zip
+          - ./awscli-bundle/install -b ~/bin/aws
+          - export PATH=~/bin:$PATH
+
+          # Login to AWS
+          - export LOGIN=$(aws ecr get-login --no-include-email)
+          - $LOGIN
+
+          - ./deploy/deploy.fargate.sh
+        services:
+          - docker
+
+pipelines:
+  branches:
+    dev:
+    - step: 
+        <<: *Deploy-step
+    staging:
+    - step: 
+        <<: *Deploy-step
+        deployment: staging
+    master:
+    - step: 
+        <<: *Deploy-step
+        deployment: production
+  tags:
+    feature-*:
+    - step: 
+        <<: *Deploy-step

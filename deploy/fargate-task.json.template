@@ -1,0 +1,39 @@
+{
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "containerDefinitions": [
+        {
+            "name": "$AWS_CONTAINER_NAME",
+            "image": "$IMAGEARN",
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "environment": [
+                {
+                    "name": "PORT",
+                    "value": "80"
+                }
+            ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "$AWS_LOG_GROUP",
+                    "awslogs-region": "$AWS_DEFAULT_REGION",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "volumes": [],
+    "networkMode": "awsvpc",
+    "memory": "$AWS_TASK_MEMORY",
+    "cpu": "$AWS_TASK_CPU",
+    "executionRoleArn": "arn:aws:iam::373112951101:role/ecsTaskExecutionRole",
+    "family": "$AWS_TASK_FAMILY_NAME",
+    "taskRoleArn": "$AWS_TASK_ROLE_ARN"
+}

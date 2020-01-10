@@ -1,0 +1,54 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:react/recommended",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/display-name": 0,
+    "react/prop-types": 0,
+    "max-len": 0,
+    "no-undef": 1,
+    "no-unused-vars": 1,
+    "react/jsx-uses-vars": 1,
+    "indent": ["warn", 2, {"SwitchCase": 1}],
+    "react/no-unescaped-entities": 0,
+    "space-infix-ops":"warn",
+    "keyword-spacing": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "no-template-curly-in-string": "error",
+    "block-scoped-var":"error",
+    "curly": ["warn", "multi-line"],
+    "no-floating-decimal": "error",
+    "no-lone-blocks":"error",
+    "no-useless-concat": "warn",
+    "comma-dangle": "warn",
+    "comma-spacing": ["warn", { "after": true }],
+    "func-call-spacing": "warn",
+    "jsx-quotes": ["warn", "prefer-single"],
+    "key-spacing": ["warn", { "afterColon": true }],
+    "lines-between-class-members": ["warn", "always", { "exceptAfterSingleLine": true }],
+    "no-multiple-empty-lines": ["warn", { "max": 2 }],
+    "no-trailing-spaces": "warn",
+    "no-whitespace-before-property": "warn",
+    "no-var": "error",
+    "react/no-typos": "error",
+    "react/no-string-refs": "warn",
+    "react/jsx-key": "warn",
+    "react/no-deprecated": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node":true
+  }
+}
