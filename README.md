@@ -8,15 +8,14 @@ The ADK React standards used in this repository are documented [here](https://ad
 - [Docker](https://www.docker.com/) and [Fargate](https://aws.amazon.com/fargate/) deploy scripts
 - [Javascript Obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
 - [React-router](https://reacttraining.com/react-router/)
-- [Redux starter kit](https://github.com/reduxjs/redux-starter-kit)
 - [Redux persist](https://github.com/rt2zz/redux-persist)
 - [Redux optimist](https://github.com/ForbesLindesay/redux-optimist)
 - [Bugsnag](https://www.bugsnag.com/)
 - [Emotion](https://github.com/emotion-js/emotion)
-- [ADK API Helper](https://bitbucket.org/adkgroup/api-client/src/master/)
+- Websocket manager
 
 Other useful configurations
-- apple-app-site-association file if the project also has a mobile app that requires deep linking (see ADK app kit for deep linking examples)
+- apple-app-site-association file generation per environment if the project also has a mobile app that requires deep linking (see ADK app kit for deep linking examples)
 - Built-in cache-busting for new builds
 - Full login authentication flow including:
   - Forgot password + deep linking support
@@ -26,9 +25,9 @@ Other useful configurations
 - Proxy setup example
 - Healthcheck file at server root included
 - Redux devtools integration including network request debugging
-- Full CSS reset
+- Full SCSS reset
 - ADK standards eslint and prettier config
-- Path aliases (`@screens/home`, `@features/login`, `@bootstrap/redux`, etc)
+- Path aliases (`screens/home`, `features/login`, `bootstrap/redux`, etc)
 - Drag-and-drop custom fonts
 
 **Note**: This repository can and should be modified! If you run into any issues or would like to propose changes, please submit a PR with Drew Andre as a reviewer. Thanks!
@@ -55,7 +54,7 @@ Other useful configurations
 - The boilerplate uses Emotion CSS-in-JS for styling.
 
 ###### Linting
-- The eslint file adheres to ADK standards. It is mostly the react-native-community eslint config, but with some overrides like warn on destructuring, no semicolons, etc.
+- The eslint file adheres to ADK standards. It is mostly the CRA react eslint config, but with some overrides like warn on destructuring, no semicolons, etc.
 
 ###### Network
 - The boilerplate uses the ADK singleton to manage network requests and data transforms.
@@ -91,7 +90,7 @@ ADK App Kit uses [Deploybot](https://deploybot.com/) for deployment. Webpack is 
 - Tests!
 - Swagger mock endpoint for login (need example app setup)
 - Localization
-- Websocket examples?
+- Websocket examples
 - Example of emotion
 - Add version to main screen (if __DEV__)
 - How to submit PR

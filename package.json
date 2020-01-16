@@ -41,6 +41,8 @@
     "yup": "0.27.0"
   },
   "scripts": {
+    "pre-commit": "eslint",
+    "pre-push": "eslint",
     "start": "env-cmd --use-shell -f .env.development react-scripts start",
     "start:dev": "env-cmd --use-shell -f .env.development react-scripts start",
     "start:staging": "env-cmd --use-shell -f .env.staging react-scripts start",
@@ -71,7 +73,9 @@
     "env-cmd": "10.0.1",
     "eslint": "6.1.0",
     "eslint-loader": "2.2.1",
+    "eslint-plugin-fsa": "1.0.12",
     "file-system": "2.2.2",
+    "husky": "4.0.6",
     "javascript-obfuscator": "0.18.3",
     "jest": "24.9.0",
     "less": "3.9.0",

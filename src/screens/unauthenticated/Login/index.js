@@ -256,7 +256,7 @@ class Login extends PureComponent {
       <div className='login-form-container'>
         <div className='login-form-outer'>
           <div className='login-form-header-container'>
-            <h1 className='login-header-text'>LOG IN</h1>
+            {/* <h1 className='login-header-text'>LOG IN</h1> */}
             {message ? <p
               id='password-reset-confirmation-text'
               style={{
