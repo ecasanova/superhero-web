@@ -43,13 +43,13 @@
   "scripts": {
     "pre-commit": "eslint",
     "pre-push": "eslint",
-    "start": "env-cmd --use-shell -f .env.development react-scripts start",
-    "start:dev": "env-cmd --use-shell -f .env.development react-scripts start",
-    "start:staging": "env-cmd --use-shell -f .env.staging react-scripts start",
-    "start:prod": "env-cmd --use-shell -f .env.production react-scripts start",
-    "build:dev": "env-cmd --use-shell -f .env.development node scripts/pre-build-operations.js && react-scripts build && node scripts/post-build-operations.js",
-    "build:staging": "env-cmd --use-shell -f .env.staging node scripts/pre-build-operations.js && react-scripts build && node scripts/post-build-operations.js",
-    "build:prod": "env-cmd --use-shell -f .env.production node scripts/pre-build-operations.js && react-scripts build && node scripts/post-build-operations.js",
+    "start": "env-cmd -f .env.development react-scripts start",
+    "start:dev": "env-cmd -f .env.development react-scripts start",
+    "start:staging": "env-cmd -f .env.staging react-scripts start",
+    "start:prod": "env-cmd -f .env.production react-scripts start",
+    "build:dev": "env-cmd -f .env.development node scripts/pre-build-operations.js && env-cmd -f .env.development react-scripts build && env-cmd -f .env.development node scripts/post-build-operations.js",
+    "build:staging": "env-cmd -f .env.staging node scripts/pre-build-operations.js && env-cmd -f .env.staging react-scripts build && env-cmd -f .env.staging node scripts/post-build-operations.js",
+    "build:prod": "env-cmd -f .env.production node scripts/pre-build-operations.js && env-cmd -f .env.production react-scripts build && env-cmd -f .env.production node scripts/post-build-operations.js",
     "test": "react-scripts test"
   },
   "browserslist": {
