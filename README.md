@@ -90,7 +90,6 @@ ADK App Kit uses [Deploybot](https://deploybot.com/) for deployment. Webpack is 
 
 ###### Additional libraries
 - Need to search through a large dataset? [Fuse](https://fusejs.io/)
-- Need a redux connected router? [connected-react-router](https://github.com/supasate/connected-react-router)
 - Need time limited redux-persist data? [redux-persist-expire](https://github.com/kamranahmedse/redux-persist-expire)
 - Need to reset the entire reducer state? [redux-reset](https://github.com/wwayne/redux-reset) 
 **^^ Warning: Redux-Reset doesn't exactly like redux-persist [issue](https://github.com/wwayne/redux-reset/issues/7)** 
