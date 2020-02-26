@@ -33,22 +33,13 @@ const customADKRules = {
   "quotes": ["error", "single"]
 }
 
-const customADKExtends = [
-  // "plugin:fsa/recommended"
-]
 
-const customADKPlugins = [
-  // "fsa"
-]
 
 module.exports = {
   root: true,
-
   parser: 'babel-eslint',
-
-  extends: customADKExtends,
-
-  plugins: ['import', 'flowtype', 'jsx-a11y', 'react', 'react-hooks', ...customAdkPlugins],
+  extends: ["plugin:react/recommended", "eslint:recommended"],
+  plugins: ['import', 'flowtype', 'jsx-a11y', "react", 'react-hooks'],
 
   env: {
     browser: true,
@@ -72,75 +63,14 @@ module.exports = {
     },
   },
 
-  overrides: [
-    {
-      files: ['**/*.ts?(x)'],
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        ecmaVersion: 2018,
-        sourceType: 'module',
-        ecmaFeatures: {
-          jsx: true,
-        },
-
-        // typescript-eslint specific options
-        warnOnUnsupportedTypeScriptVersion: true,
-      },
-      plugins: ['@typescript-eslint'],
-      // If adding a typescript-eslint version of an existing ESLint rule,
-      // make sure to disable the ESLint rule here.
-      rules: {
-        ...customAdkRules,
-        // TypeScript's `noFallthroughCasesInSwitch` option is more robust (#6906)
-        'default-case': 'off',
-        // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/291)
-        'no-dupe-class-members': 'off',
-        // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/477)
-        'no-undef': 'off',
-
-        // Add TypeScript specific rules (and turn off ESLint equivalents)
-        '@typescript-eslint/consistent-type-assertions': 'warn',
-        'no-array-constructor': 'off',
-        '@typescript-eslint/no-array-constructor': 'warn',
-        'no-use-before-define': 'off',
-        '@typescript-eslint/no-use-before-define': [
-          'warn',
-          {
-            functions: false,
-            classes: false,
-            variables: false,
-            typedefs: false,
-          },
-        ],
-        'no-unused-expressions': 'off',
-        '@typescript-eslint/no-unused-expressions': [
-          'error',
-          {
-            allowShortCircuit: true,
-            allowTernary: true,
-            allowTaggedTemplates: true,
-          },
-        ],
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': [
-          'warn',
-          {
-            args: 'none',
-            ignoreRestSiblings: true,
-          },
-        ],
-        'no-useless-constructor': 'off',
-        '@typescript-eslint/no-useless-constructor': 'warn',
-      },
-    },
-  ],
-
-  // NOTE: When adding rules here, you need to make sure they are compatible with
-  // `typescript-eslint`, as some rules such as `no-array-constructor` aren't compatible.
   rules: {
-    ...customAdkRules,
+    // ...customAdkRules,
 
     // http://eslint.org/docs/rules/
+    'space-before-function-paren': 'warn',
+    'indent': ['error', 2, { "ignoreComments": true }],
+    'no-trailing-spaces': [2, { "ignoreComments": true }],
+    'no-multiple-empty-lines': [2, { "max": 1 }],
     'array-callback-return': 'warn',
     'default-case': ['warn', { commentPattern: '^no default$' }],
     'dot-location': ['warn', 'property'],
@@ -284,6 +214,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 'warn',
     'react/jsx-no-target-blank': 'warn',
     'react/jsx-no-undef': 'error',
+    'react/prop-types': 0,
     'react/jsx-pascal-case': [
       'warn',
       {

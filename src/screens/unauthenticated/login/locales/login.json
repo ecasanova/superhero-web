@@ -1,0 +1,10 @@
+{
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgot": "Forgot password",
+    "login": "Log in",
+    "register": "Or <1>register now!</1>"
+  }
+}

@@ -11,7 +11,6 @@ The ADK React standards used in this repository are documented [here](https://ad
 - [Redux persist](https://github.com/rt2zz/redux-persist)
 - [Redux optimist](https://github.com/ForbesLindesay/redux-optimist)
 - [Bugsnag](https://www.bugsnag.com/)
-- [Emotion](https://github.com/emotion-js/emotion)
 - Websocket manager
 
 Other useful configurations
@@ -40,6 +39,7 @@ Other useful configurations
 - [Environment variables](#environment-variables)
 - [Deploying](#deploying)
 - [Upgrading](#upgrading)
+- [Additional Libraries](#Additional-libraries)
 - [Tips and tricks](#tips-and-tricks)
 
 #### Architecture overview
@@ -48,10 +48,10 @@ Other useful configurations
 
 - Bootstrap contains app initialization files and singletons.
 ###### Redux
-- The boilerplate uses redux-boilerplate. Reducer folder structure adheres to redux ducks architecture, and actions are FSA compliant.
+- The boilerplate uses redux-toolkit. Reducer folder structure adheres to redux ducks architecture, and actions are FSA compliant.
 
 ###### Styling
-- The boilerplate uses Emotion CSS-in-JS for styling.
+- The boilerplate uses SCSS/Iota
 
 ###### Linting
 - The eslint file adheres to ADK standards. It is mostly the CRA react eslint config, but with some overrides like warn on destructuring, no semicolons, etc.
@@ -70,6 +70,8 @@ Other useful configurations
 `$ git clone git@bitbucket.org:adkgroup/ak-web-kit-fe.git`
 - Install node dependencies
 `npm install`
+- Create '.env.development'
+`Place REACT_APP_WEB_BUGSNAG_API_KEY='{valueHere}' inside of .env.development, If you don't have a valid key, use any value.`
 - Start node server
 `npm start`
 
@@ -86,11 +88,17 @@ ADK App Kit uses [Deploybot](https://deploybot.com/) for deployment. Webpack is 
 ###### Bugsnag
 - Bugsnag comes pre-configured and you can use `bugsnagClient.notify(error)` anywhere in the app. `BUGSNAG_CLIENT_ID` should be modified to point to your bugsnag application, otherwise it will be pointed to the ADKWebKit app by default.
 
+###### Additional libraries
+- Need to search through a large dataset? [Fuse](https://fusejs.io/)
+- Need a redux connected router? [connected-react-router](https://github.com/supasate/connected-react-router)
+- Need time limited redux-persist data? [redux-persist-expire](https://github.com/kamranahmedse/redux-persist-expire)
+- Need to reset the entire reducer state? [redux-reset](https://github.com/wwayne/redux-reset) 
+**^^ Warning: Redux-Reset doesn't exactly like redux-persist [issue](https://github.com/wwayne/redux-reset/issues/7)** 
+
 #### TODO:
 - Tests!
 - Swagger mock endpoint for login (need example app setup)
 - Localization
 - Websocket examples
-- Example of emotion
 - Add version to main screen (if __DEV__)
 - How to submit PR

@@ -3,10 +3,9 @@ import { persistStore, persistReducer } from 'redux-persist'
 import { persistConfig } from './persist'
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
 import optimist from 'redux-optimist'
-import reduxReset from 'redux-reset'
 import { reduxMiddleware } from './middleware'
 import { connectRouter, routerMiddleware } from 'connected-react-router'
-import session, { RESET_REDUX_STATE } from 'features/session/redux'
+import session from '@/features/session/redux/sessionReducer'
 import { createBrowserHistory } from 'history'
 
 const createRootReducer = history => (
@@ -31,7 +30,6 @@ const configureStore = (preloadedState) => {
         ...reduxMiddleware,
         routerMiddleware(history)
       ),
-      reduxReset(RESET_REDUX_STATE)
     )
   )
   return store
