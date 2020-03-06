@@ -1,0 +1,48 @@
+/*
+* The default settings file contains all the settings that iotaCSS needs to work
+* https://www.iotacss.com/docs/settings/core/
+*
+/*
+* Default global breakpoints map. These are the default breakpoints map that
+* will be shared across all iotaCSS modules. You can change it also locally to
+* each module.
+*/
+$iota-global-breakpoints: (
+  hxs: 'screen and ( max-height: 29em )', // Horizontal mobile rules
+  xxs: 'screen and ( min-width: 12em )',  // 375px
+  xs:  'screen and ( min-width: 30em )',  // 480px
+  sm:  'screen and ( min-width: 48em )',  // 768px
+  md:  'screen and ( min-width: 64em )',  // 1024px
+  lg:  'screen and ( min-width: 90em )',  // 1440px
+  xl:  'screen and ( min-width: 160em )', // 1600px,
+);
+
+/*
+* Grid columns. This setting is shared between iotaCSS grid objects and size,
+* pull & push utilities. You can change it also locally to each module.
+*/
+$iota-global-columns: 12;
+
+/*
+* Default gutters. This setting is shared between multiple objects and
+* utilities as the default value for gutters. You can change it also locally
+* to each module. E.g. grid gutter, media object gutter, list gutter, etc.
+*/
+$iota-global-gutter-default: 2rem;
+
+/*
+* Enables flexbox across the app. If you do not want all modules to use flexbox
+* you can keep this value false and set it to true separately to each one of
+* them locally.
+*/
+$iota-global-flex: true;
+
+/*
+* Enables rtl across the app. If you enable this setting the final CSS will be
+* converted to RTL.
+*/
+$iota-global-rtl: false;
+
+@import '../../../node_modules/iotacss/settings/core';
+
+@import '../../../node_modules/iotacss/tools/breakpoint';

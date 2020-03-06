@@ -1,0 +1,15 @@
+{
+  "common": {
+    "welcome": "Esta es la pantalla de inicio",
+    "welcome_male": "Bienvenido a la pantalla de inicio",
+    "welcome_female": "Bienvenida a la pantalla de inicio"
+  },
+  "login": {
+    "username": "Nombre de usuario",
+    "password": "contraseña",
+    "remember": "Recuérdame",
+    "forgot": "Se te olvidó tu contraseña",
+    "login": "Iniciar sesión",
+    "register": "O <1>regístrate ahora!</1>"
+  }
+}
