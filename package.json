@@ -1,6 +1,6 @@
 {
   "name": "adk_web_kit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@adk/apiclient": "git+ssh://git@bitbucket.org/adkgroup/api-client.git",
@@ -50,6 +50,7 @@
     "build:dev": "env-cmd -f .env.development --use-shell 'react-app-rewired build'",
     "build:staging": "env-cmd -f .env.staging --use-shell 'react-app-rewired build'",
     "build:prod": "env-cmd -f .env.production --use-shell 'react-app-rewired build'",
+    "upload-sourcemaps:dev": "env-cmd -f .env.development node src/utils/bugsnag/process-sourcemaps.js",
     "test": "react-app-rewired test",
     "extract-translation-keys": "cd src && cd utils && cd i18next && node generateLocaleMaster & cd ../../../"
   },
@@ -71,12 +72,14 @@
     "babel-loader": "8.0.6",
     "babel-plugin-import": "1.13.0",
     "babel-plugin-module-resolver": "4.0.0",
+    "bugsnag-build-reporter": "1.0.3",
     "bugsnag-sourcemaps": "1.2.2",
     "env-cmd": "10.0.1",
     "eslint": "6.1.0",
     "eslint-loader": "2.2.1",
     "eslint-plugin-fsa": "1.0.12",
     "file-system": "2.2.2",
+    "glob": "7.1.6",
     "husky": "4.0.6",
     "javascript-obfuscator": "0.18.3",
     "jest": "24.9.0",
