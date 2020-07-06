@@ -1,10 +1,33 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Created by https://www.toptal.com/developers/gitignore/api/react,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,visualstudiocode
 
-# dependencies
-/node_modules
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 
-# testing
-/coverage
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
 
 # production
 /build
@@ -19,3 +42,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# End 
