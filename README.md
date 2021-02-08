@@ -10,11 +10,8 @@ The ADK React standards used in this repository are documented [here](https://ad
 - [React-router](https://reacttraining.com/react-router/)
 - [Redux persist](https://github.com/rt2zz/redux-persist)
 - [Redux optimist](https://github.com/ForbesLindesay/redux-optimist)
-- [Bugsnag](https://www.bugsnag.com/)
-- Websocket manager
 
 Other useful configurations
-- apple-app-site-association file generation per environment if the project also has a mobile app that requires deep linking (see ADK app kit for deep linking examples)
 - Built-in cache-busting for new builds
 - Full login authentication flow including:
   - Forgot password + deep linking support
@@ -29,18 +26,31 @@ Other useful configurations
 - Path aliases (`screens/home`, `features/login`, `bootstrap/redux`, etc)
 - Drag-and-drop custom fonts
 
-**Note**: This repository can and should be modified! If you run into any issues or would like to propose changes, please submit a PR with Drew Andre as a reviewer. Thanks!
+**Note**: This repository can and should be modified! If you run into any issues or would like to propose changes, please submit a PR. Thanks!
 
-### Table of Contents 
+### Table of Contents
 
 - [Architecture overview](#architecture-overview)
 - [Getting started](#getting-started)
+  - [Environment](#environment)
+  - [Run the App](#run-the-app)
 - [Changing metadata](#changing-metadata)
-- [Environment variables](#environment-variables)
-- [Deploying](#deploying)
-- [Upgrading](#upgrading)
 - [Additional Libraries](#Additional-libraries)
-- [Tips and tricks](#tips-and-tricks)
+
+### Getting started
+#### Environment
+- Download [Node](https://nodejs.org/en/) and [node package manager](https://www.npmjs.com/) (npm). **ADK Group uses npm, not yarn.**
+- Node v12.15.0
+
+#### Run the App
+- Fork the repository at the base branch _(ensure you have uploaded an SSH key to the ADK bitbucket account)_
+`$ git clone git@bitbucket.org:adkgroup/adk-web-kit.git`
+- Install node dependencies
+`npm i`
+- Remove `.sample` from `.env.development.sample`
+- Start development server 
+`npm start`
+
 
 #### Architecture overview
 ###### Structure
@@ -61,43 +71,13 @@ Other useful configurations
 
 ###### Versioning
  - `.npmrc` at the project root tells npm to omit any prefixes in your package.json, i.e. we will _always save the exact version_ and we do not allow any patch (`~`) or minor (`^`) updates between npm installs.
-
-#### Environment setup
-- Download [Node](https://nodejs.org/en/) and [node package manager](https://www.npmjs.com/) (npm). **ADK Group uses npm, not yarn.**
-
-#### How to run
-- Clone the repository _(ensure you have uploaded an SSH key to the ADK bitbucket account)_
-`$ git clone git@bitbucket.org:adkgroup/ak-web-kit-fe.git`
-- Install node dependencies
-`npm install`
-- Create '.env.development'
-`Place REACT_APP_WEB_BUGSNAG_API_KEY='{valueHere}' inside of .env.development, If you don't have a valid key, use any value.`
-- Start node server
-`npm start`
-
 #### Changing metadata
 
 ###### Favicon
 - Replace /public/favicon.ico with a PNG icon. Done!
-
-#### Deploying
-
-###### Overview
-ADK App Kit uses [Deploybot](https://deploybot.com/) for deployment. Webpack is used under the hood for build automation. Please see Mike for deploybot setup and Aaron for access.
-
-###### Bugsnag
-- Bugsnag comes pre-configured and you can use `bugsnagClient.notify(error)` anywhere in the app. `BUGSNAG_CLIENT_ID` should be modified to point to your bugsnag application, otherwise it will be pointed to the ADKWebKit app by default.
 
 ###### Additional libraries
 - Need to search through a large dataset? [Fuse](https://fusejs.io/)
 - Need time limited redux-persist data? [redux-persist-expire](https://github.com/kamranahmedse/redux-persist-expire)
 - Need to reset the entire reducer state? [redux-reset](https://github.com/wwayne/redux-reset) 
 **^^ Warning: Redux-Reset doesn't exactly like redux-persist [issue](https://github.com/wwayne/redux-reset/issues/7)** 
-
-#### TODO:
-- Tests!
-- Swagger mock endpoint for login (need example app setup)
-- Localization
-- Websocket examples
-- Add version to main screen (if __DEV__)
-- How to submit PR

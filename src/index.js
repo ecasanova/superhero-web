@@ -8,7 +8,6 @@ import { PersistGate } from "redux-persist/integration/react";
 import { ConnectedRouter } from 'connected-react-router'
 
 import store, { persistor, history } from '@/bootstrap/redux'
-import bugsnagClient from '@/bootstrap/bugsnag'
 
 import ProtectedRoute from '@/features/navigation/components/ProtectedRoute'
 import LoginScreen from '@/screens/unauthenticated/login/LoginScreen'
@@ -17,7 +16,6 @@ import Layout from '@/features/navigation/components/Layout'
 import './utils/iota/reset.scss'
 
 const NODE = 'root'
-const ErrorBoundary = bugsnagClient.getPlugin('react')
 
 const TranslationsLoadingElement = () => (
   <div>
@@ -27,19 +25,17 @@ const TranslationsLoadingElement = () => (
 )
 
 ReactDOM.render(
-  <ErrorBoundary>
-    <Suspense fallback={TranslationsLoadingElement()}>
-      <Provider store={store}>
-        <PersistGate loading={<div>loading!</div>} persistor={persistor}>
-          <ConnectedRouter history={history}>
-            <Switch>
-              <Route exact path={'/login'} component={LoginScreen} />
-              <ProtectedRoute path={'/'} component={Layout} />
-            </Switch>
-          </ConnectedRouter>
-        </PersistGate>
-      </Provider>
-    </Suspense>
-  </ErrorBoundary>,
+  <Suspense fallback={TranslationsLoadingElement()}>
+    <Provider store={store}>
+      <PersistGate loading={<div>loading!</div>} persistor={persistor}>
+        <ConnectedRouter history={history}>
+          <Switch>
+            <Route exact path={'/login'} component={LoginScreen} />
+            <ProtectedRoute path={'/'} component={Layout} />
+          </Switch>
+        </ConnectedRouter>
+      </PersistGate>
+    </Provider>
+  </Suspense>,
   document.getElementById(NODE)
 )
