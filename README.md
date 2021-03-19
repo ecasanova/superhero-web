@@ -4,6 +4,11 @@ This is a [React](https://facebook.github.io/react/) starter kit built by [ADK G
 
 The ADK React standards used in this repository are documented [here](https://adkgroup.atlassian.net/wiki/spaces/FH/overview) on Confluence.
 
+###### Other useful branches:
+- [base_light](https://bitbucket.org/adkgroup/adk-web-kit/src/base_light/) - Similar to the base webkit, base_light is useful for projects that want less things set up already.
+- [base_with-localization](https://bitbucket.org/adkgroup/adk-web-kit/src/base_with_localization/) - Should be used with projects anticipating the use of localization.
+- [demo](https://bitbucket.org/adkgroup/adk-web-kit/src/demo/) - New features should be PR'd into this branch.
+
 ###### Preconfigured dependencies:
 - [Docker](https://www.docker.com/) and [Fargate](https://aws.amazon.com/fargate/) deploy scripts
 - [Javascript Obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
