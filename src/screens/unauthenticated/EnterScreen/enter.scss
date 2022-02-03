@@ -1,0 +1,104 @@
+@keyframes spiderManEnter {
+  0% {
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+  50% {
+    transform: translateY(10%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes spiderManExit {
+  0% {
+    transform: translateY(0);
+    visibility: visible;
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+}
+
+.c-login {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  @include iota-breakpoint(md) {
+    height: 100%;
+  }
+
+  &.is-enter:after {
+    animation: spiderManEnter 1000ms 600ms ease forwards;
+  }
+  &.is-exit:after {
+    animation: spiderManExit 1000ms ease-in forwards;
+  }
+
+  &::after {
+    content: '';
+    background-image: url('../../../shared/assets/images/75269-america-superhero-cup-comics-spider-man-captain.png');
+    transform: translateY(-100%);
+    position: absolute;
+    top: -9.4rem;
+    right: 0;
+    width: 40rem;
+    height: 25vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    @include iota-breakpoint(md) {
+      height: 52rem;
+      width: 39rem;
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url('../../../shared/assets/images/enter_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 4rem;
+    font-family: var(--font-family-obelixpro);
+    font-weight: 700;
+    line-height: 5.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__superhero-group {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-height: 80vh;
+      flex: none;
+
+      @include iota-breakpoint(md) {
+        max-height: 80vh;
+      }
+    }
+  }
+}

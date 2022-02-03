@@ -1,12 +1,12 @@
 /**
  * IotaCSS reset
  */
- $iota-base-initialize-box-sizing:           'border-box';
- $iota-base-initialize-heading-size:         true;
- $iota-base-initialize-form-elements:        true;
- $iota-base-initialize-html5-form-elements:  true;
- 
- @import '../../../node_modules/iotacss/base/initialize';
+$iota-base-initialize-box-sizing: 'border-box';
+$iota-base-initialize-heading-size: true;
+$iota-base-initialize-form-elements: true;
+$iota-base-initialize-html5-form-elements: true;
+
+@import '../../../node_modules/iotacss/base/initialize';
 
 /**
 * ADK-Defined initialization rules
@@ -15,10 +15,18 @@
 * Now isn't that nice?
 */
 
-html { font-size: 62.5%; }
-#root { height: 100% }
+html {
+  font-size: 62.5%;
+}
+#root {
+  height: 100%;
+}
 
-img, 
-svg { display: block; }
+img,
+svg {
+  display: block;
+}
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}

@@ -1,24 +1,23 @@
-import React, { PureComponent } from 'react'
-import { Switch } from 'react-router-dom'
-import ProtectedRoute from '../ProtectedRoute'
+import React, {PureComponent} from 'react';
+import {Switch, Route} from 'react-router-dom';
 
 // screens
-import HomeScreen from '@/screens/authenticated/home/HomeScreen'
+import EnterScreen from '@/screens/unauthenticated/EnterScreen';
 
 class Layout extends PureComponent {
   // avoid putting too much functionality in Layout, Any component included here should be self contained to avoid re-renders of significant parts of the site.
   // A good use for this component would be to include a navbar/sidebar. Anything that you want present on every screen.
-  render () {
+  render() {
     return (
-      <div>
+      <>
         <main>
           <Switch>
-            <ProtectedRoute component={HomeScreen} />
+            <Route component={EnterScreen} />
           </Switch>
         </main>
-      </div>
-    )
+      </>
+    );
   }
 }
 
-export default Layout
+export default Layout;
