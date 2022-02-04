@@ -48,6 +48,7 @@
     "build:dev": "env-cmd -f .env.development --use-shell 'react-app-rewired build'",
     "build:staging": "env-cmd -f .env.staging --use-shell 'react-app-rewired build'",
     "build:prod": "env-cmd -f .env.production --use-shell 'react-app-rewired build'",
+    "build:ci": "react-app-rewired build",
     "upload-sourcemaps:dev": "env-cmd -f .env.development node src/utils/bugsnag/process-sourcemaps.js",
     "test": "react-app-rewired test",
     "extract-translation-keys": "cd src && cd utils && cd i18next && node generateLocaleMaster & cd ../../../"
