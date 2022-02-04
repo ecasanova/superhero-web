@@ -1,0 +1,11 @@
+/*
+* Iota's sizing utility classes, responsible for column widths
+* https://www.iotacss.com/docs/utilities/size/
+*/
+$iota-utils-size-namespace: '';
+$iota-utils-size-delimiter: \/;
+$iota-utils-size-columns:    $iota-global-columns;
+$iota-utils-size-res: true;
+$iota-utils-size-breakpoints: $iota-global-breakpoints;
+
+@import '../../../../node_modules/iotacss/utilities/size';

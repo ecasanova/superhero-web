@@ -10,7 +10,6 @@ import store, {persistor, history} from '@/bootstrap/redux';
 import Layout from '@/shared/components/Layout';
 import Loading from '@/shared/components/Loading';
 
-import './utils/iota/reset.scss';
 import './shared/styles/app.scss';
 
 const NODE = 'root';

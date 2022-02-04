@@ -43,15 +43,14 @@
     animation: spiderManExit 1000ms ease-in forwards;
   }
 
+  /* SPIDERMAN IMAGE */
   &::after {
     content: '';
     background-image: url('../../../shared/assets/images/75269-america-superhero-cup-comics-spider-man-captain.png');
     transform: translateY(-100%);
     position: absolute;
-    top: -9.4rem;
+    top: -6rem;
     right: 0;
-    width: 40rem;
-    height: 25vh;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
@@ -61,8 +60,14 @@
     }
 
     @include iota-breakpoint(md) {
-      height: 52rem;
-      width: 39rem;
+      height: 32rem;
+      width: 30rem;
+      display: block;
+    }
+
+    @include iota-breakpoint(lg) {
+      height: 45rem;
+      width: 40rem;
       display: block;
     }
   }
@@ -82,15 +87,71 @@
   }
 
   &__title {
-    color: #fff;
-    font-size: 4rem;
+    color: color(white);
     font-family: 'ObelixPro';
     font-weight: 700;
-    line-height: 5.5rem;
     text-align: center;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
+    margin-top: 10%;
+
+    @include iota-breakpoint(xxs) {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+
+    @include iota-breakpoint(xs) {
+      font-size: 2rem;
+      line-height: 4rem;
+    }
+
+    @include iota-breakpoint(sm) {
+      font-size: 3rem;
+      line-height: 6rem;
+    }
+
+    @include iota-breakpoint(md) {
+      font-size: 3rem;
+      line-height: 5rem;
+    }
+
+    @include iota-breakpoint(lg) {
+      font-size: 4.5rem;
+      line-height: 7rem;
+    }
+  }
+
+  &__button {
+    background: color(orange);
+    font-family: 'ObelixPro';
+    cursor: pointer;
+    margin: auto;
+    color: color(white);
+    border: none;
+    padding: 2rem 4rem;
+    margin: 2rem auto;
+    display: block;
+
+    @include iota-breakpoint(xxs) {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+
+    @include iota-breakpoint(xs) {
+      font-size: 2rem;
+      line-height: 4rem;
+    }
+
+    @include iota-breakpoint(sm) {
+      font-size: 3rem;
+      line-height: 6rem;
+    }
+
+    @include iota-breakpoint(md) {
+      font-size: 3rem;
+      line-height: 6rem;
+    }
   }
 
   &__superhero-group {
@@ -98,7 +159,6 @@
     justify-content: center;
 
     img {
-      max-height: 80vh;
       flex: none;
 
       @include iota-breakpoint(xxs) {
@@ -106,7 +166,11 @@
       }
 
       @include iota-breakpoint(md) {
-        max-height: 80vh;
+        max-height: 85vh;
+      }
+
+      @include iota-breakpoint(lg) {
+        max-height: 75vh;
       }
     }
   }

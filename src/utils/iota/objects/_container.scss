@@ -1,0 +1,23 @@
+/*
+* Iota's container object
+* https://www.iotacss.com/docs/objects/container/
+*/
+$n-gd: $iota-global-gutter-default / 2;
+$sm-gd:  $iota-global-gutter-default;
+$lg-gd: 9.2rem;
+
+$iota-objs-container-namespace: 'container';
+$iota-objs-container-gutter-default: (
+  null: $n-gd,
+  sm: $sm-gd,
+  lg: $lg-gd
+);
+$iota-objs-container-gutter-extra: (
+  flush: (
+    null: 0
+  )
+);
+$iota-objs-container-size-default: 100%;
+$iota-objs-container-size-extra: ();
+
+@import 'node_modules/iotacss/objects/container';

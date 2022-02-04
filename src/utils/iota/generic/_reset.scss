@@ -1,0 +1,9 @@
+/**
+ * IotaCSS reset
+ */
+ $iota-base-initialize-box-sizing:           'border-box';
+ $iota-base-initialize-heading-size:         true;
+ $iota-base-initialize-form-elements:        true;
+ $iota-base-initialize-html5-form-elements:  true;
+ 
+ @import '../../../../node_modules/iotacss/base/initialize';

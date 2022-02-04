@@ -1,0 +1,45 @@
+/**
+* ADK-Defined initialization rules
+* font-size: 62.5% === 10px in 99% of cases, and it lets us use REM with base-10 multiplication, making development easier
+* Example: 140rem = 1400px
+* Now isn't that nice?
+*/
+
+* {
+  // Focus styles
+  // define regular focus styles for non-supporting browsers
+  // overwrite them for browsers that support :focus-visible.
+  &:focus {
+    /* high contrast version */
+    // ensure high-contrast mode still has an indicator
+    outline: 0.2rem currentColor solid;
+    // Apply a thick light box-shadow with
+    // a thin dark indicator in the middle
+    box-shadow: 0 0 0 0.2rem color(white), 0 0 0 0.4rem color(black), 0 0 0.4rem 0.8rem color(white);
+    
+    &:not(:focus-visible) {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+
+  &:focus-visible {
+    /* simple outline version */
+    
+    /* high contrast version */
+    //// ensure high-contrast mode still has an indicator
+    outline: 0.2rem currentColor solid;
+    // Apply a thick light box-shadow with
+    // a thin dark indicator in the middle
+    box-shadow: 0 0 0 0.2rem color(white), 0 0 0 0.4rem color(black), 0 0 0.4rem 0.8rem color(white);
+  }
+}
+
+html { font-size: 62.5%; }
+
+body { font-size: 1.6rem; }
+
+#root { height: 100% }
+
+img, 
+svg { display: block; }
