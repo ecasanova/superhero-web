@@ -19,7 +19,7 @@ function EnterScreen() {
               <img src={superHeroBackgroundImage} alt="" />
             </div>
           </div>
-          <div className="o-grid__col u-5/12@md u-12/12@xxs">
+          <div className="o-grid__col u-6/12@md u-12/12@xxs">
             <h1 className="c-login__title">
               Create your own team of superheroes
             </h1>

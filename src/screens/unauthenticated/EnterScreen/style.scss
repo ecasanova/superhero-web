@@ -66,8 +66,8 @@
     }
 
     @include iota-breakpoint(lg) {
-      height: 45rem;
-      width: 40rem;
+      height: 35rem;
+      width: 30rem;
       display: block;
     }
   }
@@ -102,13 +102,13 @@
     }
 
     @include iota-breakpoint(xs) {
-      font-size: 2rem;
-      line-height: 4rem;
+      font-size: 1.5rem;
+      line-height: 3rem;
     }
 
     @include iota-breakpoint(sm) {
-      font-size: 3rem;
-      line-height: 6rem;
+      font-size: 2rem;
+      line-height: 4rem;
     }
 
     @include iota-breakpoint(md) {
@@ -117,8 +117,8 @@
     }
 
     @include iota-breakpoint(lg) {
-      font-size: 4.5rem;
-      line-height: 7rem;
+      font-size: 3.5rem;
+      line-height: 6rem;
     }
   }
 
@@ -129,28 +129,24 @@
     margin: auto;
     color: color(white);
     border: none;
-    padding: 2rem 4rem;
-    margin: 2rem auto;
+    padding: 1rem 4rem;
+    margin: 1rem auto;
     display: block;
 
     @include iota-breakpoint(xxs) {
-      font-size: 1rem;
-      line-height: 2rem;
+      font-size: 0.5rem;
     }
 
     @include iota-breakpoint(xs) {
-      font-size: 2rem;
-      line-height: 4rem;
+      font-size: 1rem;
     }
 
     @include iota-breakpoint(sm) {
-      font-size: 3rem;
-      line-height: 6rem;
+      font-size: 1.5rem;
     }
 
     @include iota-breakpoint(md) {
-      font-size: 3rem;
-      line-height: 6rem;
+      font-size: 2rem;
     }
   }
 
