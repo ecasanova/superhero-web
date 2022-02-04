@@ -12,6 +12,9 @@ definitions:
 
         - step: &build
             name: Build
+            caches:
+                - node
+
             script:
                 - source ./tmp-deploy/reactjs/install-tooling.sh    # default node should be 10.15.3
 
