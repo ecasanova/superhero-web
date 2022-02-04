@@ -1,18 +1,16 @@
 import React from 'react';
 
-export function MainNav(props) {
-  const {supersearch} = props;
-
+export default function Header(props) {
   return (
     <div className="main-nav">
-      <div className="supersearch obelixpro-bold-black-20px">{supersearch}</div>
+      <div className="supersearch obelixpro-bold-black-20px">Suepersearch</div>
       <MenuItem menuItem="Superheroes" />
       <MenuItem menuItem="My Team" />
     </div>
   );
 }
 
-export default function MenuItem({menuItem}) {
+export function MenuItem({menuItem}) {
   return (
     <div className="menu-item">
       <div className="text-1 helveticaneue-normal-black-18px">{menuItem}</div>

@@ -7,7 +7,8 @@ export default function Loading() {
   return (
     <div className="c-loading">
       <div className="c-loading__animation">
-        <Lottie animationData={loadingAnimation} />;
+        <Lottie animationData={loadingAnimation} />
+        <h1>Loading...</h1>
       </div>
     </div>
   );

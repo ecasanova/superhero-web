@@ -1,5 +1,5 @@
 import React from 'react';
-import './enter.scss';
+import './style.scss';
 
 import superHeroBackgroundImage from '@/shared/assets/images/dc-comics-png-background-image.png';
 

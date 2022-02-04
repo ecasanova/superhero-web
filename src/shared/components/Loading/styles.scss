@@ -10,13 +10,31 @@
     justify-content: center;
     align-items: center;
     height: inherit;
+    flex-direction: column;
 
     div {
-      width: 200px;
-      height: 200px;
+      width: 20rem;
+      height: 20rem;
       display: flex;
       justify-content: center;
       align-items: center;
+      animation: rotate 8s linear infinite;
     }
+
+    h1 {
+      clear: left;
+      font-size: 2rem;
+      color: #fff;
+      font-family: 'ObelixPro';
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
   }
 }
