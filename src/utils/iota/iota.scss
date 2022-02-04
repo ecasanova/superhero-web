@@ -8,13 +8,20 @@
 * each module.
 */
 $iota-global-breakpoints: (
-  hxs: 'screen and ( max-height: 29em )', // Horizontal mobile rules
-  xxs: 'screen and ( min-width: 12em )',  // 375px
-  xs:  'screen and ( min-width: 30em )',  // 480px
-  sm:  'screen and ( min-width: 48em )',  // 768px
-  md:  'screen and ( min-width: 64em )',  // 1024px
-  lg:  'screen and ( min-width: 90em )',  // 1440px
-  xl:  'screen and ( min-width: 160em )', // 1600px,
+  hxs: 'screen and ( max-height: 29em )',
+  // Horizontal mobile rules
+  xxs: 'screen and ( min-width: 12em )',
+  // 375px
+  xs: 'screen and ( min-width: 30em )',
+  // 480px
+  sm: 'screen and ( min-width: 48em )',
+  // 768px
+  md: 'screen and ( min-width: 64em )',
+  // 1024px
+  lg: 'screen and ( min-width: 90em )',
+  // 1440px
+  xl: 'screen and ( min-width: 160em )',
+  // 1600px,
 );
 
 /*
@@ -42,6 +49,8 @@ $iota-global-flex: true;
 * converted to RTL.
 */
 $iota-global-rtl: false;
+
+$iota-objs-grid-flex: true;
 
 @import '../../../node_modules/iotacss/settings/core';
 

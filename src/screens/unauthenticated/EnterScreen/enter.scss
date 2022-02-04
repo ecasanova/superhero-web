@@ -84,7 +84,7 @@
   &__title {
     color: #fff;
     font-size: 4rem;
-    font-family: var(--font-family-obelixpro);
+    font-family: 'ObelixPro';
     font-weight: 700;
     line-height: 5.5rem;
     text-align: center;
@@ -100,6 +100,10 @@
     img {
       max-height: 80vh;
       flex: none;
+
+      @include iota-breakpoint(xxs) {
+        max-height: 50vh;
+      }
 
       @include iota-breakpoint(md) {
         max-height: 80vh;
