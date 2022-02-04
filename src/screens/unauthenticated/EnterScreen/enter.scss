@@ -56,9 +56,14 @@
     background-repeat: no-repeat;
     z-index: -1;
 
+    @include iota-breakpoint(xxs) {
+      display: none;
+    }
+
     @include iota-breakpoint(md) {
       height: 52rem;
       width: 39rem;
+      display: block;
     }
   }
 
