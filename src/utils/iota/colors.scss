@@ -3,13 +3,11 @@
 * i.e. background-color: color(yellow);
 */
 
-
 $colors: (
-	adkred: #B0161D,
-	red: #B0161D,
-	lightgray: #E9E9E9,
-  darkgray: #262C38,
-  gray: #6b6b6b,
+  black: #000,
+  white: #fff,
+  blue: #0084ff,
+  orange: #f9873d,
 );
 
 @function color($key) {
