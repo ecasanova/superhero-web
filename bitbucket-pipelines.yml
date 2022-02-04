@@ -1,0 +1,43 @@
+image: atlassian/default-image:2
+
+definitions:
+    steps:
+        - step: &bootstrap
+            name: Install Build Tools
+            script:
+                - git clone --branch feature/react-ec2 https://$ADK_DEPLOYMENT_USER:$ADK_DEPLOYMENT_KEY@bitbucket.org/adkgroup/buildtools.git
+                - mv buildtools/tmp-deploy ./
+            artifacts:
+                - tmp-deploy/**
+
+        - step: &build
+            name: Build
+            script:
+                - source ./tmp-deploy/reactjs/install-tooling.sh    # default node should be 10.15.3
+
+                - source ./tmp-deploy/reactjs/environment-setup.sh
+                - source ./tmp-deploy/react-ec2/build.sh
+            artifacts:
+                - dist/**
+
+        - step: &deploy
+            name: Deploy
+            script:
+                - source ./tmp-deploy/react-ec2/validate-deploy-vars.sh
+                
+                - source ./tmp-deploy/react-ec2/deploy.sh
+
+pipelines:
+    custom:
+
+        dev: &dev
+            - step: *bootstrap
+            - step: 
+                <<: *build
+                deployment: dev-build
+            - step:
+                <<: *deploy
+                deployment: dev-deploy
+
+    branches:
+        dev: *dev
