@@ -3,11 +3,15 @@ const proxy = require('http-proxy-middleware');
 const apiPath = '/api';
 
 const apiProxyConfig = {
-  target: 'https://dev.adkgroup.io/',
+  target:
+    process.env.SUPERHERO_API_URL +
+    '/' +
+    process.env.SUPERHERO_ACCESS_TOKEN +
+    '/',
   changeOrigin: true,
-  logLevel: 'debug'
-}
+  logLevel: 'debug',
+};
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.use(proxy(apiPath, apiProxyConfig));
 };
