@@ -1,14 +1,28 @@
 .c-header {
-  height: 10rem;
   padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+
+  @include iota-breakpoint(md) {
+    height: 10rem;
+  }
 
   &__wrapper {
     background-color: color(white);
     box-shadow: 0px 2px 4px #b0b0b080;
-    height: 10rem;
-    padding: 3rem 4rem;
     position: absolute;
     width: -webkit-fill-available;
+    height: 8rem;
+
+    @include iota-breakpoint(xxs) {
+      padding: 3rem 2rem;
+    }
+
+    @include iota-breakpoint(md) {
+      height: 10rem;
+      padding: 3rem 4rem;
+    }
   }
 
   &__logo a {
@@ -19,8 +33,11 @@
     font-weight: 700;
     letter-spacing: 0;
     white-space: nowrap;
-    margin-right: 2rem;
+
     line-height: 2rem;
+    @include iota-breakpoint(md) {
+      margin-right: 10rem;
+    }
   }
 
   &__nav {
@@ -33,6 +50,17 @@
   &__menu {
     display: flex;
     align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: flex-start;
+
+    @include iota-breakpoint(xxs) {
+      justify-content: space-between;
+    }
+
+    @include iota-breakpoint(md) {
+      justify-content: flex-start;
+    }
   }
 
   &__menu-item {
@@ -43,14 +71,50 @@
     text-decoration: none;
     margin: 0.5rem 2rem;
     padding-bottom: 1rem;
+    display: none;
     &:hover {
       transition: all 0.2s ease-in-out;
       background: #fff;
       color: #0084ff;
     }
+    @include iota-breakpoint(md) {
+      display: block;
+    }
   }
 
   &__menu-item--active {
     border-bottom: 0.4rem solid blue;
+  }
+
+  &__menu-filter:last-child {
+    margin-left: auto;
+  }
+
+  &__menu-filter .anticon {
+    color: color(orange) !important;
+
+    @include iota-breakpoint(xxs) {
+      visibility: hidden;
+      width: 0px;
+    }
+
+    @include iota-breakpoint(md) {
+      visibility: visible;
+      width: inherit;
+    }
+  }
+
+  .ant-btn-primary {
+    color: color(orange) !important;
+    border-color: orange !important;
+  }
+}
+
+.c-menu {
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  @include iota-breakpoint(md) {
+    display: none;
   }
 }

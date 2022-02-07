@@ -1,4 +1,4 @@
-import {all, call, spawn} from 'redux-saga/effects';
+import {all, call} from 'redux-saga/effects';
 import {routinePromiseWatcherSaga} from 'redux-saga-routines';
 
 import cardListSagas from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSagas';

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@adk/apiclient": "git+ssh://git@bitbucket.org/adkgroup/api-client.git",
+    "@ant-design/icons": "4.7.0",
     "@reduxjs/toolkit": "1.2.5",
     "antd": "3.26.6",
     "axios": "0.21.1",
