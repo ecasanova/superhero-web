@@ -1,25 +1,30 @@
-import { createStore, applyMiddleware, combineReducers } from 'redux'
-import { persistStore, persistReducer } from 'redux-persist'
-import { persistConfig } from './persist'
-import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
-import optimist from 'redux-optimist'
-import { reduxMiddleware } from './middleware'
-import { connectRouter, routerMiddleware } from 'connected-react-router'
-import session from '@/features/session/redux/sessionReducer'
-import { createBrowserHistory } from 'history'
+import {createStore, applyMiddleware, combineReducers} from 'redux';
+import {persistStore, persistReducer} from 'redux-persist';
+import {persistConfig} from './persist';
+import {composeWithDevTools} from 'redux-devtools-extension/developmentOnly';
+import optimist from 'redux-optimist';
+import {reduxMiddleware} from './middleware';
+import {connectRouter, routerMiddleware} from 'connected-react-router';
+import session from '@/features/session/redux/sessionReducer';
+import cardsListReducer from '@/features/SuperheroCard/cardsListComponent/redux/cardsListReducer';
+import createSagaMiddleware from 'redux-saga';
+import {createBrowserHistory} from 'history';
+import sagas from './sagas';
 
-const createRootReducer = history => (
+const createRootReducer = (history) =>
   optimist(
     combineReducers({
       router: connectRouter(history),
-      session
-    })
-  )
-)
+      session,
+      superheroes: cardsListReducer,
+    }),
+  );
 
-export const history = createBrowserHistory()
-const rootReducer = createRootReducer(history)
-const persistedReducer = persistReducer(persistConfig, rootReducer)
+export const history = createBrowserHistory();
+const rootReducer = createRootReducer(history);
+const persistedReducer = persistReducer(persistConfig, rootReducer);
+
+const sagaMiddleware = createSagaMiddleware();
 
 const configureStore = (preloadedState) => {
   const store = createStore(
@@ -28,15 +33,19 @@ const configureStore = (preloadedState) => {
     composeWithDevTools(
       applyMiddleware(
         ...reduxMiddleware,
-        routerMiddleware(history)
+        routerMiddleware(history),
+        sagaMiddleware,
       ),
-    )
-  )
-  return store
-}
+    ),
+  );
+  return store;
+};
 
-const store = configureStore({})
+const store = configureStore({});
 
-export const persistor = persistStore(store)
+export const persistor = persistStore(store);
 // process.env.NODE_ENV !== 'production' && persistor.purge();
-export default store
+
+sagaMiddleware.run(sagas);
+
+export default store;

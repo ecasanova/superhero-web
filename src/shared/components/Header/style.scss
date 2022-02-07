@@ -1,0 +1,53 @@
+.c-header {
+  &__wrapper {
+    background-color: color(white);
+    box-shadow: 0px 2px 4px #b0b0b080;
+    height: 10rem;
+    padding: 3rem 4rem;
+    position: absolute;
+    width: -webkit-fill-available;
+  }
+
+  &__logo a {
+    font-size: 2rem;
+    font-family: 'ObelixPro';
+    color: color(black);
+    align-self: center;
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+    margin-right: 2rem;
+    line-height: 2rem;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    z-index: 12;
+    width: 100%;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-item {
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin: 0.5rem 2rem;
+    padding-bottom: 1rem;
+    &:hover {
+      transition: all 0.2s ease-in-out;
+      background: #fff;
+      color: #0084ff;
+    }
+  }
+
+  &__menu-item--active {
+    border-bottom: 0.4rem solid blue;
+  }
+}

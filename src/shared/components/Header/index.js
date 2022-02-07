@@ -1,20 +1,40 @@
 import React from 'react';
+import {Link, NavLink} from 'react-router-dom';
+import {NavBtn} from './NavbarElements';
+import {Button} from 'antd';
+import './style.scss';
 
-export default function Header(props) {
+const Navbar = () => {
   return (
-    <div className="main-nav">
-      <div className="supersearch obelixpro-bold-black-20px">Suepersearch</div>
-      <MenuItem menuItem="Superheroes" />
-      <MenuItem menuItem="My Team" />
+    <div className="c-header">
+      <div className="c-header__wrapper">
+        <div className="c-header__nav">
+          <div className="c-header__menu">
+            <h1 className="c-header__logo">
+              <Link to="/"> SUPERSEARCH</Link>
+            </h1>
+            <NavLink
+              to="/home"
+              className="c-header__menu-item"
+              activeClassName="c-header__menu-item c-header__menu-item--active">
+              Superheroes
+            </NavLink>
+            <NavLink
+              to="/my-team"
+              className="c-header__menu-item"
+              activeClassName="c-header__menu-item c-header__menu-item--active">
+              My Team
+            </NavLink>
+          </div>
+          <NavBtn>
+            <Button ghost icon="MenuUnfoldOutline" type="primary">
+              Filter
+            </Button>
+          </NavBtn>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export function MenuItem({menuItem}) {
-  return (
-    <div className="menu-item">
-      <div className="text-1 helveticaneue-normal-black-18px">{menuItem}</div>
-      <div className="underline"></div>
-    </div>
-  );
-}
+export default Navbar;

@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '@/shared/components/Header';
+import Cards from '@/features/SuperheroCard/cardsListComponent';
+
 import './style.scss';
 
 function HomepageScreen() {
   return (
-    <div>
+    <>
       <Header />
-      <div>Home</div>
-    </div>
+      <Cards />
+    </>
   );
 }
 

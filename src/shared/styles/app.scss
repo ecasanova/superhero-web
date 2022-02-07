@@ -7,3 +7,10 @@ html,
 main {
   height: 100%;
 }
+
+.c-container {
+  height: inherit;
+  background: rgba(248, 248, 248, 1) url('../assets/images/texture.png')
+    no-repeat 60vw top fixed;
+  padding-top: 10rem;
+}

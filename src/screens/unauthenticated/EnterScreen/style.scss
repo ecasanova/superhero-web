@@ -125,13 +125,13 @@
   &__button {
     background: color(orange);
     font-family: 'ObelixPro';
-    cursor: pointer;
     margin: auto;
     color: color(white);
     border: none;
     padding: 1rem 4rem;
     margin: 1rem auto;
     display: block;
+    opacity: 0.8;
 
     @include iota-breakpoint(xxs) {
       font-size: 1.5rem;
@@ -148,6 +148,10 @@
     @include iota-breakpoint(md) {
       font-size: 3rem;
     }
+  }
+
+  &__button:hover {
+    opacity: 1;
   }
 
   &__superhero-group {
