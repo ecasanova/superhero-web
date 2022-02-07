@@ -12,7 +12,7 @@ function EnterScreen() {
   }
   return (
     <div className="c-login is-enter">
-      <div className="o-container u-12/12">
+      <div className="c-container u-12/12">
         <div className="o-grid o-grid--middle grid">
           <div className="o-grid__col u-6/12@md u-12/12@xxs">
             <div className="c-login__superhero-group">
