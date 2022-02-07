@@ -12,5 +12,7 @@ main {
   height: inherit;
   background: rgba(248, 248, 248, 1) url('../assets/images/texture.png')
     no-repeat 60vw top fixed;
-  padding-top: 2rem;
+  background-attachment: fixed;
+  height: fit-content;
+  min-height: 100vh;
 }

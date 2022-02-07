@@ -1,6 +1,15 @@
 .c-cards {
-  padding: 2rem 15rem !important;
-  &__card img {
-    height: 40rem;
+  padding: 2rem 5rem !important;
+
+  @include iota-breakpoint(xxs) {
+    padding: 2rem 2rem !important;
+  }
+
+  @include iota-breakpoint(md) {
+    padding: 2rem 8rem !important;
+  }
+
+  @include iota-breakpoint(lg) {
+    padding: 2rem 12rem !important;
   }
 }

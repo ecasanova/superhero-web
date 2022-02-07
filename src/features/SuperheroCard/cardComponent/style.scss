@@ -1,0 +1,60 @@
+.c-card {
+  position: relative;
+  overflow: hidden;
+
+  @include iota-breakpoint(xxs) {
+    height: 75rem;
+  }
+
+  @include iota-breakpoint(xs) {
+    height: 65rem;
+  }
+
+  @include iota-breakpoint(sm) {
+    height: 55rem;
+  }
+
+  @include iota-breakpoint(md) {
+    height: 45rem;
+  }
+
+  &__card-image {
+    height: 100%;
+  }
+
+  &__card-image img {
+    border-style: none;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+
+  &__card-content {
+    top: 0;
+    text-align: center;
+    left: 0;
+    height: -webkit-fill-available;
+    margin: 1rem;
+    position: absolute;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &__card-title {
+    font-size: 2rem;
+    font-family: 'ObelixPro';
+    color: color(white);
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+    line-height: 2rem;
+  }
+  &__team-toggle {
+    color: color(white);
+    padding: 0.5rem;
+  }
+}
