@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="c-header__nav">
           <div className="c-header__menu">
             <h1 className="c-header__logo">
-              <Link to="/"> SUPERSEARCH</Link>
+              <Link to="/">SUPERSEARCH</Link>
             </h1>
             <NavLink
               to="/home"

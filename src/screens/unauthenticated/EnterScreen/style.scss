@@ -72,6 +72,10 @@
     }
   }
 
+  .o-container {
+    background: none;
+  }
+
   &::before {
     content: '';
     position: absolute;

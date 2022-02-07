@@ -5,14 +5,14 @@
 $iota-objs-grid-aligned: true;
 $iota-objs-grid-rev: true;
 $iota-objs-grid-gutter-default: (
-  null: $iota-global-gutter-default
+  null: $iota-global-gutter-default,
 );
 $iota-objs-grid-gutter-extra: (
   'flush': (
-    null : 0
-  )
+    null: 0,
+  ),
 );
-$iota-objs-grid-flex: $iota-global-flex;
+$iota-objs-grid-flex: true;
 $iota-objs-grid-equal-height: true;
 
 @import '../../../../node_modules/iotacss/objects/grid';

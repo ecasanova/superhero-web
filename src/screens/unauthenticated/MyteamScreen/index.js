@@ -6,7 +6,7 @@ function MyteamScreen() {
   return (
     <>
       <Header />
-      <div className="c-container">
+      <div className="o-container">
         You do not have any team members selected. Please make selections on
         superheros page.
       </div>
