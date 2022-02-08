@@ -7,7 +7,7 @@
   }
 
   @include iota-breakpoint(xs) {
-    height: 65rem;
+    height: 40rem;
   }
 
   @include iota-breakpoint(sm) {
@@ -42,9 +42,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin: 3rem;
   }
 
-  &__card-title {
+  &__card-content--hover {
+    justify-content: flex-start;
+  }
+
+  &__card-title a {
     font-size: 2rem;
     font-family: 'ObelixPro';
     color: color(white);
@@ -53,8 +58,33 @@
     white-space: nowrap;
     line-height: 2rem;
   }
+  &__card-power {
+    font-size: 2rem;
+    font-family: 'ObelixPro';
+    color: color(white);
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+    line-height: 5rem;
+  }
   &__team-toggle {
     color: color(white);
-    padding: 0.5rem;
+    padding: 1rem;
   }
+
+  &__arrow-circle {
+    color: color(white);
+    font-size: 2.5rem;
+  }
+
+  &__description {
+    background: #0084ff url('../../../shared/assets/images/bg-card.svg')
+      no-repeat bottom right;
+    height: 100%;
+  }
+}
+
+.c-card::selection {
+  background: transparent;
+  border: 2px solid #f9873d !important;
 }

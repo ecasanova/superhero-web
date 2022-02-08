@@ -91,8 +91,6 @@
   }
 
   &__menu-filter .anticon {
-    color: color(orange) !important;
-
     @include iota-breakpoint(xxs) {
       visibility: hidden;
       width: 0px;
@@ -102,11 +100,6 @@
       visibility: visible;
       width: inherit;
     }
-  }
-
-  .ant-btn-primary {
-    color: color(orange) !important;
-    border-color: orange !important;
   }
 }
 
