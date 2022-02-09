@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Switch} from 'antd';
 import {CheckOutlined, CloseOutlined} from '@ant-design/icons';
 import './style.scss';

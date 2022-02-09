@@ -15,7 +15,7 @@ export function Cards() {
         {items?.map((superhero, index) => {
           return (
             <Col span={6} xs={24} md={12} l={6} xl={6} key={index}>
-              <Card superhero={superhero} />
+              <Card superhero={superhero} key={index} />
             </Col>
           );
         })}

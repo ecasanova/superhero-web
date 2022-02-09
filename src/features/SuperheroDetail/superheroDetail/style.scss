@@ -1,0 +1,18 @@
+.o-container-fluid {
+  background: url(../../../shared/assets/images/character-detail-group.svg)
+    no-repeat;
+  background-position: 0px 0;
+}
+
+.c-superhero-detail {
+  h1 {
+    font-size: 2rem;
+    font-family: 'ObelixPro';
+    color: #000;
+    align-self: center;
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+    padding-top: 2rem;
+  }
+}

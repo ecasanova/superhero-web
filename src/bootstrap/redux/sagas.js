@@ -1,7 +1,8 @@
 import {all, call} from 'redux-saga/effects';
 import {routinePromiseWatcherSaga} from 'redux-saga-routines';
 
-import cardListSagas from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSagas';
+import superheroesListSaga from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSagas';
+import {superheroeDetailWatch} from '@/features/SuperheroDetail/superheroDetail/redux/superHeroDetailSagas';
 
 function* rootSaga() {
   // eslint-disable-next-line no-useless-catch
@@ -11,7 +12,8 @@ function* rootSaga() {
       call(routinePromiseWatcherSaga),
 
       // app
-      call(cardListSagas),
+      call(superheroesListSaga),
+      call(superheroeDetailWatch),
     ]);
   } catch (error) {
     throw error;

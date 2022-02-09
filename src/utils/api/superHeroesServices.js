@@ -8,6 +8,14 @@ class SuperheroeService extends Client {
     );
     return data;
   }
+
+  async getDetails(superHeroeId) {
+    let {data} = await axios.get(
+      `https://www.superheroapi.com/api.php/10158234183617397/ + ${superHeroeId}`,
+    );
+    console.log('Detail: ', data);
+    return data;
+  }
 }
 
 export default new SuperheroeService();
