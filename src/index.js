@@ -19,7 +19,7 @@ const NODE = 'root';
 ReactDOM.render(
   <Suspense fallback={<Loading />}>
     <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor} T>
+      <PersistGate loading={null} persistor={persistor}>
         <ConnectedRouter history={history}>
           <Switch>
             <Routes store={store} routes={routesConfig} />
