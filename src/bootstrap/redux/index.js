@@ -10,7 +10,6 @@ import cardsListReducer from '@/features/SuperheroCard/cardsListComponent/redux/
 import createSagaMiddleware from 'redux-saga';
 import {createBrowserHistory} from 'history';
 import sagas from './sagas';
-import superHeroDetailReducer from '@/features/SuperheroDetail/superheroDetail/redux/superHeroDetailReducer';
 
 const createRootReducer = (history) =>
   optimist(
@@ -18,7 +17,6 @@ const createRootReducer = (history) =>
       router: connectRouter(history),
       session,
       superheroes: cardsListReducer,
-      superheroe: superHeroDetailReducer,
     }),
   );
 
