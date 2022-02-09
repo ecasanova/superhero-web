@@ -8,12 +8,13 @@ import './style.scss';
 
 export function Cards() {
   const items = useSelector(getSuperheroeslist);
+
   return (
     <div className="c-cards o-container">
       <Row gutter={[25, 25]}>
         {items?.map((superhero, index) => {
           return (
-            <Col span={6} xs={24} md={6} l={6} xl={6} key={index}>
+            <Col span={6} xs={24} md={12} l={6} xl={6} key={index}>
               <Card superhero={superhero} />
             </Col>
           );

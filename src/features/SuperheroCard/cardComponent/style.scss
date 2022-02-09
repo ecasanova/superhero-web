@@ -3,19 +3,19 @@
   overflow: hidden;
 
   @include iota-breakpoint(xxs) {
-    height: 75rem;
-  }
-
-  @include iota-breakpoint(xs) {
     height: 40rem;
   }
 
+  @include iota-breakpoint(xs) {
+    height: 30rem;
+  }
+
   @include iota-breakpoint(sm) {
-    height: 55rem;
+    height: 30rem;
   }
 
   @include iota-breakpoint(md) {
-    height: 45rem;
+    height: 40rem;
   }
 
   &__card-image {
@@ -58,15 +58,32 @@
     white-space: nowrap;
     line-height: 2rem;
   }
+
   &__card-power {
-    font-size: 2rem;
     font-family: 'ObelixPro';
     color: color(white);
     font-weight: 700;
     letter-spacing: 0;
     white-space: nowrap;
-    line-height: 5rem;
+
+    @include iota-breakpoint(xxs) {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    @include iota-breakpoint(md) {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    @include iota-breakpoint(lg) {
+      font-size: 2rem;
+      line-height: 4rem;
+    }
   }
+
+  &__card-power:last-child {
+    margin-bottom: auto;
+  }
+
   &__team-toggle {
     color: color(white);
     padding: 1rem;

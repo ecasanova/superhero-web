@@ -17,7 +17,7 @@ class Layout extends PureComponent {
           <Switch>
             <Route path="/" exact component={EnterScreen} />
             <Route path="/home" component={HomepageScreen} />
-            <Route path="/detail" component={DetailScreen} />
+            <Route path="/detail/:id" component={DetailScreen} />
             <Route path="/my-team" component={MyteamScreen} />
           </Switch>
         </main>

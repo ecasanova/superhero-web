@@ -25,18 +25,25 @@
     }
   }
 
-  &__logo a {
-    font-size: 2rem;
-    font-family: 'ObelixPro';
-    color: color(black);
-    align-self: center;
-    font-weight: 700;
-    letter-spacing: 0;
-    white-space: nowrap;
-
-    line-height: 2rem;
+  &__logo {
+    @include iota-breakpoint(xxs) {
+      width: 100%;
+    }
     @include iota-breakpoint(md) {
-      margin-right: 10rem;
+      width: initial;
+    }
+    a {
+      font-size: 2rem;
+      font-family: 'ObelixPro';
+      color: color(black);
+      align-self: center;
+      font-weight: 700;
+      letter-spacing: 0;
+      white-space: nowrap;
+
+      @include iota-breakpoint(md) {
+        margin-right: 10rem;
+      }
     }
   }
 
@@ -88,6 +95,13 @@
 
   &__menu-filter:last-child {
     margin-left: auto;
+  }
+
+  @include iota-breakpoint(xxs) {
+    .ant-btn > .anticon + span,
+    .ant-btn > span + .anticon {
+      margin-left: 0px;
+    }
   }
 
   &__menu-filter .anticon {
