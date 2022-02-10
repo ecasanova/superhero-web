@@ -104,7 +104,6 @@
   }
 }
 
-.c-card a::selection img,
-.c-card a:focus img {
-  border: 20px solid orange;
+.c-card__selected {
+  border: 4px solid color(orange);
 }

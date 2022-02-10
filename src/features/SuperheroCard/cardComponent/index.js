@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {DownCircleOutlined, UpCircleOutlined} from '@ant-design/icons';
 import AddToTeamComponent from '../addToTeamComponent';
+import {getMyTeam} from '../addToTeamComponent/redux/addToTeamSelector';
+import {useSelector} from 'react-redux';
 
 import './style.scss';
 import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
@@ -17,8 +19,17 @@ export function Card({superhero}) {
     );
   };
 
+  const myteam = useSelector(getMyTeam);
+
+  const inMyTeam = (team, supehero) => {
+    return team.some((obj) => superhero === obj);
+  };
+
   return (
-    <div className="c-card">
+    <div
+      className={
+        inMyTeam(myteam, superhero) ? 'c-card c-card__selected' : 'c-card'
+      }>
       {hoverDescriptionActive && (
         <>
           <div className="c-card__description">

@@ -1,7 +1,14 @@
 .o-container-fluid {
   background: url(../../../shared/assets/images/character-detail-group.svg)
     no-repeat;
-  background-position: 0px 0;
+
+  @include iota-breakpoint(xxs) {
+    background-position: top;
+  }
+
+  @include iota-breakpoint(md) {
+    background-position: 0 0;
+  }
 }
 
 .c-superhero-detail {

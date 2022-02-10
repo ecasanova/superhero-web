@@ -41,13 +41,12 @@ const Navbar = () => {
               </h1>
               <Menu />
               {!isActiveAside && (
-                <Button
-                  ghost
-                  className="c-header__menu-filter"
-                  type="primary"
-                  onClick={toggleFilters}>
-                  <FilterOutlined /> Filter
-                </Button>
+                <div className="c-header__menu-filter">
+                  <span>x Clear Filters</span>
+                  <Button ghost type="primary" onClick={toggleFilters}>
+                    <FilterOutlined /> Filter
+                  </Button>
+                </div>
               )}
             </div>
           </div>

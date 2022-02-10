@@ -93,6 +93,10 @@
     border-bottom: 0.4rem solid blue;
   }
 
+  &__menu-filter .clear-filter {
+    margin-left: auto;
+  }
+
   &__menu-filter:last-child {
     margin-left: auto;
   }
