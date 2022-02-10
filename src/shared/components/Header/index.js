@@ -5,12 +5,14 @@ import Menu from '../Menu';
 import FilterOutlined from '@ant-design/icons/lib/icons/FilterOutlined';
 import MenuOutlined from '@ant-design/icons/lib/icons/MenuOutlined';
 import './style.scss';
+import {CloseCircleOutlined, CloseOutlined} from '@ant-design/icons';
 
 const Navbar = () => {
   const [isActiveAside, setActiveAside] = useState(false);
   const [isActiveFilters, setActiveFilters] = useState(false);
 
   const toggleAsideNav = () => {
+    setActiveFilters(false);
     setActiveAside(!isActiveAside);
   };
   const toggleFilters = () => {
@@ -31,29 +33,34 @@ const Navbar = () => {
           <div className="c-header__nav">
             <div className="c-header__menu">
               <div className="c-menu" onClick={toggleAsideNav}>
-                <MenuOutlined />
+                {!isActiveAside && <MenuOutlined />}
+                {isActiveAside && <CloseOutlined />}
               </div>
               <h1 className="c-header__logo">
                 <Link to="/">SUPERSEARCH</Link>
               </h1>
               <Menu />
-              <Button
-                ghost
-                className="c-header__menu-filter"
-                type="primary"
-                onClick={toggleFilters}>
-                <FilterOutlined /> Filter
-              </Button>
+              {!isActiveAside && (
+                <Button
+                  ghost
+                  className="c-header__menu-filter"
+                  type="primary"
+                  onClick={toggleFilters}>
+                  <FilterOutlined /> Filter
+                </Button>
+              )}
             </div>
           </div>
-          <div
-            className={
-              isActiveFilters
-                ? 'c-header__filters c-header__filters-active'
-                : 'c-header__filters'
-            }>
-            <div className="c-container">Name</div>
-          </div>
+          {!isActiveAside && (
+            <div
+              className={
+                isActiveFilters
+                  ? 'c-header__filters c-header__filters-active'
+                  : 'c-header__filters'
+              }>
+              <div className="c-container">Name</div>
+            </div>
+          )}
         </div>
       </div>
     </>

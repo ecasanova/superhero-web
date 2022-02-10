@@ -1,15 +1,19 @@
 .c-header {
-  padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
-  height: 10rem;
+
+  @include iota-breakpoint(xxs) {
+    height: 8rem;
+  }
+  @include iota-breakpoint(md) {
+    height: 9rem;
+  }
 
   &__wrapper {
     background-color: color(white);
     box-shadow: 0px 2px 4px #b0b0b080;
     position: absolute;
     width: -webkit-fill-available;
-    height: 10rem;
     z-index: 9999;
     position: fixed;
   }
@@ -42,12 +46,11 @@
     z-index: 12;
     width: 100%;
     @include iota-breakpoint(xxs) {
-      padding: 3.5rem 2rem;
+      padding: 2.5rem 2rem;
     }
 
     @include iota-breakpoint(md) {
-      height: 10rem;
-      padding: 3.5rem 4rem;
+      padding: 2.5rem 4rem;
     }
   }
 
@@ -122,15 +125,17 @@
     left: 0;
     background-color: #fff; /* Black*/
     overflow-x: hidden;
-    padding-top: 10rem;
+    padding-top: 8rem;
     transition: 0.5s;
   }
   &__sidebar-active {
-    width: 70vw;
+    width: 100vw;
     box-shadow: 2px 0px 4px #b0b0b080;
     .c-header__menu-item {
       display: block;
-      margin-top: 2rem;
+      text-align: center;
+      width: 80%;
+      margin: 2rem auto;
     }
   }
 
