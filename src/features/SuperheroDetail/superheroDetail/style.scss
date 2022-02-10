@@ -18,4 +18,11 @@
   ul {
     list-style: none;
   }
+  .c-card {
+    background-size: 100%;
+    height: 100%;
+  }
+  .c-card__card-image img {
+    object-fit: contain;
+  }
 }

@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import fallbackImageSrc from '@/shared/assets/images/dc-comics-png-background-image.png';
 import {DownCircleOutlined, UpCircleOutlined} from '@ant-design/icons';
-
 import AddToTeamComponent from '../addToTeamComponent';
 
 import './style.scss';
+import fallbackImageSrc from '@/shared/assets/images/dc-comics-png-background-image.png';
 
 export function showHeroDescription() {}
 
