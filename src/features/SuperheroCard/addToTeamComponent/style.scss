@@ -2,3 +2,24 @@
   color: #fff;
   padding: 1rem 0px;
 }
+
+.limit-characters-modal {
+  .ant-modal-content {
+    padding: 6rem 2rem;
+  }
+  .anticon-exclamation-circle {
+    display: none;
+  }
+  h1 {
+    font-family: 'ObelixPro';
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .ant-modal-close {
+    display: block;
+  }
+  p {
+    text-align: center;
+  }
+}

@@ -54,7 +54,6 @@ function SuperheroDetail({superHeroId}) {
               <SuperheroDetailTable superHeroData={superheroe.biography} />
               <h1>Work</h1>
               <SuperheroDetailTable superHeroData={superheroe.work} />
-              <h1>Related Characters</h1>
               <RelatedHeroes superheroe={superheroe} />
             </div>
           </div>

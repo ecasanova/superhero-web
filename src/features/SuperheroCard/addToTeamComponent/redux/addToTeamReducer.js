@@ -10,7 +10,7 @@ const myTeamSlice = createSlice({
     },
     remove: (myteam, action) => {
       myteam.splice(
-        myteam.findIndex((superheroe) => superheroe.id == action.payload.id),
+        myteam.findIndex((superheroe) => superheroe.id === action.payload.id),
         1,
       );
     },

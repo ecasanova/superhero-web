@@ -20,19 +20,20 @@
     font-weight: 700;
     letter-spacing: 0;
     white-space: nowrap;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
-
+  .c-card__card-content {
+    top: 65vh;
+  }
   @include iota-breakpoint(xxs) {
     .grid--detail {
-      margin: 4rem;
+      margin: 2rem;
     }
   }
-
   @include iota-breakpoint(md) {
     .grid--detail {
-      margin: 5rem 0rem;
+      margin: 3rem 0rem;
     }
   }
 
@@ -48,10 +49,13 @@
     height: 80px;
     border-radius: 80px;
     object-fit: cover;
-    border: 3px solid red;
+    border: 3px solid #0084ff;
     float: left;
     margin-right: 1rem;
     margin-bottom: 1rem;
+  }
+  .related:hover {
+    border: 3px solid #f9873d;
   }
   .o-grid__col--appearance ul li,
   .o-grid__col--powerstats ul li {
