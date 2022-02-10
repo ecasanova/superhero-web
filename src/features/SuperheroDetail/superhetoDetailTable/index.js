@@ -12,7 +12,7 @@ function SuperheroDetailTable({superHeroData}) {
         return (
           <li index={index}>
             <b>{capitalizeFirstLetter(power)}: </b>
-            {superHeroData[power] ? superHeroData[power] : '-'}
+            {superHeroData[power] ? superHeroData[power] : 'No data'}
           </li>
         );
       })}

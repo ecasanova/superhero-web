@@ -4,7 +4,7 @@ import {getSuperheroeslist} from '@/features/SuperheroCard/cardsListComponent/re
 import LoadingComponent from '@/shared/components/Loading';
 import SuperheroDetailTable from '../superhetoDetailTable';
 import AddToTeamComponent from '../../SuperheroCard/addToTeamComponent';
-
+import RelatedHeroes from '../relatedHeroes';
 import fallbackImageSrc from '@/shared/assets/images/dc-comics-png-background-image.png';
 
 import './style.scss';
@@ -19,7 +19,7 @@ function SuperheroDetail({superHeroId}) {
           <div className="o-grid o-grid--middle grid">
             <div className="o-grid__col u-5/12@md u-12/12@xxs">
               <div className="c-card">
-                <div className="c-card__card-image">
+                <div className="c-card__card-image c-card__card-image--detail">
                   <img
                     src={
                       superheroe.image.url
@@ -39,7 +39,7 @@ function SuperheroDetail({superHeroId}) {
                 </div>
               </div>
             </div>
-            <div className="o-grid__col u-7/12@md u-12/12@xxs">
+            <div className="o-grid__col u-7/12@md u-12/12@xxs grid--detail">
               <div className="o-grid grid">
                 <div className="o-grid__col u-6/12@md u-12/12@xxs">
                   <h1>Powerstats</h1>
@@ -61,6 +61,7 @@ function SuperheroDetail({superHeroId}) {
               <h1>Work</h1>
               <SuperheroDetailTable superHeroData={superheroe.work} />
               <h1>Related Characters</h1>
+              <RelatedHeroes superheroe={superheroe} />
             </div>
           </div>
         </div>

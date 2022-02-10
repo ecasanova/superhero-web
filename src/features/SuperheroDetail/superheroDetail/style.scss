@@ -14,7 +14,21 @@
     letter-spacing: 0;
     white-space: nowrap;
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+
+  @include iota-breakpoint(xxs) {
+    .grid--detail {
+      margin: 4rem;
+    }
+  }
+
+  @include iota-breakpoint(md) {
+    .grid--detail {
+      margin: 0rem;
+    }
+  }
+
   ul {
     list-style: none;
   }
@@ -22,7 +36,17 @@
     background-size: 100%;
     height: 100%;
   }
-  .c-card__card-image img {
-    object-fit: contain;
+  .c-card__card-image--detail img {
+    object-fit: contain !important;
+  }
+  .related {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    object-fit: cover;
+    border: 3px solid red;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
   }
 }

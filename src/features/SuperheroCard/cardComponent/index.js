@@ -48,7 +48,7 @@ export function Card({superhero}) {
       {!hoverDescriptionActive && (
         <>
           <div className="c-card__card-image">
-            <Link to={`/details/${superhero.id}`}>
+            <Link to={`/details/${superhero.id}`} title={superhero.name}>
               <img
                 src={
                   superhero.image.url ? superhero.image.url : fallbackImageSrc
