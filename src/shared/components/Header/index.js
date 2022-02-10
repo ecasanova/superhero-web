@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {Button} from 'antd';
+import Menu from '../Menu';
 import FilterOutlined from '@ant-design/icons/lib/icons/FilterOutlined';
 import MenuOutlined from '@ant-design/icons/lib/icons/MenuOutlined';
 import './style.scss';
@@ -19,18 +20,7 @@ const Navbar = () => {
             ? 'c-header__sidebar c-header__sidebar-active'
             : 'c-header__sidebar'
         }>
-        <NavLink
-          to="/home"
-          className="c-header__menu-item"
-          activeClassName="c-header__menu-item c-header__menu-item--active">
-          Superheroes
-        </NavLink>
-        <NavLink
-          to="/team"
-          className="c-header__menu-item"
-          activeClassName="c-header__menu-item c-header__menu-item--active">
-          My Team
-        </NavLink>
+        <Menu />
       </div>
       <div className="c-header">
         <div className="c-header__wrapper">
@@ -42,18 +32,7 @@ const Navbar = () => {
               <h1 className="c-header__logo">
                 <Link to="/">SUPERSEARCH</Link>
               </h1>
-              <NavLink
-                to="/home"
-                className="c-header__menu-item"
-                activeClassName="c-header__menu-item c-header__menu-item--active">
-                Superheroes
-              </NavLink>
-              <NavLink
-                to="/team"
-                className="c-header__menu-item"
-                activeClassName="c-header__menu-item c-header__menu-item--active">
-                My Team
-              </NavLink>
+              <Menu />
               <Button ghost className="c-header__menu-filter" type="primary">
                 <FilterOutlined /> Filter
               </Button>
