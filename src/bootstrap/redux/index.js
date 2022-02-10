@@ -5,7 +5,7 @@ import {composeWithDevTools} from 'redux-devtools-extension/developmentOnly';
 import optimist from 'redux-optimist';
 import {reduxMiddleware} from './middleware';
 import {connectRouter, routerMiddleware} from 'connected-react-router';
-import session from '@/features/session/redux/sessionReducer';
+import session from '@/shared/components/session/redux/sessionReducer';
 import cardsListReducer from '@/features/SuperheroCard/cardsListComponent/redux/cardsListReducer';
 import addToTeamReducer from '@/features/SuperheroCard/addToTeamComponent/redux/addToTeamReducer';
 import createSagaMiddleware from 'redux-saga';

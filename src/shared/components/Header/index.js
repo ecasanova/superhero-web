@@ -7,16 +7,20 @@ import MenuOutlined from '@ant-design/icons/lib/icons/MenuOutlined';
 import './style.scss';
 
 const Navbar = () => {
-  const [isActive, setActive] = useState(false);
+  const [isActiveAside, setActiveAside] = useState(false);
+  const [isActiveFilters, setActiveFilters] = useState(false);
 
-  const toggleNav = () => {
-    setActive(!isActive);
+  const toggleAsideNav = () => {
+    setActiveAside(!isActiveAside);
+  };
+  const toggleFilters = () => {
+    setActiveFilters(!isActiveFilters);
   };
   return (
     <>
       <div
         className={
-          isActive
+          isActiveAside
             ? 'c-header__sidebar c-header__sidebar-active'
             : 'c-header__sidebar'
         }>
@@ -26,17 +30,29 @@ const Navbar = () => {
         <div className="c-header__wrapper">
           <div className="c-header__nav">
             <div className="c-header__menu">
-              <div className="c-menu" onClick={toggleNav}>
+              <div className="c-menu" onClick={toggleAsideNav}>
                 <MenuOutlined />
               </div>
               <h1 className="c-header__logo">
                 <Link to="/">SUPERSEARCH</Link>
               </h1>
               <Menu />
-              <Button ghost className="c-header__menu-filter" type="primary">
+              <Button
+                ghost
+                className="c-header__menu-filter"
+                type="primary"
+                onClick={toggleFilters}>
                 <FilterOutlined /> Filter
               </Button>
             </div>
+          </div>
+          <div
+            className={
+              isActiveFilters
+                ? 'c-header__filters c-header__filters-active'
+                : 'c-header__filters'
+            }>
+            <div className="c-container">Name</div>
           </div>
         </div>
       </div>

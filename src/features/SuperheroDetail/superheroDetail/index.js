@@ -16,7 +16,7 @@ function SuperheroDetail({superHeroId}) {
     return (
       <div className="c-superhero-detail o-container-fluid">
         <div className="c-container u-12/12">
-          <div className="o-grid o-grid--middle grid">
+          <div className="o-grid grid">
             <div className="o-grid__col u-5/12@md u-12/12@xxs">
               <div className="c-card">
                 <div className="c-card__card-image c-card__card-image--detail">
