@@ -117,6 +117,27 @@
       width: inherit;
     }
   }
+
+  &__sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden;
+    padding-top: 10rem;
+    transition: 0.5s;
+  }
+  &__sidebar-active {
+    width: 70vw;
+    box-shadow: 2px 0px 4px #b0b0b080;
+    .c-header__menu-item {
+      display: block;
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 .c-menu {

@@ -7,7 +7,7 @@ function capitalizeFirstLetter(string) {
 
 function SuperheroDetailTable({superHeroData}) {
   return (
-    <ul>
+    <ul className="c-detail-table">
       {Object.keys(superHeroData).map((power, index) => {
         return (
           <li index={index}>
