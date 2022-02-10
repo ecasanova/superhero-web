@@ -2,10 +2,12 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {Button} from 'antd';
 import Menu from '../Menu';
-import FilterOutlined from '@ant-design/icons/lib/icons/FilterOutlined';
-import MenuOutlined from '@ant-design/icons/lib/icons/MenuOutlined';
 import './style.scss';
-import {CloseCircleOutlined, CloseOutlined} from '@ant-design/icons';
+import {
+  MenuOutlined,
+  CloseOutlined,
+  MenuUnfoldOutlined,
+} from '@ant-design/icons';
 
 const Navbar = () => {
   const [isActiveAside, setActiveAside] = useState(false);
@@ -42,9 +44,9 @@ const Navbar = () => {
               <Menu />
               {!isActiveAside && (
                 <div className="c-header__menu-filter">
-                  <span>x Clear Filters</span>
+                  <span className="clean-filter">x Clear Filters</span>
                   <Button ghost type="primary" onClick={toggleFilters}>
-                    <FilterOutlined /> Filter
+                    <MenuUnfoldOutlined /> Filter
                   </Button>
                 </div>
               )}

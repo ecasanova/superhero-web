@@ -92,6 +92,15 @@
   &__menu-item--active {
     border-bottom: 0.4rem solid blue;
   }
+  &__menu-filter .clean-filter {
+    @include iota-breakpoint(xxs) {
+      display: none;
+    }
+    @include iota-breakpoint(md) {
+      padding-right: 1rem;
+      display: initial;
+    }
+  }
 
   &__menu-filter .clear-filter {
     margin-left: auto;
