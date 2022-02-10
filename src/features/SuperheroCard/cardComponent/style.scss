@@ -32,7 +32,7 @@
   }
 
   &__card-content {
-    top: 0;
+    bottom: 0;
     text-align: center;
     left: 0;
     height: -webkit-fill-available;
@@ -41,15 +41,16 @@
     width: -webkit-fill-available;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     margin: 3rem;
+    height: auto;
   }
 
   &__card-content--hover {
-    justify-content: flex-start;
+    height: 100%;
+    justify-content: flex-end;
   }
 
-  &__card-title a {
+  &__card-title {
     font-size: 2rem;
     font-family: 'ObelixPro';
     color: color(white);
@@ -92,6 +93,8 @@
   &__arrow-circle {
     color: color(white);
     font-size: 2.5rem;
+    width: fit-content;
+    margin: 0px auto;
   }
 
   &__description {
@@ -101,7 +104,7 @@
   }
 }
 
-.c-card::selection {
-  background: transparent;
-  border: 2px solid #f9873d !important;
+.c-card a::selection img,
+.c-card a:focus img {
+  border: 20px solid orange;
 }

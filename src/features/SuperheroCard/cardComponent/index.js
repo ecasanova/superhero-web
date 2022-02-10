@@ -24,13 +24,12 @@ export function Card({superhero}) {
         <>
           <div className="c-card__description">
             <div className="c-card__card-content c-card__card-content--hover">
-              <div className="c-card__card-title">
-                <Link to={`/details/${superhero.id}`}>{superhero.name}</Link>
-              </div>
-              <AddToTeamComponent />
-              {Object.keys(superhero.powerstats).map((power) => {
+              <div className="c-card__card-title">{superhero.name}</div>
+              <AddToTeamComponent superhero={superhero} />
+              {Object.keys(superhero.powerstats).map((power, index) => {
                 return (
                   <div
+                    key={index}
                     className="c-card__card-power"
                     style={{textTransform: 'capitalize'}}>
                     {power}: {superhero.powerstats[power]}
@@ -50,20 +49,22 @@ export function Card({superhero}) {
       {!hoverDescriptionActive && (
         <>
           <div className="c-card__card-image">
-            <img
-              src={superhero.image.url ? superhero.image.url : fallbackImageSrc}
-              alt={superhero.name}
-              onError={(e) => {
-                e.target.onError = null;
-                e.target.src = fallbackImageSrc;
-              }}
-            />
+            <Link to={`/details/${superhero.id}`}>
+              <img
+                src={
+                  superhero.image.url ? superhero.image.url : fallbackImageSrc
+                }
+                alt={superhero.name}
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = fallbackImageSrc;
+                }}
+              />
+            </Link>
           </div>
           <div className="c-card__card-content c-card__card-content">
-            <div className="c-card__card-title">
-              <Link to={`/details/${superhero.id}`}>{superhero.name}</Link>
-            </div>
-            <AddToTeamComponent />
+            <div className="c-card__card-title">{superhero.name}</div>
+            <AddToTeamComponent superhero={superhero} />
             <UpCircleOutlined
               className="c-card__arrow-circle"
               onClick={() => {

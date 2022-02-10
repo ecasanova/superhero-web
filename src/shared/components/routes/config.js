@@ -22,7 +22,7 @@ const routesConfig = [
     component: DetailScreen,
   },
   {
-    path: '/my-team',
+    path: '/team',
     component: MyteamScreen,
   },
 ];

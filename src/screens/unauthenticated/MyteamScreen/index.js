@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from '@/shared/components/Header';
+import MyTeamComponent from '@/features/MyTeamComponent';
 import './style.scss';
 
 function MyteamScreen() {
   return (
     <>
       <Header />
-      <div className="o-container">
-        You do not have any team members selected. Please make selections on
-        superheros page.
-      </div>
+      <MyTeamComponent />
     </>
   );
 }

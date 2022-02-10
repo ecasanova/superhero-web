@@ -24,7 +24,7 @@ const Navbar = () => {
               Superheroes
             </NavLink>
             <NavLink
-              to="/my-team"
+              to="/team"
               className="c-header__menu-item"
               activeClassName="c-header__menu-item c-header__menu-item--active">
               My Team

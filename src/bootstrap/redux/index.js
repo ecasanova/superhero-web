@@ -7,6 +7,7 @@ import {reduxMiddleware} from './middleware';
 import {connectRouter, routerMiddleware} from 'connected-react-router';
 import session from '@/features/session/redux/sessionReducer';
 import cardsListReducer from '@/features/SuperheroCard/cardsListComponent/redux/cardsListReducer';
+import addToTeamReducer from '@/features/SuperheroCard/addToTeamComponent/redux/addToTeamReducer';
 import createSagaMiddleware from 'redux-saga';
 import {createBrowserHistory} from 'history';
 import sagas from './sagas';
@@ -17,6 +18,7 @@ const createRootReducer = (history) =>
       router: connectRouter(history),
       session,
       superheroes: cardsListReducer,
+      myteam: addToTeamReducer,
     }),
   );
 
