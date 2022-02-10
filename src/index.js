@@ -8,7 +8,7 @@ import {ConnectedRouter} from 'connected-react-router';
 
 import store, {persistor, history} from '@/bootstrap/redux';
 import Loading from '@/shared/components/Loading';
-
+import ScrollToTop from '@/shared/components/Layout/scrollToTop';
 import './shared/styles/app.scss';
 
 import Routes from './shared/components/routes';
@@ -21,6 +21,7 @@ ReactDOM.render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <ConnectedRouter history={history}>
+          <ScrollToTop />
           <Switch>
             <Routes store={store} routes={routesConfig} />
           </Switch>

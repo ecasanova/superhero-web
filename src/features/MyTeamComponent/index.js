@@ -5,13 +5,13 @@ import {Card} from '@/features/SuperheroCard/cardComponent';
 import {Link} from 'react-router-dom';
 import {getMyTeam} from '../SuperheroCard/addToTeamComponent/redux/addToTeamSelector';
 import './../SuperheroCard/cardsListComponent/style.scss';
-
+import './style.scss';
 export function MyTeamComponent() {
   const items = useSelector(getMyTeam);
   console.log(items);
   if (items.length === 0) {
     return (
-      <div className="o-container">
+      <div className="c-myteam o-container">
         <p>
           You do not have any team members selected. Please make selections on{' '}
           <Link to={'/home'}>superheros page</Link>.

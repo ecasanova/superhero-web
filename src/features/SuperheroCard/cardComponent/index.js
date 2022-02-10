@@ -4,7 +4,7 @@ import {DownCircleOutlined, UpCircleOutlined} from '@ant-design/icons';
 import AddToTeamComponent from '../addToTeamComponent';
 
 import './style.scss';
-import fallbackImageSrc from '@/shared/assets/images/dc-comics-png-background-image.png';
+import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 
 export function showHeroDescription() {}
 

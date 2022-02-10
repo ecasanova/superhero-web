@@ -14,6 +14,8 @@
     position: absolute;
     width: -webkit-fill-available;
     height: 8rem;
+    z-index: 9999;
+    position: fixed;
 
     @include iota-breakpoint(xxs) {
       padding: 3rem 2rem;

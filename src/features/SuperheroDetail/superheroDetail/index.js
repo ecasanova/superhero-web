@@ -5,7 +5,7 @@ import LoadingComponent from '@/shared/components/Loading';
 import SuperheroDetailTable from '../superhetoDetailTable';
 import AddToTeamComponent from '../../SuperheroCard/addToTeamComponent';
 import RelatedHeroes from '../relatedHeroes';
-import fallbackImageSrc from '@/shared/assets/images/dc-comics-png-background-image.png';
+import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 
 import './style.scss';
 

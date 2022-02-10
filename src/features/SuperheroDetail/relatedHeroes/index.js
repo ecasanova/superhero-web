@@ -2,6 +2,7 @@ import React from 'react';
 import {useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {getSuperheroeslist} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
+import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 
 function RelatedHeroes({superheroe}) {
   const superHeroeList = useSelector(getSuperheroeslist);
@@ -23,11 +24,16 @@ function RelatedHeroes({superheroe}) {
                 className="related"
                 src={related.image.url}
                 alt={related.name}
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = fallbackImageSrc;
+                }}
               />
             </Link>
           </li>
         );
       })}
+      {relatedList.length === 0 && <li>No related heroes</li>}
     </ul>
   );
 }
