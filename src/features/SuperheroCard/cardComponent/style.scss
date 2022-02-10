@@ -29,6 +29,7 @@
     height: 100%;
     vertical-align: middle;
     object-fit: cover;
+    object-position: top;
   }
 
   &__card-content {
@@ -56,8 +57,7 @@
     color: color(white);
     font-weight: 700;
     letter-spacing: 0;
-    white-space: nowrap;
-    line-height: 2rem;
+    line-height: 3rem;
   }
 
   &__card-power {
