@@ -41,19 +41,13 @@ function SuperheroDetail({superHeroId}) {
             </div>
             <div className="o-grid__col u-7/12@md u-12/12@xxs grid--detail">
               <div className="o-grid grid">
-                <div className="o-grid__col u-6/12@md u-12/12@xxs">
+                <div className="o-grid__col u-6/12@md u-12/12@xxs o-grid__col--powerstats">
                   <h1>Powerstats</h1>
-                  <SuperheroDetailTable
-                    superHeroData={superheroe.powerstats}
-                    className="c-powerstats"
-                  />
+                  <SuperheroDetailTable superHeroData={superheroe.powerstats} />
                 </div>
-                <div className="o-grid__col u-6/12@md u-12/12@xxs">
+                <div className="o-grid__col u-6/12@md u-12/12@xxs o-grid__col--appearance">
                   <h1>Appearance</h1>
-                  <SuperheroDetailTable
-                    superHeroData={superheroe.appearance}
-                    className="c-appearance"
-                  />
+                  <SuperheroDetailTable superHeroData={superheroe.appearance} />
                 </div>
               </div>
               <h1>Biography</h1>
