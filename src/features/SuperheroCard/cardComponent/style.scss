@@ -36,18 +36,24 @@
     bottom: 0;
     text-align: center;
     left: 0;
-    height: -webkit-fill-available;
-    margin: 1rem;
     position: absolute;
     width: -webkit-fill-available;
     display: flex;
     flex-direction: column;
-    margin: 3rem;
-    height: auto;
+    margin: 3rem 0 0 0;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.53) 50%,
+      #000000 100%
+    );
+    justify-content: flex-end;
   }
 
   &__card-content--hover {
     height: 100%;
+    background-image: none;
     justify-content: flex-end;
   }
 
