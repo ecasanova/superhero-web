@@ -105,10 +105,10 @@ function FiltersComponent({filters, setFilters}) {
             </Select>
           </Form.Item>
         </Col>
-        <Col xs={24} md={12} l={6} xl={6}>
+        <Col xs={24} md={24} l={6} xl={6}>
           <Row gutter={[25, 25]}>
             {isSelected('intelligence') && (
-              <Col span={12}>
+              <Col span={12} xs={24} md={12} l={12} xl={12}>
                 <Form.Item name="intelligence" label="Intelligence">
                   <Slider
                     range
@@ -120,7 +120,7 @@ function FiltersComponent({filters, setFilters}) {
               </Col>
             )}
             {isSelected('strength') && (
-              <Col span={12}>
+              <Col span={12} xs={24} md={12} l={12} xl={12}>
                 <Form.Item name="strength" label="Strength">
                   <Slider
                     range
@@ -132,7 +132,7 @@ function FiltersComponent({filters, setFilters}) {
               </Col>
             )}
             {isSelected('speed') && (
-              <Col span={12}>
+              <Col span={12} xs={24} md={12} l={12} xl={12}>
                 <Form.Item name="speed" label="Speed">
                   <Slider
                     range
@@ -144,7 +144,7 @@ function FiltersComponent({filters, setFilters}) {
               </Col>
             )}
             {isSelected('durability') && (
-              <Col span={12}>
+              <Col span={12} xs={24} md={12} l={12} xl={12}>
                 <Form.Item name="durability" label="Durability">
                   <Slider
                     range
@@ -156,7 +156,7 @@ function FiltersComponent({filters, setFilters}) {
               </Col>
             )}
             {isSelected('power') && (
-              <Col span={12}>
+              <Col span={12} xs={24} md={12} l={12} xl={12}>
                 <Form.Item name="power" label="Power">
                   <Slider
                     range
@@ -168,7 +168,7 @@ function FiltersComponent({filters, setFilters}) {
               </Col>
             )}
             {isSelected('combat') && (
-              <Col span={12}>
+              <Col span={12} xs={24} md={12} l={12} xl={12}>
                 <Form.Item name="combat" label="Combat">
                   <Slider
                     range

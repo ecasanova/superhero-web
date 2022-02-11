@@ -173,6 +173,7 @@
     display: block;
     @include iota-breakpoint(xxs) {
       height: 90vh;
+      overflow-y: scroll;
     }
     @include iota-breakpoint(md) {
       height: auto;
