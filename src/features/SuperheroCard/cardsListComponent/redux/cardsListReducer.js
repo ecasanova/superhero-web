@@ -4,6 +4,7 @@ import {loadSuperheroes} from './cardsListActions';
 
 const initialState = {
   superheroes: {},
+  total: 0,
 };
 
 export default produce((draft, {type, payload}) => {
@@ -11,16 +12,20 @@ export default produce((draft, {type, payload}) => {
     case loadSuperheroes.REQUEST:
       draft.superheroes = [];
       draft.loading = true;
+      draft.total = 0;
       break;
     case loadSuperheroes.SUCCESS:
       draft.superheroes = [...payload];
+      draft.total = payload.length;
       break;
     case loadSuperheroes.FAILURE:
       draft.superheroes = [];
       draft.error = payload;
+      draft.total = 0;
       break;
     case loadSuperheroes.FULFILL:
       draft.loading = false;
+      draft.total = 0;
       break;
     // no default
   }

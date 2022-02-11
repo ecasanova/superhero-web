@@ -6,7 +6,7 @@ import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 
 function RelatedHeroes({superheroe}) {
   const superHeroeList = useSelector(getSuperheroeslist);
-  const relatedList = superHeroeList
+  const relatedList = superHeroeList.superheroes
     .filter(
       (item) =>
         item.id !== superheroe.id &&

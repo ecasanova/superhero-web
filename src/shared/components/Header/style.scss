@@ -117,6 +117,13 @@
     }
   }
 
+  @include iota-breakpoint(md) {
+    .ant-btn > .anticon + span,
+    .ant-btn > span + .anticon {
+      margin-left: 10px;
+    }
+  }
+
   &__menu-filter .anticon {
     @include iota-breakpoint(xxs) {
       visibility: hidden;
@@ -153,7 +160,6 @@
   }
 
   &__filters {
-    border-top: 1px solid #e8e8e8;
     height: 0rem;
     z-index: 1;
     background-color: #fff;
@@ -169,7 +175,8 @@
       height: 90vh;
     }
     @include iota-breakpoint(md) {
-      height: 20rem;
+      height: auto;
+      min-height: 15vh;
     }
     box-shadow: 0px 2px 4px #b0b0b080;
   }

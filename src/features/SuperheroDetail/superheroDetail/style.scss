@@ -12,19 +12,35 @@
 }
 
 .c-superhero-detail {
+  @include iota-breakpoint(xxs) {
+    height: auto;
+    overflow: initial;
+  }
+  @include iota-breakpoint(md) {
+    height: 90vh;
+    overflow: hidden;
+  }
+  &__text {
+    padding: 2rem;
+  }
+
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'ObelixPro';
     color: #000;
     align-self: center;
     font-weight: 700;
     letter-spacing: 0;
     white-space: nowrap;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
   }
   .c-card__card-content {
-    top: 65vh;
+    bottom: 0;
+    margin-bottom: 4vh;
+    padding-bottom: 2rem;
+    position: absolute;
+    margin: 0;
   }
   @include iota-breakpoint(xxs) {
     .grid--detail {
@@ -39,14 +55,19 @@
 
   ul {
     list-style: none;
+    list-style: none;
+    display: block;
+    overflow: hidden;
   }
   .c-card {
     background-size: 100%;
-    height: 100%;
+    @include iota-breakpoint(md) {
+      height: 100%;
+    }
   }
   .related {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 80px;
     object-fit: cover;
     border: 3px solid #0084ff;
@@ -64,6 +85,6 @@
     padding: 0.5rem 0;
   }
   .c-detail-table li {
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
   }
 }

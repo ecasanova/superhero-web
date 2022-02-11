@@ -11,9 +11,10 @@ export function MyTeamComponent() {
   console.log(items);
   if (items.length === 0) {
     return (
-      <div className="c-myteam o-container">
+      <div className="c-myteam o-container o-container__texture">
         <p>
-          You do not have any team members selected. Please make selections on{' '}
+          You do not have any team members selected. Please make selections on
+          <br />
           <Link to={'/home'}>superheros page</Link>.
         </p>
       </div>
