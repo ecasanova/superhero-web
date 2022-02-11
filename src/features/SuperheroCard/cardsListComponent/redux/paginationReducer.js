@@ -1,15 +1,12 @@
 import {createSlice} from '@reduxjs/toolkit';
 
-const initialState = 0;
+const initialState = {page: 0};
 const pagination = createSlice({
   name: 'pagination',
   initialState,
   reducers: {
-    nextPage: (page) => {
-      page++;
-    },
-    prevPage: (page) => {
-      page--;
+    nextPage: (state) => {
+      state.page++;
     },
   },
 });

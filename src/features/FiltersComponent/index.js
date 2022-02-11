@@ -1,8 +1,6 @@
-import React, {useState, setState} from 'react';
+import React from 'react';
 import {Form, Col, Row, Select, Input, Slider} from 'antd';
 import './style.scss';
-import {useDispatch} from 'react-redux';
-
 const {Option} = Select;
 
 function FiltersComponent({filters, setFilters}) {
@@ -39,7 +37,7 @@ function FiltersComponent({filters, setFilters}) {
 
   const isSelected = (value) => {
     return filters.powerstats.some(
-      (power) => value.toLowerCase() == power.toLowerCase(),
+      (power) => value.toLowerCase() === power.toLowerCase(),
     );
   };
 

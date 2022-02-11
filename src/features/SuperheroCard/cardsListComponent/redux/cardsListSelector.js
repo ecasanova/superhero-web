@@ -7,17 +7,17 @@ export const getSuperheroes = (state) => {
   return state.superheroes;
 };
 
-export const getDataPagination = (state) => {
-  return state.page;
-};
-
 export const getFilters = (state) => {
   return state.filters;
 };
 
+export const getPagination = (state) => {
+  return state.page;
+};
+
 export const getSuperheroeslist = createSelector(
-  getSuperheroes,
-  (superheroes) => {
-    return superheroes;
+  [getSuperheroes, getFilters, getPagination],
+  (superheroes, filters, pagination) => {
+    return superheroes.superheroes.slice(0, pagination.page * 4);
   },
 );
