@@ -39,11 +39,6 @@ const Navbar = () => {
   };
   const toggleFilters = () => {
     setActiveFilters(!isActiveFilters);
-    if (!isActiveFilters) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
   };
   return (
     <>
