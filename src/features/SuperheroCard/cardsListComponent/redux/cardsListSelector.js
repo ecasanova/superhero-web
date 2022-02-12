@@ -16,8 +16,12 @@ export const getPagination = (state) => {
 };
 
 export const getSuperheroeslist = createSelector(
-  [getSuperheroes, getFilters, getPagination],
-  (superheroes, filters, pagination) => {
-    return superheroes.superheroes.slice(0, pagination.page * 4);
+  [getSuperheroes, getPagination, getFilters],
+  (superheroesList, pagination, filteredList) => {
+    if (filteredList.superheroes.length > 0) {
+      return filteredList.superheroes.slice(0, pagination.page * 8);
+    } else {
+      return [];
+    }
   },
 );

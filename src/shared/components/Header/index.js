@@ -1,7 +1,14 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
+import {useDispatch, useSelector} from 'react-redux';
+import {filterBy} from '@/features/FiltersComponent/redux/filtersReducer';
 import {Button} from 'antd';
 import Menu from '../Menu';
+import {
+  getSuperheroes,
+  getFilters,
+} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
+import FiltersComponent from '@/features/FiltersComponent';
 import './style.scss';
 import {
   MenuOutlined,
@@ -9,9 +16,9 @@ import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
 } from '@ant-design/icons';
-import FiltersComponent from '@/features/FiltersComponent';
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   const [isActiveAside, setActiveAside] = useState(false);
   const [isActiveFilters, setActiveFilters] = useState(false);
 
@@ -29,17 +36,41 @@ const Navbar = () => {
   };
 
   const [filters, setFilters] = useState(initialStateFilters);
+  const [showClearFilters, setShowClearFilters] = useState(false);
+  const [powerstats, setPowerstats] = React.useState({powers: []});
 
   const clearFilters = () => {
     setFilters(initialStateFilters);
+    dispatchFilters(initialStateFilters);
+    setShowClearFilters(false);
+    setPowerstats({powers: []});
   };
+
+  useEffect(() => {
+    dispatchFilters(filters);
+  }, []);
+
+  const dispatchFilters = (filters) => {
+    dispatch(filterBy({superheroes, filters}));
+    if (filters != initialStateFilters) {
+      setShowClearFilters(true);
+    }
+  };
+
   const toggleAsideNav = () => {
     setActiveFilters(false);
     setActiveAside(!isActiveAside);
   };
+
   const toggleFilters = () => {
     setActiveFilters(!isActiveFilters);
   };
+
+  let superheroesList = useSelector(getSuperheroes);
+  let filteredList = useSelector(getFilters);
+
+  let superheroes = filteredList.length == 0 ? filteredList : superheroesList;
+
   return (
     <>
       <div
@@ -50,7 +81,10 @@ const Navbar = () => {
         }>
         <Menu />
       </div>
-      <div className="c-header">
+      <div
+        className={
+          isActiveFilters ? 'c-header c-header__filters-open' : 'c-header'
+        }>
         <div className="c-header__wrapper">
           <div className="c-header__nav">
             <div className="c-header__menu">
@@ -64,9 +98,11 @@ const Navbar = () => {
               <Menu />
               {!isActiveAside && (
                 <div className="c-header__menu-filter">
-                  <span className="clean-filter" onClick={clearFilters}>
-                    x Clear Filters
-                  </span>
+                  {showClearFilters && (
+                    <span className="clean-filter" onClick={clearFilters}>
+                      x Clear Filters
+                    </span>
+                  )}
                   {isActiveFilters && (
                     <Button type="primary" onClick={toggleFilters}>
                       <MenuUnfoldOutlined /> Filters
@@ -88,7 +124,13 @@ const Navbar = () => {
                   ? 'c-header__filters c-header__filters-active'
                   : 'c-header__filters'
               }>
-              <FiltersComponent filters={filters} setFilters={setFilters} />
+              <FiltersComponent
+                filters={filters}
+                setFilters={setFilters}
+                dispatchFilters={dispatchFilters}
+                powerstats={powerstats}
+                setPowerstats={setPowerstats}
+              />
             </div>
           )}
         </div>

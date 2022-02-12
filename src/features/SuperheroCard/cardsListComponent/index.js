@@ -1,11 +1,12 @@
 import React, {useEffect} from 'react';
 
 import {useSelector, useDispatch} from 'react-redux';
-import {Col, Row, Button} from 'antd';
+import {Col, Row} from 'antd';
 import {getSuperheroeslist} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
 import {Card} from '@/features/SuperheroCard/cardComponent';
 import {nextPage} from './redux/paginationReducer';
 import InfiniteScroll from 'react-infinite-scroll-component';
+
 import './style.scss';
 
 export function Cards() {
@@ -36,6 +37,11 @@ export function Cards() {
               </Col>
             );
           })}
+          {data.length === 0 && (
+            <Col>
+              <div>No superheros match with this criteria</div>
+            </Col>
+          )}
         </Row>
       </InfiniteScroll>
     </div>

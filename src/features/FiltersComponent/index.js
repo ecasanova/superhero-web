@@ -1,42 +1,76 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Form, Col, Row, Select, Input, Slider} from 'antd';
+import {filterBy} from './redux/filtersReducer';
+import {useDispatch, useSelector} from 'react-redux';
+
 import './style.scss';
+
 const {Option} = Select;
 
-function FiltersComponent({filters, setFilters}) {
-  function filterByName(value) {
+function FiltersComponent({
+  filters,
+  setFilters,
+  dispatchFilters,
+  powerstats,
+  setPowerstats,
+}) {
+  useEffect(() => {
+    dispatchFilters(filters);
+  }, []);
+
+  const filterByPowers = (value) => {
+    setFilters({...filters, powerstats: value});
+    setPowerstats({powers: [...value]});
+    dispatchFilters({...filters, powerstats: value});
+  };
+
+  const handleNameChange = (value) => {
     setFilters({...filters, name: value});
-  }
-  function filterByGender(value) {
+    dispatchFilters({...filters, name: value});
+  };
+
+  const handleGenderChange = (value) => {
     setFilters({...filters, gender: value});
-  }
-  function filterByAlignment(value) {
+    dispatchFilters({...filters, gender: value});
+  };
+
+  const handleAlignmentChange = (value) => {
     setFilters({...filters, alignment: value});
-  }
-  function filterByPowers(value) {
-    setFilters({...filters, powerstats: [...value]});
-  }
-  function filterByIntelligence(value) {
+    dispatchFilters({...filters, alignment: value});
+  };
+
+  const handleInteligenceChange = (value) => {
     setFilters({...filters, intelligence: value});
-  }
-  function filterByPower(value) {
+    dispatchFilters({...filters, intelligence: value});
+  };
+
+  const handlePowerChange = (value) => {
     setFilters({...filters, power: value});
-  }
-  function filterByStrength(value) {
-    setFilters({...filters, strength: value});
-  }
-  function filterBySpeed(value) {
-    setFilters({...filters, speed: value});
-  }
-  function filterByDurability(value) {
-    setFilters({...filters, durability: value});
-  }
-  function filterByCombat(value) {
+    dispatchFilters({...filters, power: value});
+  };
+
+  const handleCombatChange = (value) => {
     setFilters({...filters, combat: value});
-  }
+    dispatchFilters({...filters, combat: value});
+  };
+
+  const handleSpeedChange = (value) => {
+    setFilters({...filters, speed: value});
+    dispatchFilters({...filters, speed: value});
+  };
+
+  const handleStrengthChange = (value) => {
+    setFilters({...filters, strength: value});
+    dispatchFilters({...filters, speed: value});
+  };
+
+  const handleDurabilityChange = (value) => {
+    setFilters({...filters, durability: value});
+    dispatchFilters({...filters, durability: value});
+  };
 
   const isSelected = (value) => {
-    return filters.powerstats.some(
+    return powerstats.powers.some(
       (power) => value.toLowerCase() === power.toLowerCase(),
     );
   };
@@ -50,7 +84,7 @@ function FiltersComponent({filters, setFilters}) {
               placeholder="Keyword"
               value={filters.name}
               onChange={(e) => {
-                filterByName(e.target.value);
+                handleNameChange(e.target.value);
               }}
             />
           </Form.Item>
@@ -59,10 +93,11 @@ function FiltersComponent({filters, setFilters}) {
           <Form.Item name="gender" label="Gender">
             <Select
               defaultValue=""
+              placeholder="Select Gender"
               style={{minWidth: '100%'}}
               value={filters.gender}
               onChange={(e) => {
-                filterByGender(e);
+                handleGenderChange(e);
               }}>
               <Option value="">Select Gender</Option>
               <Option value="Male">Male</Option>
@@ -73,23 +108,24 @@ function FiltersComponent({filters, setFilters}) {
         <Col xs={24} md={12} l={4} xl={4}>
           <Form.Item name="alignment" label="Alignment">
             <Select
+              placeholder="Select Alignment"
               value={filters.alignment}
               style={{minWidth: '100%'}}
               onChange={(e) => {
-                filterByAlignment(e);
+                handleAlignmentChange(e);
               }}>
               <Option value="">Select Alignment</Option>
-              <Option value="God">Good</Option>
-              <Option value="Bad">Bad</Option>
+              <Option value="good">Good</Option>
+              <Option value="bad">Bad</Option>
             </Select>
           </Form.Item>
         </Col>
         <Col xs={24} md={12} l={4} xl={4}>
           <Form.Item name="powerstats" label="Powerstats">
             <Select
-              value={filters.powerstats}
               mode="multiple"
               style={{width: '100%'}}
+              value={powerstats.powers}
               onChange={(e) => {
                 filterByPowers(e);
               }}
@@ -111,7 +147,7 @@ function FiltersComponent({filters, setFilters}) {
                   <Slider
                     range
                     onChange={(e) => {
-                      filterByIntelligence(e);
+                      handleInteligenceChange(e);
                     }}
                   />
                 </Form.Item>
@@ -123,7 +159,7 @@ function FiltersComponent({filters, setFilters}) {
                   <Slider
                     range
                     onChange={(e) => {
-                      filterByStrength(e);
+                      handleStrengthChange(e);
                     }}
                   />
                 </Form.Item>
@@ -135,7 +171,7 @@ function FiltersComponent({filters, setFilters}) {
                   <Slider
                     range
                     onChange={(e) => {
-                      filterBySpeed(e);
+                      handleSpeedChange(e);
                     }}
                   />
                 </Form.Item>
@@ -147,7 +183,7 @@ function FiltersComponent({filters, setFilters}) {
                   <Slider
                     range
                     onChange={(e) => {
-                      filterByDurability(e);
+                      handleDurabilityChange(e);
                     }}
                   />
                 </Form.Item>
@@ -159,7 +195,7 @@ function FiltersComponent({filters, setFilters}) {
                   <Slider
                     range
                     onChange={(e) => {
-                      filterByPower(e);
+                      handlePowerChange(e);
                     }}
                   />
                 </Form.Item>
@@ -171,7 +207,7 @@ function FiltersComponent({filters, setFilters}) {
                   <Slider
                     range
                     onChange={(e) => {
-                      filterByCombat(e);
+                      handleCombatChange(e);
                     }}
                   />
                 </Form.Item>
