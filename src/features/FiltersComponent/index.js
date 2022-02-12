@@ -145,6 +145,7 @@ function FiltersComponent({
                 <Form.Item name="intelligence" label="Intelligence">
                   <Slider
                     range
+                    defaultValue={[0, 100]}
                     onChange={(e) => {
                       handleInteligenceChange(e);
                     }}
@@ -157,6 +158,7 @@ function FiltersComponent({
                 <Form.Item name="strength" label="Strength">
                   <Slider
                     range
+                    defaultValue={[0, 100]}
                     onChange={(e) => {
                       handleStrengthChange(e);
                     }}
@@ -169,6 +171,7 @@ function FiltersComponent({
                 <Form.Item name="speed" label="Speed">
                   <Slider
                     range
+                    defaultValue={[0, 100]}
                     onChange={(e) => {
                       handleSpeedChange(e);
                     }}
@@ -181,6 +184,7 @@ function FiltersComponent({
                 <Form.Item name="durability" label="Durability">
                   <Slider
                     range
+                    defaultValue={[0, 100]}
                     onChange={(e) => {
                       handleDurabilityChange(e);
                     }}
@@ -193,6 +197,7 @@ function FiltersComponent({
                 <Form.Item name="power" label="Power">
                   <Slider
                     range
+                    defaultValue={[0, 100]}
                     onChange={(e) => {
                       handlePowerChange(e);
                     }}
@@ -205,6 +210,7 @@ function FiltersComponent({
                 <Form.Item name="combat" label="Combat">
                   <Slider
                     range
+                    defaultValue={[0, 100]}
                     onChange={(e) => {
                       handleCombatChange(e);
                     }}
