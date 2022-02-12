@@ -24,9 +24,9 @@ function FiltersComponent({
     dispatchFilters({...filters, powerstats: value});
   };
 
-  const handleNameChange = (value) => {
-    setFilters({...filters, name: value});
-    dispatchFilters({...filters, name: value});
+  const handleKeywordChange = (value) => {
+    setFilters({...filters, keyword: value});
+    dispatchFilters({...filters, keyword: value});
   };
 
   const handleGenderChange = (value) => {
@@ -82,9 +82,9 @@ function FiltersComponent({
           <Form.Item name="keyword" label="Keyword">
             <Input
               placeholder="Keyword"
-              value={filters.name}
+              value={filters.keyword}
               onChange={(e) => {
-                handleNameChange(e.target.value);
+                handleKeywordChange(e.target.value);
               }}
             />
           </Form.Item>

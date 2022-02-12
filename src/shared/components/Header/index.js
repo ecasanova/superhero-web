@@ -23,7 +23,7 @@ const Navbar = () => {
   const [isActiveFilters, setActiveFilters] = useState(false);
 
   let initialStateFilters = {
-    name: '',
+    keyword: '',
     gender: '',
     alignment: '',
     powerstats: [],

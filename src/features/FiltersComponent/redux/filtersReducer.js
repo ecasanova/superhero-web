@@ -14,10 +14,15 @@ const filters = createSlice({
 
       let filteredList = data.superheroes.superheroes;
 
-      if (data.filters.name !== '' && data.filters.name.length > 1) {
-        filteredList = filteredList.filter((elm) =>
-          elm.name.startsWith(data.filters.name),
-        );
+      if (data.filters.keyword !== '' && data.filters.keyword.length > 1) {
+        filteredList = filteredList.filter((elm) => {
+          return (
+            elm.name.startsWith(data.filters.keyword) || //Filter by name
+            elm.biography.aliases.includes(data.filters.keyword) || //Filter by alias
+            elm.work.occupation.split(',').includes(data.filters.keyword) || //Filter by ocupation
+            elm.biography['full-name'].startsWith(data.filters.keyword) //Filter by full name
+          );
+        });
       }
 
       if (data.filters.gender !== '') {
