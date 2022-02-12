@@ -15,6 +15,7 @@ export function Cards() {
   let data = useSelector(getSuperheroeslist);
   useEffect(() => {
     loadMoreData();
+    // eslint-disable-next-line
   }, []);
 
   const loadMoreData = () => {

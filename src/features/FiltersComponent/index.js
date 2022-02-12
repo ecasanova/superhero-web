@@ -1,7 +1,5 @@
 import React, {useEffect} from 'react';
 import {Form, Col, Row, Select, Input, Slider} from 'antd';
-import {filterBy} from './redux/filtersReducer';
-import {useDispatch, useSelector} from 'react-redux';
 
 import './style.scss';
 
@@ -16,6 +14,7 @@ function FiltersComponent({
 }) {
   useEffect(() => {
     dispatchFilters(filters);
+    // eslint-disable-next-line
   }, []);
 
   const filterByPowers = (value) => {

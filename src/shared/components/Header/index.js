@@ -48,11 +48,12 @@ const Navbar = () => {
 
   useEffect(() => {
     dispatchFilters(filters);
+    // eslint-disable-next-line
   }, []);
 
   const dispatchFilters = (filters) => {
     dispatch(filterBy({superheroes, filters}));
-    if (filters != initialStateFilters) {
+    if (filters !== initialStateFilters) {
       setShowClearFilters(true);
     }
   };
@@ -69,7 +70,7 @@ const Navbar = () => {
   let superheroesList = useSelector(getSuperheroes);
   let filteredList = useSelector(getFilters);
 
-  let superheroes = filteredList.length == 0 ? filteredList : superheroesList;
+  let superheroes = filteredList.length === 0 ? filteredList : superheroesList;
 
   return (
     <>

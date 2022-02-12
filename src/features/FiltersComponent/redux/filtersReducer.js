@@ -27,13 +27,13 @@ const filters = createSlice({
 
       if (data.filters.gender !== '') {
         filteredList = filteredList.filter((elm) => {
-          return elm.appearance.gender == data.filters.gender;
+          return elm.appearance.gender === data.filters.gender;
         });
       }
 
       if (data.filters.alignment !== '') {
         filteredList = filteredList.filter((elm) => {
-          return elm.biography.alignment == data.filters.alignment;
+          return elm.biography.alignment === data.filters.alignment;
         });
       }
 
