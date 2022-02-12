@@ -1,11 +1,11 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
-import {getSuperheroeslist} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
+import {getSuperheroes} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
 import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 
 function RelatedHeroes({superheroe}) {
-  const superHeroeList = useSelector(getSuperheroeslist);
+  const superHeroeList = useSelector(getSuperheroes);
   const relatedList = superHeroeList.superheroes
     .filter(
       (item) =>

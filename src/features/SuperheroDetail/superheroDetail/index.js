@@ -1,6 +1,6 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
-import {getSuperheroeslist} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
+import {getSuperheroes} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
 import LoadingComponent from '@/shared/components/Loading';
 import SuperheroDetailTable from '../superhetoDetailTable';
 import AddToTeamComponent from '../../SuperheroCard/addToTeamComponent';
@@ -10,7 +10,7 @@ import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 import './style.scss';
 
 function SuperheroDetail({superHeroId}) {
-  const superHeroList = useSelector(getSuperheroeslist);
+  const superHeroList = useSelector(getSuperheroes);
   const superheroe = superHeroList.superheroes.filter(
     (item) => item.id === superHeroId,
   )[0];
