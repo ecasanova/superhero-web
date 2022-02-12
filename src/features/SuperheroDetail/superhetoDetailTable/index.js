@@ -10,7 +10,7 @@ function SuperheroDetailTable({superHeroData}) {
     <ul className="c-detail-table">
       {Object.keys(superHeroData).map((power, index) => {
         return (
-          <li index={index}>
+          <li index={power + '_' + index}>
             <b>{capitalizeFirstLetter(power)}: </b>
             {superHeroData[power] ? superHeroData[power] : 'No data'}
           </li>

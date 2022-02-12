@@ -8,7 +8,6 @@ import './../SuperheroCard/cardsListComponent/style.scss';
 import './style.scss';
 export function MyTeamComponent() {
   const items = useSelector(getMyTeam);
-  console.log(items);
   if (items.length === 0) {
     return (
       <div className="c-myteam o-container o-container__texture">
