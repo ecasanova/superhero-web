@@ -18,7 +18,7 @@ const routesConfig = [
     loading: LoadinComponent,
   },
   {
-    path: '/details/:id',
+    path: '/details/:id/:name',
     component: DetailScreen,
   },
   {

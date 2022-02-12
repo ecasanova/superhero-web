@@ -4,7 +4,7 @@ import {DownCircleOutlined, UpCircleOutlined} from '@ant-design/icons';
 import AddToTeamComponent from '../addToTeamComponent';
 import {getMyTeam} from '../addToTeamComponent/redux/addToTeamSelector';
 import {useSelector} from 'react-redux';
-
+import {seoUrl} from '@/utils/seo';
 import './style.scss';
 import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
 
@@ -59,7 +59,9 @@ export function Card({superhero}) {
       {!hoverDescriptionActive && (
         <>
           <div className="c-card__card-image">
-            <Link to={`/details/${superhero.id}`} title={superhero.name}>
+            <Link
+              to={`/details/${superhero.id}/${seoUrl(superhero.name)}`}
+              title={superhero.name}>
               <img
                 src={
                   superhero.image.url ? superhero.image.url : fallbackImageSrc

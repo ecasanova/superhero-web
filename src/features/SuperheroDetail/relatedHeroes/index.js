@@ -3,6 +3,7 @@ import {useSelector} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {getSuperheroes} from '@/features/SuperheroCard/cardsListComponent/redux/cardsListSelector';
 import fallbackImageSrc from '@/shared/assets/images/unknow.jpg';
+import {seoUrl} from '@/utils/seo';
 
 function RelatedHeroes({superheroe}) {
   const superHeroeList = useSelector(getSuperheroes);
@@ -22,7 +23,9 @@ function RelatedHeroes({superheroe}) {
           {relatedList.map((related, index) => {
             return (
               <li index={index}>
-                <Link to={`/details/${related.id}`} title={related.name}>
+                <Link
+                  to={`/details/${related.id}/${seoUrl(related.name)}`}
+                  title={related.name}>
                   <img
                     className="related"
                     src={related.image.url}
