@@ -10,7 +10,7 @@ const filters = createSlice({
   reducers: {
     filterBy: (state, action) => {
       let data = action.payload;
-      console.log(data.filters);
+      //console.log(data.filters);
 
       let filteredList = data.superheroes.superheroes;
 
@@ -107,7 +107,7 @@ const filters = createSlice({
         }
       }
 
-      console.log(filteredList);
+      //console.log(filteredList);
       state.superheroes = filteredList;
       state.filters = data.filters;
     },
