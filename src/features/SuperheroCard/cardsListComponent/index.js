@@ -39,7 +39,10 @@ export function Cards() {
           })}
           {data.length === 0 && (
             <Col>
-              <div>No superheros match with this criteria</div>
+              <div>
+                There are no Superheros based on the filters you have selected.
+                Please clear filters and try again.
+              </div>
             </Col>
           )}
         </Row>
