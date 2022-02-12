@@ -38,16 +38,16 @@ export function Cards() {
               </Col>
             );
           })}
-          {data.length === 0 && (
-            <Col>
-              <div>
-                There are no Superheros based on the filters you have selected.
-                Please clear filters and try again.
-              </div>
-            </Col>
-          )}
         </Row>
       </InfiniteScroll>
+      {data.length === 0 && (
+        <div className="c-cards__empty">
+          <p>
+            There are no Superheros based on the filters you have selected.
+            Please clear filters and try again.
+          </p>
+        </div>
+      )}
     </div>
   );
 }

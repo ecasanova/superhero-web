@@ -12,4 +12,9 @@
   @include iota-breakpoint(lg) {
     padding: 2rem 12rem !important;
   }
+
+  &__empty p {
+    padding: 2rem 0rem;
+    text-align: left;
+  }
 }

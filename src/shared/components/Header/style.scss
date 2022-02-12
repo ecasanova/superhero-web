@@ -6,11 +6,11 @@
     height: 8rem;
   }
   @include iota-breakpoint(md) {
-    height: 9rem;
+    height: 10rem;
   }
 
   &__filters-open {
-    height: 25rem;
+    height: 22rem;
   }
 
   &__wrapper {
@@ -83,6 +83,7 @@
     margin: 0.5rem 2rem;
     padding-bottom: 1rem;
     display: none;
+    border-bottom: 0.4rem solid white;
     &:hover {
       transition: all 0.2s ease-in-out;
       background: #fff;
