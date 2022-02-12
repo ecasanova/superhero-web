@@ -80,7 +80,7 @@ const Navbar = () => {
             ? 'c-header__sidebar c-header__sidebar-active'
             : 'c-header__sidebar'
         }>
-        <Menu />
+        <Menu isActiveAside={isActiveAside} toggleAsideNav={toggleAsideNav} />
       </div>
       <div
         className={
@@ -96,7 +96,10 @@ const Navbar = () => {
               <h1 className="c-header__logo">
                 <Link to="/">SUPERSEARCH</Link>
               </h1>
-              <Menu />
+              <Menu
+                isActiveAside={isActiveAside}
+                toggleAsideNav={toggleAsideNav}
+              />
               {!isActiveAside && (
                 <div className="c-header__menu-filter">
                   {showClearFilters && (
