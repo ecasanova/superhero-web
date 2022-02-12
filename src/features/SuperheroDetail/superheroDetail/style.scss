@@ -18,7 +18,7 @@
   }
   @include iota-breakpoint(md) {
     height: 90vh;
-    overflow: hidden;
+    overflow-y: scroll;
   }
   &__text {
     padding: 2rem;
@@ -37,7 +37,7 @@
   }
   .c-card__card-content {
     bottom: 0;
-    padding-bottom: 4rem;
+    padding-bottom: 10vh;
     position: absolute;
     margin: 0;
   }
@@ -81,7 +81,7 @@
   .o-grid__col--powerstats ul li {
     width: 50%;
     float: left;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0 0 0;
   }
   .c-detail-table li {
     padding: 0.2rem 0;
