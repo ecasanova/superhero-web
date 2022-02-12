@@ -33,12 +33,11 @@
     letter-spacing: 0;
     white-space: nowrap;
     padding-top: 1rem;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1.2rem;
   }
   .c-card__card-content {
     bottom: 0;
-    margin-bottom: 4vh;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     position: absolute;
     margin: 0;
   }
@@ -86,5 +85,12 @@
   }
   .c-detail-table li {
     padding: 0.2rem 0;
+  }
+  .grid {
+    height: inherit;
+  }
+  .c-container-fluid,
+  .c-container {
+    height: 100%;
   }
 }
