@@ -13,7 +13,7 @@ export default produce((draft, {type, payload}) => {
       draft.loading = true;
       break;
     case loadSuperheroes.SUCCESS:
-      draft.superheroes = [...payload];
+      draft.superheroes = [...payload.sort(() => Math.random() - 0.5)];
       break;
     case loadSuperheroes.FAILURE:
       draft.superheroes = [];
