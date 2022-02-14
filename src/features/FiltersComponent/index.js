@@ -116,6 +116,7 @@ function FiltersComponent({
               <Option value="">Select Alignment</Option>
               <Option value="good">Good</Option>
               <Option value="bad">Bad</Option>
+              <Option value="neutral">Neutral</Option>
             </Select>
           </Form.Item>
         </Col>
