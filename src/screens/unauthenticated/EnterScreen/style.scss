@@ -103,6 +103,7 @@
     @include iota-breakpoint(xxs) {
       font-size: 1.5rem;
       line-height: 3rem;
+      padding: 2rem;
     }
 
     @include iota-breakpoint(xs) {
