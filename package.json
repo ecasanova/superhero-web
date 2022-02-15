@@ -49,6 +49,7 @@
     "styled-components": "5.3.3"
   },
   "scripts": {
+    "prepare": "husky install",
     "pre-commit": "eslint",
     "pre-push": "eslint",
     "start": "env-cmd -f .env.development --use-shell 'react-app-rewired start'",
@@ -87,7 +88,7 @@
     "eslint-plugin-fsa": "1.0.12",
     "file-system": "2.2.2",
     "glob": "7.1.6",
-    "husky": "4.0.6",
+    "husky": "7.0.2",
     "iotacss-objs-grid": "1.0.4",
     "javascript-obfuscator": "0.18.3",
     "jest": "24.9.0",
