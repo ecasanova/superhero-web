@@ -12,7 +12,11 @@ function SuperheroDetailTable({superHeroData}) {
         return (
           <li index={power + '_' + index}>
             <b>{capitalizeFirstLetter(power)}: </b>
-            {superHeroData[power] ? superHeroData[power] : 'No data'}
+            {superHeroData[power]
+              ? Array.isArray(superHeroData[power])
+                ? superHeroData[power].join(', ')
+                : superHeroData[power]
+              : 'No data'}
           </li>
         );
       })}

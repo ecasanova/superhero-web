@@ -1,7 +1,6 @@
 {
   "results": [
     {
-      "response": "success",
       "id": "1",
       "name": "A-Bomb",
       "powerstats": {
@@ -42,7 +41,6 @@
       }
     },
     {
-      "response": "success",
       "id": "2",
       "name": "Abe Sapien",
       "powerstats": {
@@ -83,7 +81,6 @@
       }
     },
     {
-      "response": "success",
       "id": "3",
       "name": "Abin Sur",
       "powerstats": {
@@ -124,7 +121,6 @@
       }
     },
     {
-      "response": "success",
       "id": "4",
       "name": "Abomination",
       "powerstats": {
@@ -165,7 +161,6 @@
       }
     },
     {
-      "response": "success",
       "id": "5",
       "name": "Abraxas",
       "powerstats": {
@@ -206,7 +201,6 @@
       }
     },
     {
-      "response": "success",
       "id": "6",
       "name": "Absorbing Man",
       "powerstats": {
@@ -254,7 +248,6 @@
       }
     },
     {
-      "response": "success",
       "id": "7",
       "name": "Adam Monroe",
       "powerstats": {
@@ -295,7 +288,6 @@
       }
     },
     {
-      "response": "success",
       "id": "8",
       "name": "Adam Strange",
       "powerstats": {
@@ -336,7 +328,6 @@
       }
     },
     {
-      "response": "success",
       "id": "9",
       "name": "Agent 13",
       "powerstats": {
@@ -377,7 +368,6 @@
       }
     },
     {
-      "response": "success",
       "id": "10",
       "name": "Agent Bob",
       "powerstats": {
@@ -418,7 +408,6 @@
       }
     },
     {
-      "response": "success",
       "id": "11",
       "name": "Agent Zero",
       "powerstats": {
@@ -459,7 +448,6 @@
       }
     },
     {
-      "response": "success",
       "id": "12",
       "name": "Air-Walker",
       "powerstats": {
@@ -500,7 +488,6 @@
       }
     },
     {
-      "response": "success",
       "id": "13",
       "name": "Ajax",
       "powerstats": {
@@ -541,7 +528,6 @@
       }
     },
     {
-      "response": "success",
       "id": "14",
       "name": "Alan Scott",
       "powerstats": {
@@ -582,7 +568,6 @@
       }
     },
     {
-      "response": "success",
       "id": "15",
       "name": "Alex Mercer",
       "powerstats": {
@@ -623,7 +608,6 @@
       }
     },
     {
-      "response": "success",
       "id": "16",
       "name": "Alex Woolsly",
       "powerstats": {
@@ -664,7 +648,6 @@
       }
     },
     {
-      "response": "success",
       "id": "17",
       "name": "Alfred Pennyworth",
       "powerstats": {
@@ -705,7 +688,6 @@
       }
     },
     {
-      "response": "success",
       "id": "18",
       "name": "Alien",
       "powerstats": {
@@ -746,7 +728,6 @@
       }
     },
     {
-      "response": "success",
       "id": "19",
       "name": "Allan Quatermain",
       "powerstats": {
@@ -787,7 +768,6 @@
       }
     },
     {
-      "response": "success",
       "id": "20",
       "name": "Amazo",
       "powerstats": {
@@ -833,7 +813,6 @@
       }
     },
     {
-      "response": "success",
       "id": "21",
       "name": "Ammo",
       "powerstats": {
@@ -874,7 +853,6 @@
       }
     },
     {
-      "response": "success",
       "id": "22",
       "name": "Ando Masahashi",
       "powerstats": {
@@ -915,7 +893,6 @@
       }
     },
     {
-      "response": "success",
       "id": "23",
       "name": "Angel",
       "powerstats": {
@@ -956,7 +933,6 @@
       }
     },
     {
-      "response": "success",
       "id": "24",
       "name": "Angel",
       "powerstats": {
@@ -1003,7 +979,6 @@
       }
     },
     {
-      "response": "success",
       "id": "25",
       "name": "Angel Dust",
       "powerstats": {
@@ -1044,7 +1019,6 @@
       }
     },
     {
-      "response": "success",
       "id": "26",
       "name": "Angel Salvadore",
       "powerstats": {
@@ -1085,7 +1059,6 @@
       }
     },
     {
-      "response": "success",
       "id": "27",
       "name": "Angela",
       "powerstats": {
@@ -1126,7 +1099,6 @@
       }
     },
     {
-      "response": "success",
       "id": "28",
       "name": "Animal Man",
       "powerstats": {
@@ -1167,7 +1139,6 @@
       }
     },
     {
-      "response": "success",
       "id": "29",
       "name": "Annihilus",
       "powerstats": {
@@ -1208,7 +1179,6 @@
       }
     },
     {
-      "response": "success",
       "id": "30",
       "name": "Ant-Man",
       "powerstats": {
@@ -1257,7 +1227,6 @@
       }
     },
     {
-      "response": "success",
       "id": "31",
       "name": "Ant-Man II",
       "powerstats": {
@@ -1298,7 +1267,6 @@
       }
     },
     {
-      "response": "success",
       "id": "32",
       "name": "Anti-Monitor",
       "powerstats": {
@@ -1339,7 +1307,6 @@
       }
     },
     {
-      "response": "success",
       "id": "33",
       "name": "Anti-Spawn",
       "powerstats": {
@@ -1380,7 +1347,6 @@
       }
     },
     {
-      "response": "success",
       "id": "34",
       "name": "Anti-Venom",
       "powerstats": {
@@ -1428,7 +1394,6 @@
       }
     },
     {
-      "response": "success",
       "id": "35",
       "name": "Apocalypse",
       "powerstats": {
@@ -1476,7 +1441,6 @@
       }
     },
     {
-      "response": "success",
       "id": "36",
       "name": "Aquababy",
       "powerstats": {
@@ -1517,7 +1481,6 @@
       }
     },
     {
-      "response": "success",
       "id": "37",
       "name": "Aqualad",
       "powerstats": {
@@ -1558,7 +1521,6 @@
       }
     },
     {
-      "response": "success",
       "id": "38",
       "name": "Aquaman",
       "powerstats": {
@@ -1606,7 +1568,6 @@
       }
     },
     {
-      "response": "success",
       "id": "39",
       "name": "Arachne",
       "powerstats": {
@@ -1647,7 +1608,6 @@
       }
     },
     {
-      "response": "success",
       "id": "40",
       "name": "Archangel",
       "powerstats": {
@@ -1688,7 +1648,6 @@
       }
     },
     {
-      "response": "success",
       "id": "41",
       "name": "Arclight",
       "powerstats": {
@@ -1729,7 +1688,6 @@
       }
     },
     {
-      "response": "success",
       "id": "42",
       "name": "Ardina",
       "powerstats": {
@@ -1770,7 +1728,6 @@
       }
     },
     {
-      "response": "success",
       "id": "43",
       "name": "Ares",
       "powerstats": {
@@ -1811,7 +1768,6 @@
       }
     },
     {
-      "response": "success",
       "id": "44",
       "name": "Ariel",
       "powerstats": {
@@ -1852,7 +1808,6 @@
       }
     },
     {
-      "response": "success",
       "id": "45",
       "name": "Armor",
       "powerstats": {
@@ -1893,7 +1848,6 @@
       }
     },
     {
-      "response": "success",
       "id": "46",
       "name": "Arsenal",
       "powerstats": {
@@ -1934,7 +1888,6 @@
       }
     },
     {
-      "response": "success",
       "id": "47",
       "name": "Astro Boy",
       "powerstats": {
@@ -1975,7 +1928,6 @@
       }
     },
     {
-      "response": "success",
       "id": "48",
       "name": "Atlas",
       "powerstats": {
@@ -2023,7 +1975,6 @@
       }
     },
     {
-      "response": "success",
       "id": "49",
       "name": "Atlas",
       "powerstats": {
@@ -2064,7 +2015,6 @@
       }
     },
     {
-      "response": "success",
       "id": "50",
       "name": "Atom",
       "powerstats": {
@@ -2105,7 +2055,6 @@
       }
     },
     {
-      "response": "success",
       "id": "51",
       "name": "Atom",
       "powerstats": {
@@ -2146,7 +2095,6 @@
       }
     },
     {
-      "response": "success",
       "id": "52",
       "name": "Atom Girl",
       "powerstats": {
@@ -2187,7 +2135,6 @@
       }
     },
     {
-      "response": "success",
       "id": "53",
       "name": "Atom II",
       "powerstats": {
@@ -2232,7 +2179,6 @@
       }
     },
     {
-      "response": "success",
       "id": "54",
       "name": "Atom III",
       "powerstats": {
@@ -2273,7 +2219,6 @@
       }
     },
     {
-      "response": "success",
       "id": "55",
       "name": "Atom IV",
       "powerstats": {
@@ -2314,7 +2259,6 @@
       }
     },
     {
-      "response": "success",
       "id": "56",
       "name": "Aurora",
       "powerstats": {
@@ -2355,7 +2299,6 @@
       }
     },
     {
-      "response": "success",
       "id": "57",
       "name": "Azazel",
       "powerstats": {
@@ -2405,7 +2348,6 @@
       }
     },
     {
-      "response": "success",
       "id": "58",
       "name": "Azrael",
       "powerstats": {
@@ -2446,7 +2388,6 @@
       }
     },
     {
-      "response": "success",
       "id": "59",
       "name": "Aztar",
       "powerstats": {
@@ -2487,7 +2428,6 @@
       }
     },
     {
-      "response": "success",
       "id": "60",
       "name": "Bane",
       "powerstats": {
@@ -2528,7 +2468,6 @@
       }
     },
     {
-      "response": "success",
       "id": "61",
       "name": "Banshee",
       "powerstats": {
@@ -2569,7 +2508,6 @@
       }
     },
     {
-      "response": "success",
       "id": "62",
       "name": "Bantam",
       "powerstats": {
@@ -2610,7 +2548,6 @@
       }
     },
     {
-      "response": "success",
       "id": "63",
       "name": "Batgirl",
       "powerstats": {
@@ -2651,7 +2588,6 @@
       }
     },
     {
-      "response": "success",
       "id": "64",
       "name": "Batgirl",
       "powerstats": {
@@ -2692,7 +2628,6 @@
       }
     },
     {
-      "response": "success",
       "id": "65",
       "name": "Batgirl III",
       "powerstats": {
@@ -2733,7 +2668,6 @@
       }
     },
     {
-      "response": "success",
       "id": "66",
       "name": "Batgirl IV",
       "powerstats": {
@@ -2774,7 +2708,6 @@
       }
     },
     {
-      "response": "success",
       "id": "67",
       "name": "Batgirl V",
       "powerstats": {
@@ -2815,7 +2748,6 @@
       }
     },
     {
-      "response": "success",
       "id": "68",
       "name": "Batgirl VI",
       "powerstats": {
@@ -2856,7 +2788,6 @@
       }
     },
     {
-      "response": "success",
       "id": "69",
       "name": "Batman",
       "powerstats": {
@@ -2903,7 +2834,6 @@
       }
     },
     {
-      "response": "success",
       "id": "70",
       "name": "Batman",
       "powerstats": {
@@ -2944,7 +2874,6 @@
       }
     },
     {
-      "response": "success",
       "id": "71",
       "name": "Batman II",
       "powerstats": {
@@ -2985,7 +2914,6 @@
       }
     },
     {
-      "response": "success",
       "id": "72",
       "name": "Battlestar",
       "powerstats": {
@@ -3026,7 +2954,6 @@
       }
     },
     {
-      "response": "success",
       "id": "73",
       "name": "Batwoman V",
       "powerstats": {
@@ -3067,7 +2994,6 @@
       }
     },
     {
-      "response": "success",
       "id": "74",
       "name": "Beak",
       "powerstats": {
@@ -3108,7 +3034,6 @@
       }
     },
     {
-      "response": "success",
       "id": "75",
       "name": "Beast",
       "powerstats": {
@@ -3156,7 +3081,6 @@
       }
     },
     {
-      "response": "success",
       "id": "76",
       "name": "Beast Boy",
       "powerstats": {
@@ -3205,7 +3129,6 @@
       }
     },
     {
-      "response": "success",
       "id": "77",
       "name": "Beetle",
       "powerstats": {
@@ -3246,7 +3169,6 @@
       }
     },
     {
-      "response": "success",
       "id": "78",
       "name": "Ben 10",
       "powerstats": {
@@ -3287,7 +3209,6 @@
       }
     },
     {
-      "response": "success",
       "id": "79",
       "name": "Beta Ray Bill",
       "powerstats": {
@@ -3328,7 +3249,6 @@
       }
     },
     {
-      "response": "success",
       "id": "80",
       "name": "Beyonder",
       "powerstats": {
@@ -3381,7 +3301,6 @@
       }
     },
     {
-      "response": "success",
       "id": "81",
       "name": "Big Barda",
       "powerstats": {
@@ -3422,7 +3341,6 @@
       }
     },
     {
-      "response": "success",
       "id": "82",
       "name": "Big Daddy",
       "powerstats": {
@@ -3463,7 +3381,6 @@
       }
     },
     {
-      "response": "success",
       "id": "83",
       "name": "Big Man",
       "powerstats": {
@@ -3504,7 +3421,6 @@
       }
     },
     {
-      "response": "success",
       "id": "84",
       "name": "Bill Harken",
       "powerstats": {
@@ -3545,7 +3461,6 @@
       }
     },
     {
-      "response": "success",
       "id": "85",
       "name": "Billy Kincaid",
       "powerstats": {
@@ -3586,7 +3501,6 @@
       }
     },
     {
-      "response": "success",
       "id": "86",
       "name": "Binary",
       "powerstats": {
@@ -3627,7 +3541,6 @@
       }
     },
     {
-      "response": "success",
       "id": "87",
       "name": "Bionic Woman",
       "powerstats": {
@@ -3668,7 +3581,6 @@
       }
     },
     {
-      "response": "success",
       "id": "88",
       "name": "Bird-Brain",
       "powerstats": {
@@ -3709,7 +3621,6 @@
       }
     },
     {
-      "response": "success",
       "id": "89",
       "name": "Bird-Man",
       "powerstats": {
@@ -3750,7 +3661,6 @@
       }
     },
     {
-      "response": "success",
       "id": "90",
       "name": "Bird-Man II",
       "powerstats": {
@@ -3791,7 +3701,6 @@
       }
     },
     {
-      "response": "success",
       "id": "91",
       "name": "Birdman",
       "powerstats": {
@@ -3841,7 +3750,6 @@
       }
     },
     {
-      "response": "success",
       "id": "92",
       "name": "Bishop",
       "powerstats": {
@@ -3882,7 +3790,6 @@
       }
     },
     {
-      "response": "success",
       "id": "93",
       "name": "Bizarro",
       "powerstats": {
@@ -3923,7 +3830,6 @@
       }
     },
     {
-      "response": "success",
       "id": "94",
       "name": "Black Abbott",
       "powerstats": {
@@ -3964,7 +3870,6 @@
       }
     },
     {
-      "response": "success",
       "id": "95",
       "name": "Black Adam",
       "powerstats": {
@@ -4005,7 +3910,6 @@
       }
     },
     {
-      "response": "success",
       "id": "96",
       "name": "Black Bolt",
       "powerstats": {
@@ -4046,7 +3950,6 @@
       }
     },
     {
-      "response": "success",
       "id": "97",
       "name": "Black Canary",
       "powerstats": {
@@ -4087,7 +3990,6 @@
       }
     },
     {
-      "response": "success",
       "id": "98",
       "name": "Black Canary",
       "powerstats": {
@@ -4128,7 +4030,6 @@
       }
     },
     {
-      "response": "success",
       "id": "99",
       "name": "Black Cat",
       "powerstats": {
@@ -4169,7 +4070,6 @@
       }
     },
     {
-      "response": "success",
       "id": "100",
       "name": "Black Flash",
       "powerstats": {
@@ -4217,7 +4117,6 @@
       }
     },
     {
-      "response": "success",
       "id": "101",
       "name": "Black Goliath",
       "powerstats": {
@@ -4258,7 +4157,6 @@
       }
     },
     {
-      "response": "success",
       "id": "102",
       "name": "Black Knight III",
       "powerstats": {
@@ -4299,7 +4197,6 @@
       }
     },
     {
-      "response": "success",
       "id": "103",
       "name": "Black Lightning",
       "powerstats": {
@@ -4340,7 +4237,6 @@
       }
     },
     {
-      "response": "success",
       "id": "104",
       "name": "Black Mamba",
       "powerstats": {
@@ -4381,7 +4277,6 @@
       }
     },
     {
-      "response": "success",
       "id": "105",
       "name": "Black Manta",
       "powerstats": {
@@ -4422,7 +4317,6 @@
       }
     },
     {
-      "response": "success",
       "id": "106",
       "name": "Black Panther",
       "powerstats": {
@@ -4471,7 +4365,6 @@
       }
     },
     {
-      "response": "success",
       "id": "107",
       "name": "Black Widow",
       "powerstats": {
@@ -4524,7 +4417,6 @@
       }
     },
     {
-      "response": "success",
       "id": "108",
       "name": "Black Widow II",
       "powerstats": {
@@ -4565,7 +4457,6 @@
       }
     },
     {
-      "response": "success",
       "id": "109",
       "name": "Blackout",
       "powerstats": {
@@ -4606,7 +4497,6 @@
       }
     },
     {
-      "response": "success",
       "id": "110",
       "name": "Blackwing",
       "powerstats": {
@@ -4652,7 +4542,6 @@
       }
     },
     {
-      "response": "success",
       "id": "111",
       "name": "Blackwulf",
       "powerstats": {
@@ -4693,7 +4582,6 @@
       }
     },
     {
-      "response": "success",
       "id": "112",
       "name": "Blade",
       "powerstats": {
@@ -4734,7 +4622,6 @@
       }
     },
     {
-      "response": "success",
       "id": "113",
       "name": "Blaquesmith",
       "powerstats": {
@@ -4775,7 +4662,6 @@
       }
     },
     {
-      "response": "success",
       "id": "114",
       "name": "Bling!",
       "powerstats": {
@@ -4816,7 +4702,6 @@
       }
     },
     {
-      "response": "success",
       "id": "115",
       "name": "Blink",
       "powerstats": {
@@ -4857,7 +4742,6 @@
       }
     },
     {
-      "response": "success",
       "id": "116",
       "name": "Blizzard",
       "powerstats": {
@@ -4898,7 +4782,6 @@
       }
     },
     {
-      "response": "success",
       "id": "117",
       "name": "Blizzard",
       "powerstats": {
@@ -4939,7 +4822,6 @@
       }
     },
     {
-      "response": "success",
       "id": "118",
       "name": "Blizzard II",
       "powerstats": {
@@ -4980,7 +4862,6 @@
       }
     },
     {
-      "response": "success",
       "id": "119",
       "name": "Blob",
       "powerstats": {
@@ -5021,7 +4902,6 @@
       }
     },
     {
-      "response": "success",
       "id": "120",
       "name": "Bloodaxe",
       "powerstats": {
@@ -5062,7 +4942,6 @@
       }
     },
     {
-      "response": "success",
       "id": "121",
       "name": "Bloodhawk",
       "powerstats": {
@@ -5103,7 +4982,6 @@
       }
     },
     {
-      "response": "success",
       "id": "122",
       "name": "Bloodwraith",
       "powerstats": {
@@ -5144,7 +5022,6 @@
       }
     },
     {
-      "response": "success",
       "id": "123",
       "name": "Blue Beetle",
       "powerstats": {
@@ -5185,7 +5062,6 @@
       }
     },
     {
-      "response": "success",
       "id": "124",
       "name": "Blue Beetle",
       "powerstats": {
@@ -5226,7 +5102,6 @@
       }
     },
     {
-      "response": "success",
       "id": "125",
       "name": "Blue Beetle II",
       "powerstats": {
@@ -5267,7 +5142,6 @@
       }
     },
     {
-      "response": "success",
       "id": "126",
       "name": "Blue Beetle III",
       "powerstats": {
@@ -5308,7 +5182,6 @@
       }
     },
     {
-      "response": "success",
       "id": "127",
       "name": "Boba Fett",
       "powerstats": {
@@ -5355,7 +5228,6 @@
       }
     },
     {
-      "response": "success",
       "id": "128",
       "name": "Bolt",
       "powerstats": {
@@ -5396,7 +5268,6 @@
       }
     },
     {
-      "response": "success",
       "id": "129",
       "name": "Bomb Queen",
       "powerstats": {
@@ -5437,7 +5308,6 @@
       }
     },
     {
-      "response": "success",
       "id": "130",
       "name": "Boom-Boom",
       "powerstats": {
@@ -5486,7 +5356,6 @@
       }
     },
     {
-      "response": "success",
       "id": "131",
       "name": "Boomer",
       "powerstats": {
@@ -5527,7 +5396,6 @@
       }
     },
     {
-      "response": "success",
       "id": "132",
       "name": "Booster Gold",
       "powerstats": {
@@ -5588,7 +5456,6 @@
       }
     },
     {
-      "response": "success",
       "id": "133",
       "name": "Box",
       "powerstats": {
@@ -5629,7 +5496,6 @@
       }
     },
     {
-      "response": "success",
       "id": "134",
       "name": "Box III",
       "powerstats": {
@@ -5670,7 +5536,6 @@
       }
     },
     {
-      "response": "success",
       "id": "135",
       "name": "Box IV",
       "powerstats": {
@@ -5711,7 +5576,6 @@
       }
     },
     {
-      "response": "success",
       "id": "136",
       "name": "Brainiac",
       "powerstats": {
@@ -5752,7 +5616,6 @@
       }
     },
     {
-      "response": "success",
       "id": "137",
       "name": "Brainiac 5",
       "powerstats": {
@@ -5793,7 +5656,6 @@
       }
     },
     {
-      "response": "success",
       "id": "138",
       "name": "Brother Voodoo",
       "powerstats": {
@@ -5834,7 +5696,6 @@
       }
     },
     {
-      "response": "success",
       "id": "139",
       "name": "Brundlefly",
       "powerstats": {
@@ -5875,7 +5736,6 @@
       }
     },
     {
-      "response": "success",
       "id": "140",
       "name": "Buffy",
       "powerstats": {
@@ -5926,7 +5786,6 @@
       }
     },
     {
-      "response": "success",
       "id": "141",
       "name": "Bullseye",
       "powerstats": {
@@ -5974,7 +5833,6 @@
       }
     },
     {
-      "response": "success",
       "id": "142",
       "name": "Bumblebee",
       "powerstats": {
@@ -6015,7 +5873,6 @@
       }
     },
     {
-      "response": "success",
       "id": "143",
       "name": "Bumbleboy",
       "powerstats": {
@@ -6056,7 +5913,6 @@
       }
     },
     {
-      "response": "success",
       "id": "144",
       "name": "Bushido",
       "powerstats": {
@@ -6097,7 +5953,6 @@
       }
     },
     {
-      "response": "success",
       "id": "145",
       "name": "Cable",
       "powerstats": {
@@ -6147,7 +6002,6 @@
       }
     },
     {
-      "response": "success",
       "id": "146",
       "name": "Callisto",
       "powerstats": {
@@ -6188,7 +6042,6 @@
       }
     },
     {
-      "response": "success",
       "id": "147",
       "name": "Cameron Hicks",
       "powerstats": {
@@ -6229,7 +6082,6 @@
       }
     },
     {
-      "response": "success",
       "id": "148",
       "name": "Cannonball",
       "powerstats": {
@@ -6270,7 +6122,6 @@
       }
     },
     {
-      "response": "success",
       "id": "149",
       "name": "Captain America",
       "powerstats": {
@@ -6311,7 +6162,6 @@
       }
     },
     {
-      "response": "success",
       "id": "150",
       "name": "Captain Atom",
       "powerstats": {
@@ -6352,7 +6202,6 @@
       }
     },
     {
-      "response": "success",
       "id": "151",
       "name": "Captain Britain",
       "powerstats": {
@@ -6399,7 +6248,6 @@
       }
     },
     {
-      "response": "success",
       "id": "152",
       "name": "Captain Cold",
       "powerstats": {
@@ -6447,7 +6295,6 @@
       }
     },
     {
-      "response": "success",
       "id": "153",
       "name": "Captain Epic",
       "powerstats": {
@@ -6488,7 +6335,6 @@
       }
     },
     {
-      "response": "success",
       "id": "154",
       "name": "Captain Hindsight",
       "powerstats": {
@@ -6529,7 +6375,6 @@
       }
     },
     {
-      "response": "success",
       "id": "155",
       "name": "Captain Mar-vell",
       "powerstats": {
@@ -6570,7 +6415,6 @@
       }
     },
     {
-      "response": "success",
       "id": "156",
       "name": "Captain Marvel",
       "powerstats": {
@@ -6616,7 +6460,6 @@
       }
     },
     {
-      "response": "success",
       "id": "157",
       "name": "Captain Marvel",
       "powerstats": {
@@ -6663,7 +6506,6 @@
       }
     },
     {
-      "response": "success",
       "id": "158",
       "name": "Captain Marvel II",
       "powerstats": {
@@ -6704,7 +6546,6 @@
       }
     },
     {
-      "response": "success",
       "id": "159",
       "name": "Captain Midnight",
       "powerstats": {
@@ -6754,7 +6595,6 @@
       }
     },
     {
-      "response": "success",
       "id": "160",
       "name": "Captain Planet",
       "powerstats": {
@@ -6795,7 +6635,6 @@
       }
     },
     {
-      "response": "success",
       "id": "161",
       "name": "Captain Universe",
       "powerstats": {
@@ -6840,7 +6679,6 @@
       }
     },
     {
-      "response": "success",
       "id": "162",
       "name": "Carnage",
       "powerstats": {
@@ -6881,7 +6719,6 @@
       }
     },
     {
-      "response": "success",
       "id": "163",
       "name": "Cat",
       "powerstats": {
@@ -6922,7 +6759,6 @@
       }
     },
     {
-      "response": "success",
       "id": "164",
       "name": "Cat II",
       "powerstats": {
@@ -6963,7 +6799,6 @@
       }
     },
     {
-      "response": "success",
       "id": "165",
       "name": "Catwoman",
       "powerstats": {
@@ -7011,7 +6846,6 @@
       }
     },
     {
-      "response": "success",
       "id": "166",
       "name": "Cecilia Reyes",
       "powerstats": {
@@ -7052,7 +6886,6 @@
       }
     },
     {
-      "response": "success",
       "id": "167",
       "name": "Century",
       "powerstats": {
@@ -7093,7 +6926,6 @@
       }
     },
     {
-      "response": "success",
       "id": "168",
       "name": "Cerebra",
       "powerstats": {
@@ -7134,7 +6966,6 @@
       }
     },
     {
-      "response": "success",
       "id": "169",
       "name": "Chamber",
       "powerstats": {
@@ -7175,7 +7006,6 @@
       }
     },
     {
-      "response": "success",
       "id": "170",
       "name": "Chameleon",
       "powerstats": {
@@ -7227,7 +7057,6 @@
       }
     },
     {
-      "response": "success",
       "id": "171",
       "name": "Changeling",
       "powerstats": {
@@ -7268,7 +7097,6 @@
       }
     },
     {
-      "response": "success",
       "id": "172",
       "name": "Cheetah",
       "powerstats": {
@@ -7309,7 +7137,6 @@
       }
     },
     {
-      "response": "success",
       "id": "173",
       "name": "Cheetah II",
       "powerstats": {
@@ -7350,7 +7177,6 @@
       }
     },
     {
-      "response": "success",
       "id": "174",
       "name": "Cheetah III",
       "powerstats": {
@@ -7397,7 +7223,6 @@
       }
     },
     {
-      "response": "success",
       "id": "175",
       "name": "Chromos",
       "powerstats": {
@@ -7438,7 +7263,6 @@
       }
     },
     {
-      "response": "success",
       "id": "176",
       "name": "Chuck Norris",
       "powerstats": {
@@ -7479,7 +7303,6 @@
       }
     },
     {
-      "response": "success",
       "id": "177",
       "name": "Citizen Steel",
       "powerstats": {
@@ -7520,7 +7343,6 @@
       }
     },
     {
-      "response": "success",
       "id": "178",
       "name": "Claire Bennet",
       "powerstats": {
@@ -7561,7 +7383,6 @@
       }
     },
     {
-      "response": "success",
       "id": "179",
       "name": "Clea",
       "powerstats": {
@@ -7602,7 +7423,6 @@
       }
     },
     {
-      "response": "success",
       "id": "180",
       "name": "Cloak",
       "powerstats": {
@@ -7643,7 +7463,6 @@
       }
     },
     {
-      "response": "success",
       "id": "181",
       "name": "Clock King",
       "powerstats": {
@@ -7684,7 +7503,6 @@
       }
     },
     {
-      "response": "success",
       "id": "182",
       "name": "Cogliostro",
       "powerstats": {
@@ -7725,7 +7543,6 @@
       }
     },
     {
-      "response": "success",
       "id": "183",
       "name": "Colin Wagner",
       "powerstats": {
@@ -7766,7 +7583,6 @@
       }
     },
     {
-      "response": "success",
       "id": "184",
       "name": "Colossal Boy",
       "powerstats": {
@@ -7807,7 +7623,6 @@
       }
     },
     {
-      "response": "success",
       "id": "185",
       "name": "Colossus",
       "powerstats": {
@@ -7853,7 +7668,6 @@
       }
     },
     {
-      "response": "success",
       "id": "186",
       "name": "Copycat",
       "powerstats": {
@@ -7905,7 +7719,6 @@
       }
     },
     {
-      "response": "success",
       "id": "187",
       "name": "Corsair",
       "powerstats": {
@@ -7946,7 +7759,6 @@
       }
     },
     {
-      "response": "success",
       "id": "188",
       "name": "Cottonmouth",
       "powerstats": {
@@ -7987,7 +7799,6 @@
       }
     },
     {
-      "response": "success",
       "id": "189",
       "name": "Crimson Crusader",
       "powerstats": {
@@ -8028,7 +7839,6 @@
       }
     },
     {
-      "response": "success",
       "id": "190",
       "name": "Crimson Dynamo",
       "powerstats": {
@@ -8069,7 +7879,6 @@
       }
     },
     {
-      "response": "success",
       "id": "191",
       "name": "Crystal",
       "powerstats": {
@@ -8110,7 +7919,6 @@
       }
     },
     {
-      "response": "success",
       "id": "192",
       "name": "Curse",
       "powerstats": {
@@ -8151,7 +7959,6 @@
       }
     },
     {
-      "response": "success",
       "id": "193",
       "name": "Cy-Gor",
       "powerstats": {
@@ -8192,7 +7999,6 @@
       }
     },
     {
-      "response": "success",
       "id": "194",
       "name": "Cyborg",
       "powerstats": {
@@ -8233,7 +8039,6 @@
       }
     },
     {
-      "response": "success",
       "id": "195",
       "name": "Cyborg Superman",
       "powerstats": {
@@ -8278,7 +8083,6 @@
       }
     },
     {
-      "response": "success",
       "id": "196",
       "name": "Cyclops",
       "powerstats": {
@@ -8329,7 +8133,6 @@
       }
     },
     {
-      "response": "success",
       "id": "197",
       "name": "Cypher",
       "powerstats": {
@@ -8370,7 +8173,6 @@
       }
     },
     {
-      "response": "success",
       "id": "198",
       "name": "Dagger",
       "powerstats": {
@@ -8411,7 +8213,6 @@
       }
     },
     {
-      "response": "success",
       "id": "199",
       "name": "Danny Cooper",
       "powerstats": {
@@ -8452,7 +8253,6 @@
       }
     },
     {
-      "response": "success",
       "id": "200",
       "name": "Daphne Powell",
       "powerstats": {
@@ -8493,7 +8293,6 @@
       }
     },
     {
-      "response": "success",
       "id": "201",
       "name": "Daredevil",
       "powerstats": {
@@ -8550,7 +8349,6 @@
       }
     },
     {
-      "response": "success",
       "id": "202",
       "name": "Darkhawk",
       "powerstats": {
@@ -8591,7 +8389,6 @@
       }
     },
     {
-      "response": "success",
       "id": "203",
       "name": "Darkman",
       "powerstats": {
@@ -8632,7 +8429,6 @@
       }
     },
     {
-      "response": "success",
       "id": "204",
       "name": "Darkseid",
       "powerstats": {
@@ -8673,7 +8469,6 @@
       }
     },
     {
-      "response": "success",
       "id": "205",
       "name": "Darkside",
       "powerstats": {
@@ -8714,7 +8509,6 @@
       }
     },
     {
-      "response": "success",
       "id": "206",
       "name": "Darkstar",
       "powerstats": {
@@ -8755,7 +8549,6 @@
       }
     },
     {
-      "response": "success",
       "id": "207",
       "name": "Darth Maul",
       "powerstats": {
@@ -8796,7 +8589,6 @@
       }
     },
     {
-      "response": "success",
       "id": "208",
       "name": "Darth Vader",
       "powerstats": {
@@ -8837,7 +8629,6 @@
       }
     },
     {
-      "response": "success",
       "id": "209",
       "name": "Dash",
       "powerstats": {
@@ -8878,7 +8669,6 @@
       }
     },
     {
-      "response": "success",
       "id": "210",
       "name": "Data",
       "powerstats": {
@@ -8919,7 +8709,6 @@
       }
     },
     {
-      "response": "success",
       "id": "211",
       "name": "Dazzler",
       "powerstats": {
@@ -8967,7 +8756,6 @@
       }
     },
     {
-      "response": "success",
       "id": "212",
       "name": "Deadman",
       "powerstats": {
@@ -9008,7 +8796,6 @@
       }
     },
     {
-      "response": "success",
       "id": "213",
       "name": "Deadpool",
       "powerstats": {
@@ -9059,7 +8846,6 @@
       }
     },
     {
-      "response": "success",
       "id": "214",
       "name": "Deadshot",
       "powerstats": {
@@ -9104,7 +8890,6 @@
       }
     },
     {
-      "response": "success",
       "id": "215",
       "name": "Deathlok",
       "powerstats": {
@@ -9145,7 +8930,6 @@
       }
     },
     {
-      "response": "success",
       "id": "216",
       "name": "Deathstroke",
       "powerstats": {
@@ -9186,7 +8970,6 @@
       }
     },
     {
-      "response": "success",
       "id": "217",
       "name": "Demogoblin",
       "powerstats": {
@@ -9227,7 +9010,6 @@
       }
     },
     {
-      "response": "success",
       "id": "218",
       "name": "Destroyer",
       "powerstats": {
@@ -9268,7 +9050,6 @@
       }
     },
     {
-      "response": "success",
       "id": "219",
       "name": "Diamondback",
       "powerstats": {
@@ -9309,7 +9090,6 @@
       }
     },
     {
-      "response": "success",
       "id": "220",
       "name": "DL Hawkins",
       "powerstats": {
@@ -9350,7 +9130,6 @@
       }
     },
     {
-      "response": "success",
       "id": "221",
       "name": "Doc Samson",
       "powerstats": {
@@ -9391,7 +9170,6 @@
       }
     },
     {
-      "response": "success",
       "id": "222",
       "name": "Doctor Doom",
       "powerstats": {
@@ -9432,7 +9210,6 @@
       }
     },
     {
-      "response": "success",
       "id": "223",
       "name": "Doctor Doom II",
       "powerstats": {
@@ -9473,7 +9250,6 @@
       }
     },
     {
-      "response": "success",
       "id": "224",
       "name": "Doctor Fate",
       "powerstats": {
@@ -9514,7 +9290,6 @@
       }
     },
     {
-      "response": "success",
       "id": "225",
       "name": "Doctor Octopus",
       "powerstats": {
@@ -9564,7 +9339,6 @@
       }
     },
     {
-      "response": "success",
       "id": "226",
       "name": "Doctor Strange",
       "powerstats": {
@@ -9611,7 +9385,6 @@
       }
     },
     {
-      "response": "success",
       "id": "227",
       "name": "Domino",
       "powerstats": {
@@ -9663,7 +9436,6 @@
       }
     },
     {
-      "response": "success",
       "id": "228",
       "name": "Donatello",
       "powerstats": {
@@ -9704,7 +9476,6 @@
       }
     },
     {
-      "response": "success",
       "id": "229",
       "name": "Donna Troy",
       "powerstats": {
@@ -9751,7 +9522,6 @@
       }
     },
     {
-      "response": "success",
       "id": "230",
       "name": "Doomsday",
       "powerstats": {
@@ -9792,7 +9562,6 @@
       }
     },
     {
-      "response": "success",
       "id": "231",
       "name": "Doppelganger",
       "powerstats": {
@@ -9837,7 +9606,6 @@
       }
     },
     {
-      "response": "success",
       "id": "232",
       "name": "Dormammu",
       "powerstats": {
@@ -9885,7 +9653,6 @@
       }
     },
     {
-      "response": "success",
       "id": "233",
       "name": "Dr Manhattan",
       "powerstats": {
@@ -9926,7 +9693,6 @@
       }
     },
     {
-      "response": "success",
       "id": "234",
       "name": "Drax the Destroyer",
       "powerstats": {
@@ -9967,7 +9733,6 @@
       }
     },
     {
-      "response": "success",
       "id": "235",
       "name": "Ego",
       "powerstats": {
@@ -10008,7 +9773,6 @@
       }
     },
     {
-      "response": "success",
       "id": "236",
       "name": "Elastigirl",
       "powerstats": {
@@ -10049,7 +9813,6 @@
       }
     },
     {
-      "response": "success",
       "id": "237",
       "name": "Electro",
       "powerstats": {
@@ -10090,7 +9853,6 @@
       }
     },
     {
-      "response": "success",
       "id": "238",
       "name": "Elektra",
       "powerstats": {
@@ -10131,7 +9893,6 @@
       }
     },
     {
-      "response": "success",
       "id": "239",
       "name": "Elle Bishop",
       "powerstats": {
@@ -10172,7 +9933,6 @@
       }
     },
     {
-      "response": "success",
       "id": "240",
       "name": "Elongated Man",
       "powerstats": {
@@ -10213,7 +9973,6 @@
       }
     },
     {
-      "response": "success",
       "id": "241",
       "name": "Emma Frost",
       "powerstats": {
@@ -10254,7 +10013,6 @@
       }
     },
     {
-      "response": "success",
       "id": "242",
       "name": "Enchantress",
       "powerstats": {
@@ -10295,7 +10053,6 @@
       }
     },
     {
-      "response": "success",
       "id": "243",
       "name": "Energy",
       "powerstats": {
@@ -10336,7 +10093,6 @@
       }
     },
     {
-      "response": "success",
       "id": "244",
       "name": "ERG-1",
       "powerstats": {
@@ -10377,7 +10133,6 @@
       }
     },
     {
-      "response": "success",
       "id": "245",
       "name": "Ethan Hunt",
       "powerstats": {
@@ -10418,7 +10173,6 @@
       }
     },
     {
-      "response": "success",
       "id": "246",
       "name": "Etrigan",
       "powerstats": {
@@ -10459,7 +10213,6 @@
       }
     },
     {
-      "response": "success",
       "id": "247",
       "name": "Evil Deadpool",
       "powerstats": {
@@ -10500,7 +10253,6 @@
       }
     },
     {
-      "response": "success",
       "id": "248",
       "name": "Evilhawk",
       "powerstats": {
@@ -10541,7 +10293,6 @@
       }
     },
     {
-      "response": "success",
       "id": "249",
       "name": "Exodus",
       "powerstats": {
@@ -10582,7 +10333,6 @@
       }
     },
     {
-      "response": "success",
       "id": "250",
       "name": "Fabian Cortez",
       "powerstats": {
@@ -10623,7 +10373,6 @@
       }
     },
     {
-      "response": "success",
       "id": "251",
       "name": "Falcon",
       "powerstats": {
@@ -10670,7 +10419,6 @@
       }
     },
     {
-      "response": "success",
       "id": "252",
       "name": "Fallen One II",
       "powerstats": {
@@ -10711,7 +10459,6 @@
       }
     },
     {
-      "response": "success",
       "id": "253",
       "name": "Faora",
       "powerstats": {
@@ -10752,7 +10499,6 @@
       }
     },
     {
-      "response": "success",
       "id": "254",
       "name": "Feral",
       "powerstats": {
@@ -10793,7 +10539,6 @@
       }
     },
     {
-      "response": "success",
       "id": "255",
       "name": "Fighting Spirit",
       "powerstats": {
@@ -10834,7 +10579,6 @@
       }
     },
     {
-      "response": "success",
       "id": "256",
       "name": "Fin Fang Foom",
       "powerstats": {
@@ -10877,7 +10621,6 @@
       }
     },
     {
-      "response": "success",
       "id": "257",
       "name": "Firebird",
       "powerstats": {
@@ -10918,7 +10661,6 @@
       }
     },
     {
-      "response": "success",
       "id": "258",
       "name": "Firelord",
       "powerstats": {
@@ -10959,7 +10701,6 @@
       }
     },
     {
-      "response": "success",
       "id": "259",
       "name": "Firestar",
       "powerstats": {
@@ -11000,7 +10741,6 @@
       }
     },
     {
-      "response": "success",
       "id": "260",
       "name": "Firestorm",
       "powerstats": {
@@ -11041,7 +10781,6 @@
       }
     },
     {
-      "response": "success",
       "id": "261",
       "name": "Firestorm",
       "powerstats": {
@@ -11082,7 +10821,6 @@
       }
     },
     {
-      "response": "success",
       "id": "262",
       "name": "Fixer",
       "powerstats": {
@@ -11123,7 +10861,6 @@
       }
     },
     {
-      "response": "success",
       "id": "263",
       "name": "Flash",
       "powerstats": {
@@ -11164,7 +10901,6 @@
       }
     },
     {
-      "response": "success",
       "id": "264",
       "name": "Flash Gordon",
       "powerstats": {
@@ -11205,7 +10941,6 @@
       }
     },
     {
-      "response": "success",
       "id": "265",
       "name": "Flash II",
       "powerstats": {
@@ -11251,7 +10986,6 @@
       }
     },
     {
-      "response": "success",
       "id": "266",
       "name": "Flash III",
       "powerstats": {
@@ -11296,7 +11030,6 @@
       }
     },
     {
-      "response": "success",
       "id": "267",
       "name": "Flash IV",
       "powerstats": {
@@ -11337,7 +11070,6 @@
       }
     },
     {
-      "response": "success",
       "id": "268",
       "name": "Forge",
       "powerstats": {
@@ -11378,7 +11110,6 @@
       }
     },
     {
-      "response": "success",
       "id": "269",
       "name": "Franklin Richards",
       "powerstats": {
@@ -11425,7 +11156,6 @@
       }
     },
     {
-      "response": "success",
       "id": "270",
       "name": "Franklin Storm",
       "powerstats": {
@@ -11468,7 +11198,6 @@
       }
     },
     {
-      "response": "success",
       "id": "271",
       "name": "Frenzy",
       "powerstats": {
@@ -11509,7 +11238,6 @@
       }
     },
     {
-      "response": "success",
       "id": "272",
       "name": "Frigga",
       "powerstats": {
@@ -11550,7 +11278,6 @@
       }
     },
     {
-      "response": "success",
       "id": "273",
       "name": "Galactus",
       "powerstats": {
@@ -11596,7 +11323,6 @@
       }
     },
     {
-      "response": "success",
       "id": "274",
       "name": "Gambit",
       "powerstats": {
@@ -11642,7 +11368,6 @@
       }
     },
     {
-      "response": "success",
       "id": "275",
       "name": "Gamora",
       "powerstats": {
@@ -11686,7 +11411,6 @@
       }
     },
     {
-      "response": "success",
       "id": "276",
       "name": "Garbage Man",
       "powerstats": {
@@ -11727,7 +11451,6 @@
       }
     },
     {
-      "response": "success",
       "id": "277",
       "name": "Gary Bell",
       "powerstats": {
@@ -11768,7 +11491,6 @@
       }
     },
     {
-      "response": "success",
       "id": "278",
       "name": "General Zod",
       "powerstats": {
@@ -11809,7 +11531,6 @@
       }
     },
     {
-      "response": "success",
       "id": "279",
       "name": "Genesis",
       "powerstats": {
@@ -11850,7 +11571,6 @@
       }
     },
     {
-      "response": "success",
       "id": "280",
       "name": "Ghost Rider",
       "powerstats": {
@@ -11891,7 +11611,6 @@
       }
     },
     {
-      "response": "success",
       "id": "281",
       "name": "Ghost Rider II",
       "powerstats": {
@@ -11932,7 +11651,6 @@
       }
     },
     {
-      "response": "success",
       "id": "282",
       "name": "Giant-Man",
       "powerstats": {
@@ -11973,7 +11691,6 @@
       }
     },
     {
-      "response": "success",
       "id": "283",
       "name": "Giant-Man II",
       "powerstats": {
@@ -12014,7 +11731,6 @@
       }
     },
     {
-      "response": "success",
       "id": "284",
       "name": "Giganta",
       "powerstats": {
@@ -12055,7 +11771,6 @@
       }
     },
     {
-      "response": "success",
       "id": "285",
       "name": "Gladiator",
       "powerstats": {
@@ -12096,7 +11811,6 @@
       }
     },
     {
-      "response": "success",
       "id": "286",
       "name": "Goblin Queen",
       "powerstats": {
@@ -12143,7 +11857,6 @@
       }
     },
     {
-      "response": "success",
       "id": "287",
       "name": "Godzilla",
       "powerstats": {
@@ -12191,7 +11904,6 @@
       }
     },
     {
-      "response": "success",
       "id": "288",
       "name": "Gog",
       "powerstats": {
@@ -12232,7 +11944,6 @@
       }
     },
     {
-      "response": "success",
       "id": "289",
       "name": "Goku",
       "powerstats": {
@@ -12281,7 +11992,6 @@
       }
     },
     {
-      "response": "success",
       "id": "290",
       "name": "Goliath",
       "powerstats": {
@@ -12322,7 +12032,6 @@
       }
     },
     {
-      "response": "success",
       "id": "291",
       "name": "Goliath",
       "powerstats": {
@@ -12363,7 +12072,6 @@
       }
     },
     {
-      "response": "success",
       "id": "292",
       "name": "Goliath",
       "powerstats": {
@@ -12404,7 +12112,6 @@
       }
     },
     {
-      "response": "success",
       "id": "293",
       "name": "Goliath IV",
       "powerstats": {
@@ -12445,7 +12152,6 @@
       }
     },
     {
-      "response": "success",
       "id": "294",
       "name": "Gorilla Grodd",
       "powerstats": {
@@ -12491,7 +12197,6 @@
       }
     },
     {
-      "response": "success",
       "id": "295",
       "name": "Granny Goodness",
       "powerstats": {
@@ -12532,7 +12237,6 @@
       }
     },
     {
-      "response": "success",
       "id": "296",
       "name": "Gravity",
       "powerstats": {
@@ -12573,7 +12277,6 @@
       }
     },
     {
-      "response": "success",
       "id": "297",
       "name": "Greedo",
       "powerstats": {
@@ -12614,7 +12317,6 @@
       }
     },
     {
-      "response": "success",
       "id": "298",
       "name": "Green Arrow",
       "powerstats": {
@@ -12655,7 +12357,6 @@
       }
     },
     {
-      "response": "success",
       "id": "299",
       "name": "Green Goblin",
       "powerstats": {
@@ -12707,7 +12408,6 @@
       }
     },
     {
-      "response": "success",
       "id": "300",
       "name": "Green Goblin II",
       "powerstats": {
@@ -12748,7 +12448,6 @@
       }
     },
     {
-      "response": "success",
       "id": "301",
       "name": "Green Goblin III",
       "powerstats": {
@@ -12789,7 +12488,6 @@
       }
     },
     {
-      "response": "success",
       "id": "302",
       "name": "Green Goblin IV",
       "powerstats": {
@@ -12830,7 +12528,6 @@
       }
     },
     {
-      "response": "success",
       "id": "303",
       "name": "Groot",
       "powerstats": {
@@ -12877,7 +12574,6 @@
       }
     },
     {
-      "response": "success",
       "id": "304",
       "name": "Guardian",
       "powerstats": {
@@ -12918,7 +12614,6 @@
       }
     },
     {
-      "response": "success",
       "id": "305",
       "name": "Guy Gardner",
       "powerstats": {
@@ -12959,7 +12654,6 @@
       }
     },
     {
-      "response": "success",
       "id": "306",
       "name": "Hal Jordan",
       "powerstats": {
@@ -13000,7 +12694,6 @@
       }
     },
     {
-      "response": "success",
       "id": "307",
       "name": "Han Solo",
       "powerstats": {
@@ -13041,7 +12734,6 @@
       }
     },
     {
-      "response": "success",
       "id": "308",
       "name": "Hancock",
       "powerstats": {
@@ -13082,7 +12774,6 @@
       }
     },
     {
-      "response": "success",
       "id": "309",
       "name": "Harley Quinn",
       "powerstats": {
@@ -13130,7 +12821,6 @@
       }
     },
     {
-      "response": "success",
       "id": "310",
       "name": "Harry Potter",
       "powerstats": {
@@ -13177,7 +12867,6 @@
       }
     },
     {
-      "response": "success",
       "id": "311",
       "name": "Havok",
       "powerstats": {
@@ -13218,7 +12907,6 @@
       }
     },
     {
-      "response": "success",
       "id": "312",
       "name": "Hawk",
       "powerstats": {
@@ -13259,7 +12947,6 @@
       }
     },
     {
-      "response": "success",
       "id": "313",
       "name": "Hawkeye",
       "powerstats": {
@@ -13307,7 +12994,6 @@
       }
     },
     {
-      "response": "success",
       "id": "314",
       "name": "Hawkeye II",
       "powerstats": {
@@ -13348,7 +13034,6 @@
       }
     },
     {
-      "response": "success",
       "id": "315",
       "name": "Hawkgirl",
       "powerstats": {
@@ -13392,7 +13077,6 @@
       }
     },
     {
-      "response": "success",
       "id": "316",
       "name": "Hawkman",
       "powerstats": {
@@ -13433,7 +13117,6 @@
       }
     },
     {
-      "response": "success",
       "id": "317",
       "name": "Hawkwoman",
       "powerstats": {
@@ -13474,7 +13157,6 @@
       }
     },
     {
-      "response": "success",
       "id": "318",
       "name": "Hawkwoman II",
       "powerstats": {
@@ -13515,7 +13197,6 @@
       }
     },
     {
-      "response": "success",
       "id": "319",
       "name": "Hawkwoman III",
       "powerstats": {
@@ -13556,7 +13237,6 @@
       }
     },
     {
-      "response": "success",
       "id": "320",
       "name": "Heat Wave",
       "powerstats": {
@@ -13597,7 +13277,6 @@
       }
     },
     {
-      "response": "success",
       "id": "321",
       "name": "Hela",
       "powerstats": {
@@ -13638,7 +13317,6 @@
       }
     },
     {
-      "response": "success",
       "id": "322",
       "name": "Hellboy",
       "powerstats": {
@@ -13679,7 +13357,6 @@
       }
     },
     {
-      "response": "success",
       "id": "323",
       "name": "Hellcat",
       "powerstats": {
@@ -13720,7 +13397,6 @@
       }
     },
     {
-      "response": "success",
       "id": "324",
       "name": "Hellstorm",
       "powerstats": {
@@ -13769,7 +13445,6 @@
       }
     },
     {
-      "response": "success",
       "id": "325",
       "name": "Hercules",
       "powerstats": {
@@ -13822,7 +13497,6 @@
       }
     },
     {
-      "response": "success",
       "id": "326",
       "name": "Hiro Nakamura",
       "powerstats": {
@@ -13863,7 +13537,6 @@
       }
     },
     {
-      "response": "success",
       "id": "327",
       "name": "Hit-Girl",
       "powerstats": {
@@ -13904,7 +13577,6 @@
       }
     },
     {
-      "response": "success",
       "id": "328",
       "name": "Hobgoblin",
       "powerstats": {
@@ -13945,7 +13617,6 @@
       }
     },
     {
-      "response": "success",
       "id": "329",
       "name": "Hollow",
       "powerstats": {
@@ -13986,7 +13657,6 @@
       }
     },
     {
-      "response": "success",
       "id": "330",
       "name": "Hope Summers",
       "powerstats": {
@@ -14034,7 +13704,6 @@
       }
     },
     {
-      "response": "success",
       "id": "331",
       "name": "Howard the Duck",
       "powerstats": {
@@ -14083,7 +13752,6 @@
       }
     },
     {
-      "response": "success",
       "id": "332",
       "name": "Hulk",
       "powerstats": {
@@ -14133,7 +13801,6 @@
       }
     },
     {
-      "response": "success",
       "id": "333",
       "name": "Human Torch",
       "powerstats": {
@@ -14174,7 +13841,6 @@
       }
     },
     {
-      "response": "success",
       "id": "334",
       "name": "Huntress",
       "powerstats": {
@@ -14215,7 +13881,6 @@
       }
     },
     {
-      "response": "success",
       "id": "335",
       "name": "Husk",
       "powerstats": {
@@ -14256,7 +13921,6 @@
       }
     },
     {
-      "response": "success",
       "id": "336",
       "name": "Hybrid",
       "powerstats": {
@@ -14303,7 +13967,6 @@
       }
     },
     {
-      "response": "success",
       "id": "337",
       "name": "Hydro-Man",
       "powerstats": {
@@ -14344,7 +14007,6 @@
       }
     },
     {
-      "response": "success",
       "id": "338",
       "name": "Hyperion",
       "powerstats": {
@@ -14385,7 +14047,6 @@
       }
     },
     {
-      "response": "success",
       "id": "339",
       "name": "Iceman",
       "powerstats": {
@@ -14433,7 +14094,6 @@
       }
     },
     {
-      "response": "success",
       "id": "340",
       "name": "Impulse",
       "powerstats": {
@@ -14474,7 +14134,6 @@
       }
     },
     {
-      "response": "success",
       "id": "341",
       "name": "Indiana Jones",
       "powerstats": {
@@ -14515,7 +14174,6 @@
       }
     },
     {
-      "response": "success",
       "id": "342",
       "name": "Indigo",
       "powerstats": {
@@ -14556,7 +14214,6 @@
       }
     },
     {
-      "response": "success",
       "id": "343",
       "name": "Ink",
       "powerstats": {
@@ -14597,7 +14254,6 @@
       }
     },
     {
-      "response": "success",
       "id": "344",
       "name": "Invisible Woman",
       "powerstats": {
@@ -14638,7 +14294,6 @@
       }
     },
     {
-      "response": "success",
       "id": "345",
       "name": "Iron Fist",
       "powerstats": {
@@ -14685,7 +14340,6 @@
       }
     },
     {
-      "response": "success",
       "id": "346",
       "name": "Iron Man",
       "powerstats": {
@@ -14733,7 +14387,6 @@
       }
     },
     {
-      "response": "success",
       "id": "347",
       "name": "Iron Monger",
       "powerstats": {
@@ -14774,7 +14427,6 @@
       }
     },
     {
-      "response": "success",
       "id": "348",
       "name": "Isis",
       "powerstats": {
@@ -14815,7 +14467,6 @@
       }
     },
     {
-      "response": "success",
       "id": "349",
       "name": "Jack Bauer",
       "powerstats": {
@@ -14856,7 +14507,6 @@
       }
     },
     {
-      "response": "success",
       "id": "350",
       "name": "Jack of Hearts",
       "powerstats": {
@@ -14897,7 +14547,6 @@
       }
     },
     {
-      "response": "success",
       "id": "351",
       "name": "Jack-Jack",
       "powerstats": {
@@ -14938,7 +14587,6 @@
       }
     },
     {
-      "response": "success",
       "id": "352",
       "name": "James Bond",
       "powerstats": {
@@ -14979,7 +14627,6 @@
       }
     },
     {
-      "response": "success",
       "id": "353",
       "name": "James T. Kirk",
       "powerstats": {
@@ -15020,7 +14667,6 @@
       }
     },
     {
-      "response": "success",
       "id": "354",
       "name": "Jar Jar Binks",
       "powerstats": {
@@ -15061,7 +14707,6 @@
       }
     },
     {
-      "response": "success",
       "id": "355",
       "name": "Jason Bourne",
       "powerstats": {
@@ -15102,7 +14747,6 @@
       }
     },
     {
-      "response": "success",
       "id": "356",
       "name": "Jean Grey",
       "powerstats": {
@@ -15143,7 +14787,6 @@
       }
     },
     {
-      "response": "success",
       "id": "357",
       "name": "Jean-Luc Picard",
       "powerstats": {
@@ -15184,7 +14827,6 @@
       }
     },
     {
-      "response": "success",
       "id": "358",
       "name": "Jennifer Kale",
       "powerstats": {
@@ -15225,7 +14867,6 @@
       }
     },
     {
-      "response": "success",
       "id": "359",
       "name": "Jesse Quick",
       "powerstats": {
@@ -15266,7 +14907,6 @@
       }
     },
     {
-      "response": "success",
       "id": "360",
       "name": "Jessica Cruz",
       "powerstats": {
@@ -15307,7 +14947,6 @@
       }
     },
     {
-      "response": "success",
       "id": "361",
       "name": "Jessica Jones",
       "powerstats": {
@@ -15348,7 +14987,6 @@
       }
     },
     {
-      "response": "success",
       "id": "362",
       "name": "Jessica Sanders",
       "powerstats": {
@@ -15389,7 +15027,6 @@
       }
     },
     {
-      "response": "success",
       "id": "363",
       "name": "Jigsaw",
       "powerstats": {
@@ -15430,7 +15067,6 @@
       }
     },
     {
-      "response": "success",
       "id": "364",
       "name": "Jim Powell",
       "powerstats": {
@@ -15471,7 +15107,6 @@
       }
     },
     {
-      "response": "success",
       "id": "365",
       "name": "JJ Powell",
       "powerstats": {
@@ -15512,7 +15147,6 @@
       }
     },
     {
-      "response": "success",
       "id": "366",
       "name": "Johann Krauss",
       "powerstats": {
@@ -15553,7 +15187,6 @@
       }
     },
     {
-      "response": "success",
       "id": "367",
       "name": "John Constantine",
       "powerstats": {
@@ -15594,7 +15227,6 @@
       }
     },
     {
-      "response": "success",
       "id": "368",
       "name": "John Stewart",
       "powerstats": {
@@ -15635,7 +15267,6 @@
       }
     },
     {
-      "response": "success",
       "id": "369",
       "name": "John Wraith",
       "powerstats": {
@@ -15682,7 +15313,6 @@
       }
     },
     {
-      "response": "success",
       "id": "370",
       "name": "Joker",
       "powerstats": {
@@ -15730,7 +15360,6 @@
       }
     },
     {
-      "response": "success",
       "id": "371",
       "name": "Jolt",
       "powerstats": {
@@ -15771,7 +15400,6 @@
       }
     },
     {
-      "response": "success",
       "id": "372",
       "name": "Jubilee",
       "powerstats": {
@@ -15812,7 +15440,6 @@
       }
     },
     {
-      "response": "success",
       "id": "373",
       "name": "Judge Dredd",
       "powerstats": {
@@ -15853,7 +15480,6 @@
       }
     },
     {
-      "response": "success",
       "id": "374",
       "name": "Juggernaut",
       "powerstats": {
@@ -15894,7 +15520,6 @@
       }
     },
     {
-      "response": "success",
       "id": "375",
       "name": "Junkpile",
       "powerstats": {
@@ -15935,7 +15560,6 @@
       }
     },
     {
-      "response": "success",
       "id": "376",
       "name": "Justice",
       "powerstats": {
@@ -15982,7 +15606,6 @@
       }
     },
     {
-      "response": "success",
       "id": "377",
       "name": "Jyn Erso",
       "powerstats": {
@@ -16023,7 +15646,6 @@
       }
     },
     {
-      "response": "success",
       "id": "378",
       "name": "K-2SO",
       "powerstats": {
@@ -16064,7 +15686,6 @@
       }
     },
     {
-      "response": "success",
       "id": "379",
       "name": "Kang",
       "powerstats": {
@@ -16114,7 +15735,6 @@
       }
     },
     {
-      "response": "success",
       "id": "380",
       "name": "Kathryn Janeway",
       "powerstats": {
@@ -16155,7 +15775,6 @@
       }
     },
     {
-      "response": "success",
       "id": "381",
       "name": "Katniss Everdeen",
       "powerstats": {
@@ -16196,7 +15815,6 @@
       }
     },
     {
-      "response": "success",
       "id": "382",
       "name": "Kevin 11",
       "powerstats": {
@@ -16248,7 +15866,6 @@
       }
     },
     {
-      "response": "success",
       "id": "383",
       "name": "Kick-Ass",
       "powerstats": {
@@ -16289,7 +15906,6 @@
       }
     },
     {
-      "response": "success",
       "id": "384",
       "name": "Kid Flash",
       "powerstats": {
@@ -16330,7 +15946,6 @@
       }
     },
     {
-      "response": "success",
       "id": "385",
       "name": "Kid Flash II",
       "powerstats": {
@@ -16371,7 +15986,6 @@
       }
     },
     {
-      "response": "success",
       "id": "386",
       "name": "Killer Croc",
       "powerstats": {
@@ -16412,7 +16026,6 @@
       }
     },
     {
-      "response": "success",
       "id": "387",
       "name": "Killer Frost",
       "powerstats": {
@@ -16453,7 +16066,6 @@
       }
     },
     {
-      "response": "success",
       "id": "388",
       "name": "Kilowog",
       "powerstats": {
@@ -16501,7 +16113,6 @@
       }
     },
     {
-      "response": "success",
       "id": "389",
       "name": "King Kong",
       "powerstats": {
@@ -16542,7 +16153,6 @@
       }
     },
     {
-      "response": "success",
       "id": "390",
       "name": "King Shark",
       "powerstats": {
@@ -16583,7 +16193,6 @@
       }
     },
     {
-      "response": "success",
       "id": "391",
       "name": "Kingpin",
       "powerstats": {
@@ -16624,7 +16233,6 @@
       }
     },
     {
-      "response": "success",
       "id": "392",
       "name": "Klaw",
       "powerstats": {
@@ -16665,7 +16273,6 @@
       }
     },
     {
-      "response": "success",
       "id": "393",
       "name": "Kool-Aid Man",
       "powerstats": {
@@ -16706,7 +16313,6 @@
       }
     },
     {
-      "response": "success",
       "id": "394",
       "name": "Kraven II",
       "powerstats": {
@@ -16747,7 +16353,6 @@
       }
     },
     {
-      "response": "success",
       "id": "395",
       "name": "Kraven the Hunter",
       "powerstats": {
@@ -16792,7 +16397,6 @@
       }
     },
     {
-      "response": "success",
       "id": "396",
       "name": "Krypto",
       "powerstats": {
@@ -16833,7 +16437,6 @@
       }
     },
     {
-      "response": "success",
       "id": "397",
       "name": "Kyle Rayner",
       "powerstats": {
@@ -16881,7 +16484,6 @@
       }
     },
     {
-      "response": "success",
       "id": "398",
       "name": "Kylo Ren",
       "powerstats": {
@@ -16922,7 +16524,6 @@
       }
     },
     {
-      "response": "success",
       "id": "399",
       "name": "Lady Bullseye",
       "powerstats": {
@@ -16963,7 +16564,6 @@
       }
     },
     {
-      "response": "success",
       "id": "400",
       "name": "Lady Deathstrike",
       "powerstats": {
@@ -17004,7 +16604,6 @@
       }
     },
     {
-      "response": "success",
       "id": "401",
       "name": "Leader",
       "powerstats": {
@@ -17045,7 +16644,6 @@
       }
     },
     {
-      "response": "success",
       "id": "402",
       "name": "Leech",
       "powerstats": {
@@ -17086,7 +16684,6 @@
       }
     },
     {
-      "response": "success",
       "id": "403",
       "name": "Legion",
       "powerstats": {
@@ -17141,7 +16738,6 @@
       }
     },
     {
-      "response": "success",
       "id": "404",
       "name": "Leonardo",
       "powerstats": {
@@ -17182,7 +16778,6 @@
       }
     },
     {
-      "response": "success",
       "id": "405",
       "name": "Lex Luthor",
       "powerstats": {
@@ -17223,7 +16818,6 @@
       }
     },
     {
-      "response": "success",
       "id": "406",
       "name": "Light Lass",
       "powerstats": {
@@ -17264,7 +16858,6 @@
       }
     },
     {
-      "response": "success",
       "id": "407",
       "name": "Lightning Lad",
       "powerstats": {
@@ -17305,7 +16898,6 @@
       }
     },
     {
-      "response": "success",
       "id": "408",
       "name": "Lightning Lord",
       "powerstats": {
@@ -17346,7 +16938,6 @@
       }
     },
     {
-      "response": "success",
       "id": "409",
       "name": "Living Brain",
       "powerstats": {
@@ -17387,7 +16978,6 @@
       }
     },
     {
-      "response": "success",
       "id": "410",
       "name": "Living Tribunal",
       "powerstats": {
@@ -17433,7 +17023,6 @@
       }
     },
     {
-      "response": "success",
       "id": "411",
       "name": "Liz Sherman",
       "powerstats": {
@@ -17474,7 +17063,6 @@
       }
     },
     {
-      "response": "success",
       "id": "412",
       "name": "Lizard",
       "powerstats": {
@@ -17515,7 +17103,6 @@
       }
     },
     {
-      "response": "success",
       "id": "413",
       "name": "Lobo",
       "powerstats": {
@@ -17562,7 +17149,6 @@
       }
     },
     {
-      "response": "success",
       "id": "414",
       "name": "Loki",
       "powerstats": {
@@ -17613,7 +17199,6 @@
       }
     },
     {
-      "response": "success",
       "id": "415",
       "name": "Longshot",
       "powerstats": {
@@ -17654,7 +17239,6 @@
       }
     },
     {
-      "response": "success",
       "id": "416",
       "name": "Luke Cage",
       "powerstats": {
@@ -17701,7 +17285,6 @@
       }
     },
     {
-      "response": "success",
       "id": "417",
       "name": "Luke Campbell",
       "powerstats": {
@@ -17742,7 +17325,6 @@
       }
     },
     {
-      "response": "success",
       "id": "418",
       "name": "Luke Skywalker",
       "powerstats": {
@@ -17783,7 +17365,6 @@
       }
     },
     {
-      "response": "success",
       "id": "419",
       "name": "Luna",
       "powerstats": {
@@ -17824,7 +17405,6 @@
       }
     },
     {
-      "response": "success",
       "id": "420",
       "name": "Lyja",
       "powerstats": {
@@ -17865,7 +17445,6 @@
       }
     },
     {
-      "response": "success",
       "id": "421",
       "name": "Mach-IV",
       "powerstats": {
@@ -17906,7 +17485,6 @@
       }
     },
     {
-      "response": "success",
       "id": "422",
       "name": "Machine Man",
       "powerstats": {
@@ -17947,7 +17525,6 @@
       }
     },
     {
-      "response": "success",
       "id": "423",
       "name": "Magneto",
       "powerstats": {
@@ -17994,7 +17571,6 @@
       }
     },
     {
-      "response": "success",
       "id": "424",
       "name": "Magog",
       "powerstats": {
@@ -18035,7 +17611,6 @@
       }
     },
     {
-      "response": "success",
       "id": "425",
       "name": "Magus",
       "powerstats": {
@@ -18076,7 +17651,6 @@
       }
     },
     {
-      "response": "success",
       "id": "426",
       "name": "Man of Miracles",
       "powerstats": {
@@ -18117,7 +17691,6 @@
       }
     },
     {
-      "response": "success",
       "id": "427",
       "name": "Man-Bat",
       "powerstats": {
@@ -18158,7 +17731,6 @@
       }
     },
     {
-      "response": "success",
       "id": "428",
       "name": "Man-Thing",
       "powerstats": {
@@ -18201,7 +17773,6 @@
       }
     },
     {
-      "response": "success",
       "id": "429",
       "name": "Man-Wolf",
       "powerstats": {
@@ -18242,7 +17813,6 @@
       }
     },
     {
-      "response": "success",
       "id": "430",
       "name": "Mandarin",
       "powerstats": {
@@ -18289,7 +17859,6 @@
       }
     },
     {
-      "response": "success",
       "id": "431",
       "name": "Mantis",
       "powerstats": {
@@ -18336,7 +17905,6 @@
       }
     },
     {
-      "response": "success",
       "id": "432",
       "name": "Martian Manhunter",
       "powerstats": {
@@ -18381,7 +17949,6 @@
       }
     },
     {
-      "response": "success",
       "id": "433",
       "name": "Marvel Girl",
       "powerstats": {
@@ -18428,7 +17995,6 @@
       }
     },
     {
-      "response": "success",
       "id": "434",
       "name": "Master Brood",
       "powerstats": {
@@ -18469,7 +18035,6 @@
       }
     },
     {
-      "response": "success",
       "id": "435",
       "name": "Master Chief",
       "powerstats": {
@@ -18510,7 +18075,6 @@
       }
     },
     {
-      "response": "success",
       "id": "436",
       "name": "Match",
       "powerstats": {
@@ -18551,7 +18115,6 @@
       }
     },
     {
-      "response": "success",
       "id": "437",
       "name": "Matt Parkman",
       "powerstats": {
@@ -18592,7 +18155,6 @@
       }
     },
     {
-      "response": "success",
       "id": "438",
       "name": "Maverick",
       "powerstats": {
@@ -18633,7 +18195,6 @@
       }
     },
     {
-      "response": "success",
       "id": "439",
       "name": "Maxima",
       "powerstats": {
@@ -18674,7 +18235,6 @@
       }
     },
     {
-      "response": "success",
       "id": "440",
       "name": "Maya Herrera",
       "powerstats": {
@@ -18715,7 +18275,6 @@
       }
     },
     {
-      "response": "success",
       "id": "441",
       "name": "Medusa",
       "powerstats": {
@@ -18756,7 +18315,6 @@
       }
     },
     {
-      "response": "success",
       "id": "442",
       "name": "Meltdown",
       "powerstats": {
@@ -18804,7 +18362,6 @@
       }
     },
     {
-      "response": "success",
       "id": "443",
       "name": "Mephisto",
       "powerstats": {
@@ -18861,7 +18418,6 @@
       }
     },
     {
-      "response": "success",
       "id": "444",
       "name": "Mera",
       "powerstats": {
@@ -18907,7 +18463,6 @@
       }
     },
     {
-      "response": "success",
       "id": "445",
       "name": "Metallo",
       "powerstats": {
@@ -18948,7 +18503,6 @@
       }
     },
     {
-      "response": "success",
       "id": "446",
       "name": "Metamorpho",
       "powerstats": {
@@ -18989,7 +18543,6 @@
       }
     },
     {
-      "response": "success",
       "id": "447",
       "name": "Meteorite",
       "powerstats": {
@@ -19030,7 +18583,6 @@
       }
     },
     {
-      "response": "success",
       "id": "448",
       "name": "Metron",
       "powerstats": {
@@ -19071,7 +18623,6 @@
       }
     },
     {
-      "response": "success",
       "id": "449",
       "name": "Micah Sanders",
       "powerstats": {
@@ -19112,7 +18663,6 @@
       }
     },
     {
-      "response": "success",
       "id": "450",
       "name": "Michelangelo",
       "powerstats": {
@@ -19153,7 +18703,6 @@
       }
     },
     {
-      "response": "success",
       "id": "451",
       "name": "Micro Lad",
       "powerstats": {
@@ -19197,7 +18746,6 @@
       }
     },
     {
-      "response": "success",
       "id": "452",
       "name": "Mimic",
       "powerstats": {
@@ -19238,7 +18786,6 @@
       }
     },
     {
-      "response": "success",
       "id": "453",
       "name": "Minna Murray",
       "powerstats": {
@@ -19279,7 +18826,6 @@
       }
     },
     {
-      "response": "success",
       "id": "454",
       "name": "Misfit",
       "powerstats": {
@@ -19320,7 +18866,6 @@
       }
     },
     {
-      "response": "success",
       "id": "455",
       "name": "Miss Martian",
       "powerstats": {
@@ -19364,7 +18909,6 @@
       }
     },
     {
-      "response": "success",
       "id": "456",
       "name": "Mister Fantastic",
       "powerstats": {
@@ -19405,7 +18949,6 @@
       }
     },
     {
-      "response": "success",
       "id": "457",
       "name": "Mister Freeze",
       "powerstats": {
@@ -19446,7 +18989,6 @@
       }
     },
     {
-      "response": "success",
       "id": "458",
       "name": "Mister Knife",
       "powerstats": {
@@ -19492,7 +19034,6 @@
       }
     },
     {
-      "response": "success",
       "id": "459",
       "name": "Mister Mxyzptlk",
       "powerstats": {
@@ -19533,7 +19074,6 @@
       }
     },
     {
-      "response": "success",
       "id": "460",
       "name": "Mister Sinister",
       "powerstats": {
@@ -19587,7 +19127,6 @@
       }
     },
     {
-      "response": "success",
       "id": "461",
       "name": "Mister Zsasz",
       "powerstats": {
@@ -19628,7 +19167,6 @@
       }
     },
     {
-      "response": "success",
       "id": "462",
       "name": "Mockingbird",
       "powerstats": {
@@ -19675,7 +19213,6 @@
       }
     },
     {
-      "response": "success",
       "id": "463",
       "name": "MODOK",
       "powerstats": {
@@ -19716,7 +19253,6 @@
       }
     },
     {
-      "response": "success",
       "id": "464",
       "name": "Mogo",
       "powerstats": {
@@ -19757,7 +19293,6 @@
       }
     },
     {
-      "response": "success",
       "id": "465",
       "name": "Mohinder Suresh",
       "powerstats": {
@@ -19798,7 +19333,6 @@
       }
     },
     {
-      "response": "success",
       "id": "466",
       "name": "Moloch",
       "powerstats": {
@@ -19839,7 +19373,6 @@
       }
     },
     {
-      "response": "success",
       "id": "467",
       "name": "Molten Man",
       "powerstats": {
@@ -19880,7 +19413,6 @@
       }
     },
     {
-      "response": "success",
       "id": "468",
       "name": "Monarch",
       "powerstats": {
@@ -19921,7 +19453,6 @@
       }
     },
     {
-      "response": "success",
       "id": "469",
       "name": "Monica Dawson",
       "powerstats": {
@@ -19962,7 +19493,6 @@
       }
     },
     {
-      "response": "success",
       "id": "470",
       "name": "Moon Knight",
       "powerstats": {
@@ -20010,7 +19540,6 @@
       }
     },
     {
-      "response": "success",
       "id": "471",
       "name": "Moonstone",
       "powerstats": {
@@ -20051,7 +19580,6 @@
       }
     },
     {
-      "response": "success",
       "id": "472",
       "name": "Morlun",
       "powerstats": {
@@ -20092,7 +19620,6 @@
       }
     },
     {
-      "response": "success",
       "id": "473",
       "name": "Morph",
       "powerstats": {
@@ -20133,7 +19660,6 @@
       }
     },
     {
-      "response": "success",
       "id": "474",
       "name": "Moses Magnum",
       "powerstats": {
@@ -20174,7 +19700,6 @@
       }
     },
     {
-      "response": "success",
       "id": "475",
       "name": "Mr Immortal",
       "powerstats": {
@@ -20215,7 +19740,6 @@
       }
     },
     {
-      "response": "success",
       "id": "476",
       "name": "Mr Incredible",
       "powerstats": {
@@ -20256,7 +19780,6 @@
       }
     },
     {
-      "response": "success",
       "id": "477",
       "name": "Ms Marvel II",
       "powerstats": {
@@ -20297,7 +19820,6 @@
       }
     },
     {
-      "response": "success",
       "id": "478",
       "name": "Multiple Man",
       "powerstats": {
@@ -20338,7 +19860,6 @@
       }
     },
     {
-      "response": "success",
       "id": "479",
       "name": "Mysterio",
       "powerstats": {
@@ -20384,7 +19905,6 @@
       }
     },
     {
-      "response": "success",
       "id": "480",
       "name": "Mystique",
       "powerstats": {
@@ -20425,7 +19945,6 @@
       }
     },
     {
-      "response": "success",
       "id": "481",
       "name": "Namor",
       "powerstats": {
@@ -20479,7 +19998,6 @@
       }
     },
     {
-      "response": "success",
       "id": "482",
       "name": "Namor",
       "powerstats": {
@@ -20520,7 +20038,6 @@
       }
     },
     {
-      "response": "success",
       "id": "483",
       "name": "Namora",
       "powerstats": {
@@ -20561,7 +20078,6 @@
       }
     },
     {
-      "response": "success",
       "id": "484",
       "name": "Namorita",
       "powerstats": {
@@ -20602,7 +20118,6 @@
       }
     },
     {
-      "response": "success",
       "id": "485",
       "name": "Naruto Uzumaki",
       "powerstats": {
@@ -20643,7 +20158,6 @@
       }
     },
     {
-      "response": "success",
       "id": "486",
       "name": "Nathan Petrelli",
       "powerstats": {
@@ -20684,7 +20198,6 @@
       }
     },
     {
-      "response": "success",
       "id": "487",
       "name": "Nebula",
       "powerstats": {
@@ -20725,7 +20238,6 @@
       }
     },
     {
-      "response": "success",
       "id": "488",
       "name": "Negasonic Teenage Warhead",
       "powerstats": {
@@ -20766,7 +20278,6 @@
       }
     },
     {
-      "response": "success",
       "id": "489",
       "name": "Nick Fury",
       "powerstats": {
@@ -20807,7 +20318,6 @@
       }
     },
     {
-      "response": "success",
       "id": "490",
       "name": "Nightcrawler",
       "powerstats": {
@@ -20848,7 +20358,6 @@
       }
     },
     {
-      "response": "success",
       "id": "491",
       "name": "Nightwing",
       "powerstats": {
@@ -20900,7 +20409,6 @@
       }
     },
     {
-      "response": "success",
       "id": "492",
       "name": "Niki Sanders",
       "powerstats": {
@@ -20941,7 +20449,6 @@
       }
     },
     {
-      "response": "success",
       "id": "493",
       "name": "Nina Theroux",
       "powerstats": {
@@ -20982,7 +20489,6 @@
       }
     },
     {
-      "response": "success",
       "id": "494",
       "name": "Nite Owl II",
       "powerstats": {
@@ -21023,7 +20529,6 @@
       }
     },
     {
-      "response": "success",
       "id": "495",
       "name": "Northstar",
       "powerstats": {
@@ -21064,7 +20569,6 @@
       }
     },
     {
-      "response": "success",
       "id": "496",
       "name": "Nova",
       "powerstats": {
@@ -21113,7 +20617,6 @@
       }
     },
     {
-      "response": "success",
       "id": "497",
       "name": "Nova",
       "powerstats": {
@@ -21154,7 +20657,6 @@
       }
     },
     {
-      "response": "success",
       "id": "498",
       "name": "Odin",
       "powerstats": {
@@ -21204,7 +20706,6 @@
       }
     },
     {
-      "response": "success",
       "id": "499",
       "name": "Offspring",
       "powerstats": {
@@ -21245,7 +20746,6 @@
       }
     },
     {
-      "response": "success",
       "id": "500",
       "name": "Omega Red",
       "powerstats": {
@@ -21286,7 +20786,6 @@
       }
     },
     {
-      "response": "success",
       "id": "501",
       "name": "Omniscient",
       "powerstats": {
@@ -21327,7 +20826,6 @@
       }
     },
     {
-      "response": "success",
       "id": "502",
       "name": "One Punch Man",
       "powerstats": {
@@ -21368,7 +20866,6 @@
       }
     },
     {
-      "response": "success",
       "id": "503",
       "name": "One-Above-All",
       "powerstats": {
@@ -21409,7 +20906,6 @@
       }
     },
     {
-      "response": "success",
       "id": "504",
       "name": "Onslaught",
       "powerstats": {
@@ -21458,7 +20954,6 @@
       }
     },
     {
-      "response": "success",
       "id": "505",
       "name": "Oracle",
       "powerstats": {
@@ -21502,7 +20997,6 @@
       }
     },
     {
-      "response": "success",
       "id": "506",
       "name": "Osiris",
       "powerstats": {
@@ -21543,7 +21037,6 @@
       }
     },
     {
-      "response": "success",
       "id": "507",
       "name": "Overtkill",
       "powerstats": {
@@ -21584,7 +21077,6 @@
       }
     },
     {
-      "response": "success",
       "id": "508",
       "name": "Ozymandias",
       "powerstats": {
@@ -21625,7 +21117,6 @@
       }
     },
     {
-      "response": "success",
       "id": "509",
       "name": "Parademon",
       "powerstats": {
@@ -21666,7 +21157,6 @@
       }
     },
     {
-      "response": "success",
       "id": "510",
       "name": "Paul Blart",
       "powerstats": {
@@ -21707,7 +21197,6 @@
       }
     },
     {
-      "response": "success",
       "id": "511",
       "name": "Penance",
       "powerstats": {
@@ -21748,7 +21237,6 @@
       }
     },
     {
-      "response": "success",
       "id": "512",
       "name": "Penance I",
       "powerstats": {
@@ -21789,7 +21277,6 @@
       }
     },
     {
-      "response": "success",
       "id": "513",
       "name": "Penance II",
       "powerstats": {
@@ -21830,7 +21317,6 @@
       }
     },
     {
-      "response": "success",
       "id": "514",
       "name": "Penguin",
       "powerstats": {
@@ -21871,7 +21357,6 @@
       }
     },
     {
-      "response": "success",
       "id": "515",
       "name": "Phantom",
       "powerstats": {
@@ -21912,7 +21397,6 @@
       }
     },
     {
-      "response": "success",
       "id": "516",
       "name": "Phantom Girl",
       "powerstats": {
@@ -21953,7 +21437,6 @@
       }
     },
     {
-      "response": "success",
       "id": "517",
       "name": "Phoenix",
       "powerstats": {
@@ -21994,7 +21477,6 @@
       }
     },
     {
-      "response": "success",
       "id": "518",
       "name": "Plantman",
       "powerstats": {
@@ -22035,7 +21517,6 @@
       }
     },
     {
-      "response": "success",
       "id": "519",
       "name": "Plastic Lad",
       "powerstats": {
@@ -22076,7 +21557,6 @@
       }
     },
     {
-      "response": "success",
       "id": "520",
       "name": "Plastic Man",
       "powerstats": {
@@ -22117,7 +21597,6 @@
       }
     },
     {
-      "response": "success",
       "id": "521",
       "name": "Plastique",
       "powerstats": {
@@ -22158,7 +21637,6 @@
       }
     },
     {
-      "response": "success",
       "id": "522",
       "name": "Poison Ivy",
       "powerstats": {
@@ -22199,7 +21677,6 @@
       }
     },
     {
-      "response": "success",
       "id": "523",
       "name": "Polaris",
       "powerstats": {
@@ -22247,7 +21724,6 @@
       }
     },
     {
-      "response": "success",
       "id": "524",
       "name": "Power Girl",
       "powerstats": {
@@ -22288,7 +21764,6 @@
       }
     },
     {
-      "response": "success",
       "id": "525",
       "name": "Power Man",
       "powerstats": {
@@ -22329,7 +21804,6 @@
       }
     },
     {
-      "response": "success",
       "id": "526",
       "name": "Predator",
       "powerstats": {
@@ -22370,7 +21844,6 @@
       }
     },
     {
-      "response": "success",
       "id": "527",
       "name": "Professor X",
       "powerstats": {
@@ -22416,7 +21889,6 @@
       }
     },
     {
-      "response": "success",
       "id": "528",
       "name": "Professor Zoom",
       "powerstats": {
@@ -22462,7 +21934,6 @@
       }
     },
     {
-      "response": "success",
       "id": "529",
       "name": "Psylocke",
       "powerstats": {
@@ -22503,7 +21974,6 @@
       }
     },
     {
-      "response": "success",
       "id": "530",
       "name": "Punisher",
       "powerstats": {
@@ -22565,7 +22035,6 @@
       }
     },
     {
-      "response": "success",
       "id": "531",
       "name": "Purple Man",
       "powerstats": {
@@ -22606,7 +22075,6 @@
       }
     },
     {
-      "response": "success",
       "id": "532",
       "name": "Pyro",
       "powerstats": {
@@ -22647,7 +22115,6 @@
       }
     },
     {
-      "response": "success",
       "id": "533",
       "name": "Q",
       "powerstats": {
@@ -22688,7 +22155,6 @@
       }
     },
     {
-      "response": "success",
       "id": "534",
       "name": "Quantum",
       "powerstats": {
@@ -22729,7 +22195,6 @@
       }
     },
     {
-      "response": "success",
       "id": "535",
       "name": "Question",
       "powerstats": {
@@ -22770,7 +22235,6 @@
       }
     },
     {
-      "response": "success",
       "id": "536",
       "name": "Quicksilver",
       "powerstats": {
@@ -22811,7 +22275,6 @@
       }
     },
     {
-      "response": "success",
       "id": "537",
       "name": "Quill",
       "powerstats": {
@@ -22852,7 +22315,6 @@
       }
     },
     {
-      "response": "success",
       "id": "538",
       "name": "Ra's Al Ghul",
       "powerstats": {
@@ -22893,7 +22355,6 @@
       }
     },
     {
-      "response": "success",
       "id": "539",
       "name": "Rachel Pirzad",
       "powerstats": {
@@ -22934,7 +22395,6 @@
       }
     },
     {
-      "response": "success",
       "id": "540",
       "name": "Rambo",
       "powerstats": {
@@ -22975,7 +22435,6 @@
       }
     },
     {
-      "response": "success",
       "id": "541",
       "name": "Raphael",
       "powerstats": {
@@ -23016,7 +22475,6 @@
       }
     },
     {
-      "response": "success",
       "id": "542",
       "name": "Raven",
       "powerstats": {
@@ -23057,7 +22515,6 @@
       }
     },
     {
-      "response": "success",
       "id": "543",
       "name": "Ray",
       "powerstats": {
@@ -23098,7 +22555,6 @@
       }
     },
     {
-      "response": "success",
       "id": "544",
       "name": "Razor-Fist II",
       "powerstats": {
@@ -23139,7 +22595,6 @@
       }
     },
     {
-      "response": "success",
       "id": "545",
       "name": "Red Arrow",
       "powerstats": {
@@ -23180,7 +22635,6 @@
       }
     },
     {
-      "response": "success",
       "id": "546",
       "name": "Red Hood",
       "powerstats": {
@@ -23227,7 +22681,6 @@
       }
     },
     {
-      "response": "success",
       "id": "547",
       "name": "Red Hulk",
       "powerstats": {
@@ -23268,7 +22721,6 @@
       }
     },
     {
-      "response": "success",
       "id": "548",
       "name": "Red Mist",
       "powerstats": {
@@ -23309,7 +22761,6 @@
       }
     },
     {
-      "response": "success",
       "id": "549",
       "name": "Red Robin",
       "powerstats": {
@@ -23356,7 +22807,6 @@
       }
     },
     {
-      "response": "success",
       "id": "550",
       "name": "Red Skull",
       "powerstats": {
@@ -23407,7 +22857,6 @@
       }
     },
     {
-      "response": "success",
       "id": "551",
       "name": "Red Tornado",
       "powerstats": {
@@ -23454,7 +22903,6 @@
       }
     },
     {
-      "response": "success",
       "id": "552",
       "name": "Redeemer II",
       "powerstats": {
@@ -23495,7 +22943,6 @@
       }
     },
     {
-      "response": "success",
       "id": "553",
       "name": "Redeemer III",
       "powerstats": {
@@ -23536,7 +22983,6 @@
       }
     },
     {
-      "response": "success",
       "id": "554",
       "name": "Renata Soliz",
       "powerstats": {
@@ -23577,7 +23023,6 @@
       }
     },
     {
-      "response": "success",
       "id": "555",
       "name": "Rey",
       "powerstats": {
@@ -23618,7 +23063,6 @@
       }
     },
     {
-      "response": "success",
       "id": "556",
       "name": "Rhino",
       "powerstats": {
@@ -23659,7 +23103,6 @@
       }
     },
     {
-      "response": "success",
       "id": "557",
       "name": "Rick Flag",
       "powerstats": {
@@ -23700,7 +23143,6 @@
       }
     },
     {
-      "response": "success",
       "id": "558",
       "name": "Riddler",
       "powerstats": {
@@ -23741,7 +23183,6 @@
       }
     },
     {
-      "response": "success",
       "id": "559",
       "name": "Rip Hunter",
       "powerstats": {
@@ -23790,7 +23231,6 @@
       }
     },
     {
-      "response": "success",
       "id": "560",
       "name": "Ripcord",
       "powerstats": {
@@ -23831,7 +23271,6 @@
       }
     },
     {
-      "response": "success",
       "id": "561",
       "name": "Robin",
       "powerstats": {
@@ -23872,7 +23311,6 @@
       }
     },
     {
-      "response": "success",
       "id": "562",
       "name": "Robin II",
       "powerstats": {
@@ -23921,7 +23359,6 @@
       }
     },
     {
-      "response": "success",
       "id": "563",
       "name": "Robin III",
       "powerstats": {
@@ -23962,7 +23399,6 @@
       }
     },
     {
-      "response": "success",
       "id": "564",
       "name": "Robin V",
       "powerstats": {
@@ -24003,7 +23439,6 @@
       }
     },
     {
-      "response": "success",
       "id": "565",
       "name": "Robin VI",
       "powerstats": {
@@ -24044,7 +23479,6 @@
       }
     },
     {
-      "response": "success",
       "id": "566",
       "name": "Rocket Raccoon",
       "powerstats": {
@@ -24089,7 +23523,6 @@
       }
     },
     {
-      "response": "success",
       "id": "567",
       "name": "Rogue",
       "powerstats": {
@@ -24136,7 +23569,6 @@
       }
     },
     {
-      "response": "success",
       "id": "568",
       "name": "Ronin",
       "powerstats": {
@@ -24190,7 +23622,6 @@
       }
     },
     {
-      "response": "success",
       "id": "569",
       "name": "Rorschach",
       "powerstats": {
@@ -24231,7 +23662,6 @@
       }
     },
     {
-      "response": "success",
       "id": "570",
       "name": "Sabretooth",
       "powerstats": {
@@ -24272,7 +23702,6 @@
       }
     },
     {
-      "response": "success",
       "id": "571",
       "name": "Sage",
       "powerstats": {
@@ -24313,7 +23742,6 @@
       }
     },
     {
-      "response": "success",
       "id": "572",
       "name": "Sandman",
       "powerstats": {
@@ -24354,7 +23782,6 @@
       }
     },
     {
-      "response": "success",
       "id": "573",
       "name": "Sasquatch",
       "powerstats": {
@@ -24395,7 +23822,6 @@
       }
     },
     {
-      "response": "success",
       "id": "574",
       "name": "Sauron",
       "powerstats": {
@@ -24444,7 +23870,6 @@
       }
     },
     {
-      "response": "success",
       "id": "575",
       "name": "Savage Dragon",
       "powerstats": {
@@ -24485,7 +23910,6 @@
       }
     },
     {
-      "response": "success",
       "id": "576",
       "name": "Scarecrow",
       "powerstats": {
@@ -24526,7 +23950,6 @@
       }
     },
     {
-      "response": "success",
       "id": "577",
       "name": "Scarlet Spider",
       "powerstats": {
@@ -24567,7 +23990,6 @@
       }
     },
     {
-      "response": "success",
       "id": "578",
       "name": "Scarlet Spider II",
       "powerstats": {
@@ -24608,7 +24030,6 @@
       }
     },
     {
-      "response": "success",
       "id": "579",
       "name": "Scarlet Witch",
       "powerstats": {
@@ -24655,7 +24076,6 @@
       }
     },
     {
-      "response": "success",
       "id": "580",
       "name": "Scorpia",
       "powerstats": {
@@ -24696,7 +24116,6 @@
       }
     },
     {
-      "response": "success",
       "id": "581",
       "name": "Scorpion",
       "powerstats": {
@@ -24737,7 +24156,6 @@
       }
     },
     {
-      "response": "success",
       "id": "582",
       "name": "Sebastian Shaw",
       "powerstats": {
@@ -24778,7 +24196,6 @@
       }
     },
     {
-      "response": "success",
       "id": "583",
       "name": "Sentry",
       "powerstats": {
@@ -24825,7 +24242,6 @@
       }
     },
     {
-      "response": "success",
       "id": "584",
       "name": "Shadow King",
       "powerstats": {
@@ -24876,7 +24292,6 @@
       }
     },
     {
-      "response": "success",
       "id": "585",
       "name": "Shadow Lass",
       "powerstats": {
@@ -24917,7 +24332,6 @@
       }
     },
     {
-      "response": "success",
       "id": "586",
       "name": "Shadowcat",
       "powerstats": {
@@ -24958,7 +24372,6 @@
       }
     },
     {
-      "response": "success",
       "id": "587",
       "name": "Shang-Chi",
       "powerstats": {
@@ -25001,7 +24414,6 @@
       }
     },
     {
-      "response": "success",
       "id": "588",
       "name": "Shatterstar",
       "powerstats": {
@@ -25042,7 +24454,6 @@
       }
     },
     {
-      "response": "success",
       "id": "589",
       "name": "She-Hulk",
       "powerstats": {
@@ -25083,7 +24494,6 @@
       }
     },
     {
-      "response": "success",
       "id": "590",
       "name": "She-Thing",
       "powerstats": {
@@ -25124,7 +24534,6 @@
       }
     },
     {
-      "response": "success",
       "id": "591",
       "name": "Shocker",
       "powerstats": {
@@ -25165,7 +24574,6 @@
       }
     },
     {
-      "response": "success",
       "id": "592",
       "name": "Shriek",
       "powerstats": {
@@ -25206,7 +24614,6 @@
       }
     },
     {
-      "response": "success",
       "id": "593",
       "name": "Shrinking Violet",
       "powerstats": {
@@ -25247,7 +24654,6 @@
       }
     },
     {
-      "response": "success",
       "id": "594",
       "name": "Sif",
       "powerstats": {
@@ -25288,7 +24694,6 @@
       }
     },
     {
-      "response": "success",
       "id": "595",
       "name": "Silk",
       "powerstats": {
@@ -25329,7 +24734,6 @@
       }
     },
     {
-      "response": "success",
       "id": "596",
       "name": "Silk Spectre",
       "powerstats": {
@@ -25370,7 +24774,6 @@
       }
     },
     {
-      "response": "success",
       "id": "597",
       "name": "Silk Spectre II",
       "powerstats": {
@@ -25411,7 +24814,6 @@
       }
     },
     {
-      "response": "success",
       "id": "598",
       "name": "Silver Surfer",
       "powerstats": {
@@ -25452,7 +24854,6 @@
       }
     },
     {
-      "response": "success",
       "id": "599",
       "name": "Silverclaw",
       "powerstats": {
@@ -25493,7 +24894,6 @@
       }
     },
     {
-      "response": "success",
       "id": "600",
       "name": "Simon Baz",
       "powerstats": {
@@ -25534,7 +24934,6 @@
       }
     },
     {
-      "response": "success",
       "id": "601",
       "name": "Sinestro",
       "powerstats": {
@@ -25581,7 +24980,6 @@
       }
     },
     {
-      "response": "success",
       "id": "602",
       "name": "Siren",
       "powerstats": {
@@ -25622,7 +25020,6 @@
       }
     },
     {
-      "response": "success",
       "id": "603",
       "name": "Siren II",
       "powerstats": {
@@ -25663,7 +25060,6 @@
       }
     },
     {
-      "response": "success",
       "id": "604",
       "name": "Siryn",
       "powerstats": {
@@ -25704,7 +25100,6 @@
       }
     },
     {
-      "response": "success",
       "id": "605",
       "name": "Skaar",
       "powerstats": {
@@ -25752,7 +25147,6 @@
       }
     },
     {
-      "response": "success",
       "id": "606",
       "name": "Snake-Eyes",
       "powerstats": {
@@ -25793,7 +25187,6 @@
       }
     },
     {
-      "response": "success",
       "id": "607",
       "name": "Snowbird",
       "powerstats": {
@@ -25834,7 +25227,6 @@
       }
     },
     {
-      "response": "success",
       "id": "608",
       "name": "Sobek",
       "powerstats": {
@@ -25877,7 +25269,6 @@
       }
     },
     {
-      "response": "success",
       "id": "609",
       "name": "Solomon Grundy",
       "powerstats": {
@@ -25918,7 +25309,6 @@
       }
     },
     {
-      "response": "success",
       "id": "610",
       "name": "Songbird",
       "powerstats": {
@@ -25959,7 +25349,6 @@
       }
     },
     {
-      "response": "success",
       "id": "611",
       "name": "Space Ghost",
       "powerstats": {
@@ -26000,7 +25389,6 @@
       }
     },
     {
-      "response": "success",
       "id": "612",
       "name": "Spawn",
       "powerstats": {
@@ -26041,7 +25429,6 @@
       }
     },
     {
-      "response": "success",
       "id": "613",
       "name": "Spectre",
       "powerstats": {
@@ -26090,7 +25477,6 @@
       }
     },
     {
-      "response": "success",
       "id": "614",
       "name": "Speedball",
       "powerstats": {
@@ -26131,7 +25517,6 @@
       }
     },
     {
-      "response": "success",
       "id": "615",
       "name": "Speedy",
       "powerstats": {
@@ -26172,7 +25557,6 @@
       }
     },
     {
-      "response": "success",
       "id": "616",
       "name": "Speedy",
       "powerstats": {
@@ -26213,7 +25597,6 @@
       }
     },
     {
-      "response": "success",
       "id": "617",
       "name": "Spider-Carnage",
       "powerstats": {
@@ -26254,7 +25637,6 @@
       }
     },
     {
-      "response": "success",
       "id": "618",
       "name": "Spider-Girl",
       "powerstats": {
@@ -26295,7 +25677,6 @@
       }
     },
     {
-      "response": "success",
       "id": "619",
       "name": "Spider-Gwen",
       "powerstats": {
@@ -26336,7 +25717,6 @@
       }
     },
     {
-      "response": "success",
       "id": "620",
       "name": "Spider-Man",
       "powerstats": {
@@ -26393,7 +25773,6 @@
       }
     },
     {
-      "response": "success",
       "id": "621",
       "name": "Spider-Man",
       "powerstats": {
@@ -26434,7 +25813,6 @@
       }
     },
     {
-      "response": "success",
       "id": "622",
       "name": "Spider-Man",
       "powerstats": {
@@ -26475,7 +25853,6 @@
       }
     },
     {
-      "response": "success",
       "id": "623",
       "name": "Spider-Woman",
       "powerstats": {
@@ -26521,7 +25898,6 @@
       }
     },
     {
-      "response": "success",
       "id": "624",
       "name": "Spider-Woman II",
       "powerstats": {
@@ -26562,7 +25938,6 @@
       }
     },
     {
-      "response": "success",
       "id": "625",
       "name": "Spider-Woman III",
       "powerstats": {
@@ -26603,7 +25978,6 @@
       }
     },
     {
-      "response": "success",
       "id": "626",
       "name": "Spider-Woman IV",
       "powerstats": {
@@ -26644,7 +26018,6 @@
       }
     },
     {
-      "response": "success",
       "id": "627",
       "name": "Spock",
       "powerstats": {
@@ -26685,7 +26058,6 @@
       }
     },
     {
-      "response": "success",
       "id": "628",
       "name": "Spyke",
       "powerstats": {
@@ -26726,7 +26098,6 @@
       }
     },
     {
-      "response": "success",
       "id": "629",
       "name": "Stacy X",
       "powerstats": {
@@ -26767,7 +26138,6 @@
       }
     },
     {
-      "response": "success",
       "id": "630",
       "name": "Star-Lord",
       "powerstats": {
@@ -26808,7 +26178,6 @@
       }
     },
     {
-      "response": "success",
       "id": "631",
       "name": "Stardust",
       "powerstats": {
@@ -26849,7 +26218,6 @@
       }
     },
     {
-      "response": "success",
       "id": "632",
       "name": "Starfire",
       "powerstats": {
@@ -26890,7 +26258,6 @@
       }
     },
     {
-      "response": "success",
       "id": "633",
       "name": "Stargirl",
       "powerstats": {
@@ -26931,7 +26298,6 @@
       }
     },
     {
-      "response": "success",
       "id": "634",
       "name": "Static",
       "powerstats": {
@@ -26972,7 +26338,6 @@
       }
     },
     {
-      "response": "success",
       "id": "635",
       "name": "Steel",
       "powerstats": {
@@ -27013,7 +26378,6 @@
       }
     },
     {
-      "response": "success",
       "id": "636",
       "name": "Stephanie Powell",
       "powerstats": {
@@ -27054,7 +26418,6 @@
       }
     },
     {
-      "response": "success",
       "id": "637",
       "name": "Steppenwolf",
       "powerstats": {
@@ -27095,7 +26458,6 @@
       }
     },
     {
-      "response": "success",
       "id": "638",
       "name": "Storm",
       "powerstats": {
@@ -27150,7 +26512,6 @@
       }
     },
     {
-      "response": "success",
       "id": "639",
       "name": "Stormtrooper",
       "powerstats": {
@@ -27191,7 +26552,6 @@
       }
     },
     {
-      "response": "success",
       "id": "640",
       "name": "Sunspot",
       "powerstats": {
@@ -27237,7 +26597,6 @@
       }
     },
     {
-      "response": "success",
       "id": "641",
       "name": "Superboy",
       "powerstats": {
@@ -27281,7 +26640,6 @@
       }
     },
     {
-      "response": "success",
       "id": "642",
       "name": "Superboy-Prime",
       "powerstats": {
@@ -27324,7 +26682,6 @@
       }
     },
     {
-      "response": "success",
       "id": "643",
       "name": "Supergirl",
       "powerstats": {
@@ -27378,7 +26735,6 @@
       }
     },
     {
-      "response": "success",
       "id": "644",
       "name": "Superman",
       "powerstats": {
@@ -27427,7 +26783,6 @@
       }
     },
     {
-      "response": "success",
       "id": "645",
       "name": "Swamp Thing",
       "powerstats": {
@@ -27474,7 +26829,6 @@
       }
     },
     {
-      "response": "success",
       "id": "646",
       "name": "Swarm",
       "powerstats": {
@@ -27515,7 +26869,6 @@
       }
     },
     {
-      "response": "success",
       "id": "647",
       "name": "Sylar",
       "powerstats": {
@@ -27562,7 +26915,6 @@
       }
     },
     {
-      "response": "success",
       "id": "648",
       "name": "Synch",
       "powerstats": {
@@ -27603,7 +26955,6 @@
       }
     },
     {
-      "response": "success",
       "id": "649",
       "name": "T-1000",
       "powerstats": {
@@ -27644,7 +26995,6 @@
       }
     },
     {
-      "response": "success",
       "id": "650",
       "name": "T-800",
       "powerstats": {
@@ -27685,7 +27035,6 @@
       }
     },
     {
-      "response": "success",
       "id": "651",
       "name": "T-850",
       "powerstats": {
@@ -27726,7 +27075,6 @@
       }
     },
     {
-      "response": "success",
       "id": "652",
       "name": "T-X",
       "powerstats": {
@@ -27767,7 +27115,6 @@
       }
     },
     {
-      "response": "success",
       "id": "653",
       "name": "Taskmaster",
       "powerstats": {
@@ -27808,7 +27155,6 @@
       }
     },
     {
-      "response": "success",
       "id": "654",
       "name": "Tempest",
       "powerstats": {
@@ -27849,7 +27195,6 @@
       }
     },
     {
-      "response": "success",
       "id": "655",
       "name": "Thanos",
       "powerstats": {
@@ -27890,7 +27235,6 @@
       }
     },
     {
-      "response": "success",
       "id": "656",
       "name": "The Cape",
       "powerstats": {
@@ -27931,7 +27275,6 @@
       }
     },
     {
-      "response": "success",
       "id": "657",
       "name": "The Comedian",
       "powerstats": {
@@ -27972,7 +27315,6 @@
       }
     },
     {
-      "response": "success",
       "id": "658",
       "name": "Thing",
       "powerstats": {
@@ -28017,7 +27359,6 @@
       }
     },
     {
-      "response": "success",
       "id": "659",
       "name": "Thor",
       "powerstats": {
@@ -28063,7 +27404,6 @@
       }
     },
     {
-      "response": "success",
       "id": "660",
       "name": "Thor Girl",
       "powerstats": {
@@ -28117,7 +27457,6 @@
       }
     },
     {
-      "response": "success",
       "id": "661",
       "name": "Thunderbird",
       "powerstats": {
@@ -28158,7 +27497,6 @@
       }
     },
     {
-      "response": "success",
       "id": "662",
       "name": "Thunderbird II",
       "powerstats": {
@@ -28199,7 +27537,6 @@
       }
     },
     {
-      "response": "success",
       "id": "663",
       "name": "Thunderbird III",
       "powerstats": {
@@ -28240,7 +27577,6 @@
       }
     },
     {
-      "response": "success",
       "id": "664",
       "name": "Thunderstrike",
       "powerstats": {
@@ -28281,7 +27617,6 @@
       }
     },
     {
-      "response": "success",
       "id": "665",
       "name": "Thundra",
       "powerstats": {
@@ -28322,7 +27657,6 @@
       }
     },
     {
-      "response": "success",
       "id": "666",
       "name": "Tiger Shark",
       "powerstats": {
@@ -28363,7 +27697,6 @@
       }
     },
     {
-      "response": "success",
       "id": "667",
       "name": "Tigra",
       "powerstats": {
@@ -28404,7 +27737,6 @@
       }
     },
     {
-      "response": "success",
       "id": "668",
       "name": "Tinkerer",
       "powerstats": {
@@ -28445,7 +27777,6 @@
       }
     },
     {
-      "response": "success",
       "id": "669",
       "name": "Titan",
       "powerstats": {
@@ -28486,7 +27817,6 @@
       }
     },
     {
-      "response": "success",
       "id": "670",
       "name": "Toad",
       "powerstats": {
@@ -28527,7 +27857,6 @@
       }
     },
     {
-      "response": "success",
       "id": "671",
       "name": "Toxin",
       "powerstats": {
@@ -28568,7 +27897,6 @@
       }
     },
     {
-      "response": "success",
       "id": "672",
       "name": "Toxin",
       "powerstats": {
@@ -28619,7 +27947,6 @@
       }
     },
     {
-      "response": "success",
       "id": "673",
       "name": "Tracy Strauss",
       "powerstats": {
@@ -28660,7 +27987,6 @@
       }
     },
     {
-      "response": "success",
       "id": "674",
       "name": "Trickster",
       "powerstats": {
@@ -28701,7 +28027,6 @@
       }
     },
     {
-      "response": "success",
       "id": "675",
       "name": "Trigon",
       "powerstats": {
@@ -28750,7 +28075,6 @@
       }
     },
     {
-      "response": "success",
       "id": "676",
       "name": "Triplicate Girl",
       "powerstats": {
@@ -28791,7 +28115,6 @@
       }
     },
     {
-      "response": "success",
       "id": "677",
       "name": "Triton",
       "powerstats": {
@@ -28832,7 +28155,6 @@
       }
     },
     {
-      "response": "success",
       "id": "678",
       "name": "Two-Face",
       "powerstats": {
@@ -28873,7 +28195,6 @@
       }
     },
     {
-      "response": "success",
       "id": "679",
       "name": "Ultragirl",
       "powerstats": {
@@ -28914,7 +28235,6 @@
       }
     },
     {
-      "response": "success",
       "id": "680",
       "name": "Ultron",
       "powerstats": {
@@ -28966,7 +28286,6 @@
       }
     },
     {
-      "response": "success",
       "id": "681",
       "name": "Utgard-Loki",
       "powerstats": {
@@ -29007,7 +28326,6 @@
       }
     },
     {
-      "response": "success",
       "id": "682",
       "name": "Vagabond",
       "powerstats": {
@@ -29048,7 +28366,6 @@
       }
     },
     {
-      "response": "success",
       "id": "683",
       "name": "Valerie Hart",
       "powerstats": {
@@ -29089,7 +28406,6 @@
       }
     },
     {
-      "response": "success",
       "id": "684",
       "name": "Valkyrie",
       "powerstats": {
@@ -29130,7 +28446,6 @@
       }
     },
     {
-      "response": "success",
       "id": "685",
       "name": "Vanisher",
       "powerstats": {
@@ -29171,7 +28486,6 @@
       }
     },
     {
-      "response": "success",
       "id": "686",
       "name": "Vegeta",
       "powerstats": {
@@ -29226,7 +28540,6 @@
       }
     },
     {
-      "response": "success",
       "id": "687",
       "name": "Venom",
       "powerstats": {
@@ -29267,7 +28580,6 @@
       }
     },
     {
-      "response": "success",
       "id": "688",
       "name": "Venom II",
       "powerstats": {
@@ -29308,7 +28620,6 @@
       }
     },
     {
-      "response": "success",
       "id": "689",
       "name": "Venom III",
       "powerstats": {
@@ -29349,7 +28660,6 @@
       }
     },
     {
-      "response": "success",
       "id": "690",
       "name": "Venompool",
       "powerstats": {
@@ -29390,7 +28700,6 @@
       }
     },
     {
-      "response": "success",
       "id": "691",
       "name": "Vertigo II",
       "powerstats": {
@@ -29431,7 +28740,6 @@
       }
     },
     {
-      "response": "success",
       "id": "692",
       "name": "Vibe",
       "powerstats": {
@@ -29472,7 +28780,6 @@
       }
     },
     {
-      "response": "success",
       "id": "693",
       "name": "Vindicator",
       "powerstats": {
@@ -29513,7 +28820,6 @@
       }
     },
     {
-      "response": "success",
       "id": "694",
       "name": "Vindicator",
       "powerstats": {
@@ -29554,7 +28860,6 @@
       }
     },
     {
-      "response": "success",
       "id": "695",
       "name": "Violator",
       "powerstats": {
@@ -29595,7 +28900,6 @@
       }
     },
     {
-      "response": "success",
       "id": "696",
       "name": "Violet Parr",
       "powerstats": {
@@ -29640,7 +28944,6 @@
       }
     },
     {
-      "response": "success",
       "id": "697",
       "name": "Vision",
       "powerstats": {
@@ -29681,7 +28984,6 @@
       }
     },
     {
-      "response": "success",
       "id": "698",
       "name": "Vision II",
       "powerstats": {
@@ -29722,7 +29024,6 @@
       }
     },
     {
-      "response": "success",
       "id": "699",
       "name": "Vixen",
       "powerstats": {
@@ -29763,7 +29064,6 @@
       }
     },
     {
-      "response": "success",
       "id": "700",
       "name": "Vulcan",
       "powerstats": {
@@ -29804,7 +29104,6 @@
       }
     },
     {
-      "response": "success",
       "id": "701",
       "name": "Vulture",
       "powerstats": {
@@ -29845,7 +29144,6 @@
       }
     },
     {
-      "response": "success",
       "id": "702",
       "name": "Walrus",
       "powerstats": {
@@ -29886,7 +29184,6 @@
       }
     },
     {
-      "response": "success",
       "id": "703",
       "name": "War Machine",
       "powerstats": {
@@ -29927,7 +29224,6 @@
       }
     },
     {
-      "response": "success",
       "id": "704",
       "name": "Warbird",
       "powerstats": {
@@ -29968,7 +29264,6 @@
       }
     },
     {
-      "response": "success",
       "id": "705",
       "name": "Warlock",
       "powerstats": {
@@ -30009,7 +29304,6 @@
       }
     },
     {
-      "response": "success",
       "id": "706",
       "name": "Warp",
       "powerstats": {
@@ -30050,7 +29344,6 @@
       }
     },
     {
-      "response": "success",
       "id": "707",
       "name": "Warpath",
       "powerstats": {
@@ -30091,7 +29384,6 @@
       }
     },
     {
-      "response": "success",
       "id": "708",
       "name": "Wasp",
       "powerstats": {
@@ -30132,7 +29424,6 @@
       }
     },
     {
-      "response": "success",
       "id": "709",
       "name": "Watcher",
       "powerstats": {
@@ -30173,7 +29464,6 @@
       }
     },
     {
-      "response": "success",
       "id": "710",
       "name": "Weapon XI",
       "powerstats": {
@@ -30214,7 +29504,6 @@
       }
     },
     {
-      "response": "success",
       "id": "711",
       "name": "White Canary",
       "powerstats": {
@@ -30255,7 +29544,6 @@
       }
     },
     {
-      "response": "success",
       "id": "712",
       "name": "White Queen",
       "powerstats": {
@@ -30296,7 +29584,6 @@
       }
     },
     {
-      "response": "success",
       "id": "713",
       "name": "Wildfire",
       "powerstats": {
@@ -30337,7 +29624,6 @@
       }
     },
     {
-      "response": "success",
       "id": "714",
       "name": "Winter Soldier",
       "powerstats": {
@@ -30378,7 +29664,6 @@
       }
     },
     {
-      "response": "success",
       "id": "715",
       "name": "Wiz Kid",
       "powerstats": {
@@ -30419,7 +29704,6 @@
       }
     },
     {
-      "response": "success",
       "id": "716",
       "name": "Wolfsbane",
       "powerstats": {
@@ -30460,7 +29744,6 @@
       }
     },
     {
-      "response": "success",
       "id": "717",
       "name": "Wolverine",
       "powerstats": {
@@ -30514,7 +29797,6 @@
       }
     },
     {
-      "response": "success",
       "id": "718",
       "name": "Wonder Girl",
       "powerstats": {
@@ -30561,7 +29843,6 @@
       }
     },
     {
-      "response": "success",
       "id": "719",
       "name": "Wonder Man",
       "powerstats": {
@@ -30602,7 +29883,6 @@
       }
     },
     {
-      "response": "success",
       "id": "720",
       "name": "Wonder Woman",
       "powerstats": {
@@ -30650,7 +29930,6 @@
       }
     },
     {
-      "response": "success",
       "id": "721",
       "name": "Wondra",
       "powerstats": {
@@ -30691,7 +29970,6 @@
       }
     },
     {
-      "response": "success",
       "id": "722",
       "name": "Wyatt Wingfoot",
       "powerstats": {
@@ -30732,7 +30010,6 @@
       }
     },
     {
-      "response": "success",
       "id": "723",
       "name": "X-23",
       "powerstats": {
@@ -30780,7 +30057,6 @@
       }
     },
     {
-      "response": "success",
       "id": "724",
       "name": "X-Man",
       "powerstats": {
@@ -30821,7 +30097,6 @@
       }
     },
     {
-      "response": "success",
       "id": "725",
       "name": "Yellow Claw",
       "powerstats": {
@@ -30862,7 +30137,6 @@
       }
     },
     {
-      "response": "success",
       "id": "726",
       "name": "Yellowjacket",
       "powerstats": {
@@ -30903,7 +30177,6 @@
       }
     },
     {
-      "response": "success",
       "id": "727",
       "name": "Yellowjacket II",
       "powerstats": {
@@ -30944,7 +30217,6 @@
       }
     },
     {
-      "response": "success",
       "id": "728",
       "name": "Ymir",
       "powerstats": {
@@ -30985,7 +30257,6 @@
       }
     },
     {
-      "response": "success",
       "id": "729",
       "name": "Yoda",
       "powerstats": {
@@ -31026,7 +30297,6 @@
       }
     },
     {
-      "response": "success",
       "id": "730",
       "name": "Zatanna",
       "powerstats": {
@@ -31067,7 +30337,6 @@
       }
     },
     {
-      "response": "success",
       "id": "731",
       "name": "Zoom",
       "powerstats": {
