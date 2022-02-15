@@ -112,26 +112,6 @@ it('should display the name of the superhero', () => {
   );
 });
 
-/* NEED FIX*/
-/*
-it('should toggle selected when the switch is clicked', () => {
-  act(() => {
-    render(
-      <Provider store={mockStore(initialState)}>
-        <Router>
-          <Card superhero={mockupHero} />
-        </Router>
-      </Provider>,
-      container,
-    );
-  });
-  fireEvent.click(container.querySelector('.ant-switch'));
-  expect(
-    container.querySelector('.c-card').classList.contains('c-card__selected'),
-  ).toBe(true);
-});
-*/
-
 it('should display stats when the up arrow toggle at the bottom is clicked', () => {
   act(() => {
     render(
@@ -167,6 +147,24 @@ it('should display a down arrow toggle when the toggle at the bottom is clicked 
     container
       .querySelector('.c-card__arrow-circle')
       .classList.contains('anticon-down-circle'),
+  ).toBe(true);
+});
+
+/* NEED FIX*/
+it('should toggle selected when the switch is clicked', () => {
+  act(() => {
+    render(
+      <Provider store={mockStore(initialState)}>
+        <Router>
+          <Card superhero={mockupHero} />
+        </Router>
+      </Provider>,
+      container,
+    );
+  });
+  fireEvent.click(container.querySelector('.ant-switch'));
+  expect(
+    container.querySelector('.c-card').classList.contains('c-card__selected'),
   ).toBe(true);
 });
 

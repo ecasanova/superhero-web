@@ -58,6 +58,7 @@
     justify-content: flex-end;
   }
 
+  &__card-title a,
   &__card-title {
     font-size: 2rem;
     font-family: 'ObelixPro';
@@ -115,7 +116,8 @@
     border: 4px solid color(orange);
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     border: 4px solid color(orange);
   }
 }

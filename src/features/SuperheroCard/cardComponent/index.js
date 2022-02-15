@@ -25,9 +25,10 @@ export function Card({superhero}) {
     return team.some((obj) => superhero === obj);
   };
 
-  if (superhero) {
+  if (superhero.id) {
     return (
       <div
+        tabIndex={0}
         className={
           inMyTeam(myteam, superhero) ? 'c-card c-card__selected' : 'c-card'
         }>
@@ -47,12 +48,13 @@ export function Card({superhero}) {
                     </div>
                   );
                 })}
-                <DownCircleOutlined
-                  className="c-card__arrow-circle"
+                <Link
+                  title="Click here to hide stats"
                   onClick={() => {
                     toggleHeroDescription();
-                  }}
-                />
+                  }}>
+                  <DownCircleOutlined className="c-card__arrow-circle" />
+                </Link>
               </div>
             </div>
           </>
@@ -60,30 +62,31 @@ export function Card({superhero}) {
         {!hoverDescriptionActive && (
           <>
             <div className="c-card__card-image">
-              <Link
-                to={`/details/${superhero.id}/${seoUrl(superhero.name)}`}
-                title={superhero.name}>
-                <img
-                  src={
-                    superhero.image.url ? superhero.image.url : fallbackImageSrc
-                  }
-                  alt={superhero.name}
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = fallbackImageSrc;
-                  }}
-                />
-              </Link>
-            </div>
-            <div className="c-card__card-content c-card__card-content">
-              <div className="c-card__card-title">{superhero.name}</div>
-              <AddToTeamComponent superhero={superhero} />
-              <UpCircleOutlined
-                className="c-card__arrow-circle"
-                onClick={() => {
-                  toggleHeroDescription();
+              <img
+                src={
+                  superhero.image.url ? superhero.image.url : fallbackImageSrc
+                }
+                alt={superhero.name}
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = fallbackImageSrc;
                 }}
               />
+            </div>
+            <div className="c-card__card-content c-card__card-content">
+              <div className="c-card__card-title" tabIndex={1}>
+                <Link to={`/details/${superhero.id}/${seoUrl(superhero.name)}`}>
+                  {superhero.name}
+                </Link>
+              </div>
+              <AddToTeamComponent superhero={superhero} />
+              <Link
+                title="Click here to see more information"
+                onClick={() => {
+                  toggleHeroDescription();
+                }}>
+                <UpCircleOutlined className="c-card__arrow-circle" />
+              </Link>
             </div>
           </>
         )}

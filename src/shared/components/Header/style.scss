@@ -153,6 +153,12 @@
     overflow-x: hidden;
     padding-top: 8rem;
     transition: 0.5s;
+    @include iota-breakpoint(xxs) {
+      display: block;
+    }
+    @include iota-breakpoint(md) {
+      display: none;
+    }
   }
   &__sidebar-active {
     width: 100vw;
