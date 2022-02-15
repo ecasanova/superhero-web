@@ -23,7 +23,6 @@
     "lodash": "4.17.20",
     "lottie-react": "2.2.1",
     "moment": "2.24.0",
-    "node-sass": "4.12.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-i18next": "11.3.3",
@@ -44,6 +43,7 @@
     "redux-saga-effects": "1.1.0",
     "redux-saga-routines": "3.2.3",
     "redux-thunk": "2.3.0",
+    "sass": "1.49.7",
     "sass-loader": "8.0.0",
     "sass-resources-loader": "2.0.1",
     "styled-components": "5.3.3"
@@ -74,6 +74,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "node-sass": "npm:sass"
   },
   "devDependencies": {
     "@testing-library/react": "12.1.2",
