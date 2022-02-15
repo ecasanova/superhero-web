@@ -63,6 +63,9 @@
     @include iota-breakpoint(md) {
       height: 100%;
     }
+    &:hover {
+      border: 0px !important;
+    }
   }
   .related {
     width: 70px;
