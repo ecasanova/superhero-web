@@ -37,7 +37,8 @@ definitions:
                 - source ./tmp-deploy/react-ec2/validate-deploy-vars.sh
                 
                 - source ./tmp-deploy/react-ec2/deploy.sh
-
+    caches:
+        npm: $HOME/.npm
 pipelines:
     custom:
 
