@@ -33,6 +33,7 @@ definitions:
 
         - step: &deploy
             name: Deploy
+            image: atlassian/default-image:2
             script:
                 - source ./tmp-deploy/react-ec2/validate-deploy-vars.sh
                 
