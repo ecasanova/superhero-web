@@ -32,6 +32,10 @@
     object-position: center;
   }
 
+  &__card-image:focus {
+    border: 4px solid black;
+  }
+
   &__card-content {
     bottom: 0;
     text-align: center;
@@ -116,8 +120,12 @@
     border: 4px solid color(orange);
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
     border: 4px solid color(orange);
   }
+}
+
+*:focus-visible {
+  outline: 2px black solid;
+  /* box-shadow: 0 0 0 0.2rem #fff, 0 0 0 0.4rem #000, 0 0 0.4rem 0.8rem #fff; */
 }

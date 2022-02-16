@@ -28,7 +28,6 @@ export function Card({superhero}) {
   if (superhero) {
     return (
       <div
-        tabIndex={0}
         className={
           inMyTeam(myteam, superhero) ? 'c-card c-card__selected' : 'c-card'
         }>
