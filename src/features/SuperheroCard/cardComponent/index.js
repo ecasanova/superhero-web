@@ -53,7 +53,7 @@ export function Card({superhero}) {
                   onClick={() => {
                     toggleHeroDescription();
                   }}
-                  aria-label="Press enter to comback to the card"
+                  aria-label="Press enter to come back to the card"
                   onKeyPress={(e) => {
                     if (e.key === 'Enter') {
                       toggleHeroDescription();
