@@ -73,9 +73,6 @@
     border-radius: 80px;
     object-fit: cover;
     border: 3px solid #0084ff;
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
   }
   .related:hover {
     border: 3px solid #f9873d;
@@ -89,11 +86,23 @@
   .c-detail-table li {
     padding: 0.2rem 0;
   }
+  .c-detail-table li a {
+    display: block;
+  }
   .grid {
     height: inherit;
   }
   .c-container-fluid,
   .c-container {
     height: 100%;
+  }
+  .c-related-table li {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    float: left;
+  }
+  .c-related-table li a {
+    display: block;
   }
 }

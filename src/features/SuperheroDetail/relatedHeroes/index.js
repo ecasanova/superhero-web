@@ -19,7 +19,7 @@ function RelatedHeroes({superheroe}) {
     return (
       <>
         <h1>Related Characters</h1>
-        <ul>
+        <ul class="c-related-table">
           {relatedList.map((related, index) => {
             return (
               <li index={index}>
