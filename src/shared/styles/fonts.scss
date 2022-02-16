@@ -2,26 +2,34 @@
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/obelixpro/ObelixPro-cyr.ttf') format('truetype');
+  src: local('Obelyx'),
+    url('../assets/fonts/obelixpro/ObelixPro-cyr.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: $main-font;
   font-style: italic;
   font-weight: 400;
-  src: url('../assets/fonts/obelixpro/ObelixProIt-cyr.ttf') format('truetype');
+  src: local('Obelyx'),
+    url('../assets/fonts/obelixpro/ObelixProIt-cyr.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: $main-font;
   font-style: normal;
   font-weight: 600;
-  src: url('../assets/fonts/obelixpro/ObelixProB-cyr.ttf') format('truetype');
+  src: local('Obelyx'),
+    url('../assets/fonts/obelixpro/ObelixProB-cyr.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: $main-font;
   font-style: italic;
   font-weight: 600;
-  src: url('../assets/fonts/obelixpro/ObelixProBIt-cyr.ttf') format('truetype');
+  src: local('Obelyx'),
+    url('../assets/fonts/obelixpro/ObelixProBIt-cyr.ttf') format('truetype');
+  font-display: swap;
 }
