@@ -28,6 +28,7 @@ export function Card({superhero}) {
   if (superhero) {
     return (
       <div
+        tabIndex={0}
         className={
           inMyTeam(myteam, superhero) ? 'c-card c-card__selected' : 'c-card'
         }>
@@ -53,6 +54,7 @@ export function Card({superhero}) {
                   onClick={() => {
                     toggleHeroDescription();
                   }}
+                  aria-label="Press enter to comback to the card"
                   onKeyPress={(e) => {
                     if (e.key === 'Enter') {
                       toggleHeroDescription();
@@ -90,6 +92,7 @@ export function Card({superhero}) {
               <UpCircleOutlined
                 tabIndex={0}
                 className="c-card__arrow-circle"
+                aria-label="Press enter to see more information"
                 onClick={() => {
                   toggleHeroDescription();
                 }}
