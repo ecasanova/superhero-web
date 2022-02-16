@@ -4,7 +4,8 @@ import EnterScreen from '@/screens/unauthenticated/EnterScreen';
 import HomepageScreen from '@/screens/unauthenticated/HomepageScreen';
 import DetailScreen from '@/screens/unauthenticated/DetailScreen';
 import MyteamScreen from '@/screens/unauthenticated/MyteamScreen';
-import LoadinComponent from '@/shared/components/Loading';
+import LoadingComponent from '@/shared/components/Loading';
+import NotFound from '@/shared/components/NotFound';
 const routesConfig = [
   {
     path: '/',
@@ -15,7 +16,7 @@ const routesConfig = [
     path: '/home',
     component: HomepageScreen,
     exact: true,
-    loading: LoadinComponent,
+    loading: LoadingComponent,
   },
   {
     path: '/details/:id/:name',
@@ -24,6 +25,10 @@ const routesConfig = [
   {
     path: '/team',
     component: MyteamScreen,
+  },
+  {
+    path: '',
+    component: NotFound,
   },
 ];
 

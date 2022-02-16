@@ -73,7 +73,7 @@ export function Card({superhero}) {
                 }
                 alt={superhero.name}
                 onError={(e) => {
-                  e.target.onerror = null;
+                  e.target.onError = null;
                   e.target.src = fallbackImageSrc;
                 }}
               />
