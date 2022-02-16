@@ -2,7 +2,9 @@
   color: #fff;
   padding: 1rem 0px;
 }
-
+.ant-switch:focus {
+  box-shadow: 0 0 0 0.2rem #fff, 0 0 0 0.4rem #000, 0 0 0.4rem 0.8rem #fff;
+}
 .limit-characters-modal {
   .ant-modal-content {
     padding: 6rem 2rem;

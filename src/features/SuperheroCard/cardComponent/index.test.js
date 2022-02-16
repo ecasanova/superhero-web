@@ -8,6 +8,7 @@ import {act} from 'react-dom/test-utils';
 import Card from '../cardComponent';
 import thunk from 'redux-thunk';
 import * as redux from 'react-redux';
+import AddToTeamComponent from '../addToTeamComponent';
 
 const middlewares = [thunk];
 const initialState = {id: 1};
@@ -153,18 +154,26 @@ it('should display a down arrow toggle when the toggle at the bottom is clicked 
 /* NEED FIX*/
 it('should toggle selected when the switch is clicked', () => {
   act(() => {
-    render(
+    const {getByRole} = render(
       <Provider store={mockStore(initialState)}>
         <Router>
-          <Card superhero={mockupHero} />
+          <AddToTeamComponent superhero={mockupHero} />
         </Router>
       </Provider>,
       container,
     );
   });
-  fireEvent.click(container.querySelector('.ant-switch'));
+
+  let element = container.querySelector('[role="switch"]');
+  expect(element.checked).toEqual(false);
+
+  element.value = true; //CHECK
+  expect(element.value).toEqual('true');
+
   expect(
-    container.querySelector('.c-card').classList.contains('c-card__selected'),
+    container
+      .querySelector('.ant-switch')
+      .classList.contains('ant-switch-checked'),
   ).toBe(true);
 });
 

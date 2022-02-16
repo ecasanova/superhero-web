@@ -25,10 +25,9 @@ export function Card({superhero}) {
     return team.some((obj) => superhero === obj);
   };
 
-  if (superhero.id) {
+  if (superhero) {
     return (
       <div
-        tabIndex={0}
         className={
           inMyTeam(myteam, superhero) ? 'c-card c-card__selected' : 'c-card'
         }>
@@ -37,7 +36,7 @@ export function Card({superhero}) {
             <div className="c-card__description">
               <div className="c-card__card-content c-card__card-content--hover">
                 <div className="c-card__card-title">{superhero.name}</div>
-                <AddToTeamComponent superhero={superhero} />
+                <AddToTeamComponent tabIndex={0} superhero={superhero} />
                 {Object.keys(superhero.powerstats).map((power, index) => {
                   return (
                     <div
@@ -48,20 +47,25 @@ export function Card({superhero}) {
                     </div>
                   );
                 })}
-                <Link
-                  title="Click here to hide stats"
+                <DownCircleOutlined
+                  tabIndex={0}
+                  className="c-card__arrow-circle"
                   onClick={() => {
                     toggleHeroDescription();
-                  }}>
-                  <DownCircleOutlined className="c-card__arrow-circle" />
-                </Link>
+                  }}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter') {
+                      toggleHeroDescription();
+                    }
+                  }}
+                />
               </div>
             </div>
           </>
         )}
         {!hoverDescriptionActive && (
           <>
-            <div className="c-card__card-image">
+            <div className="c-card__card-image" tabIndex={0}>
               <img
                 src={
                   superhero.image.url ? superhero.image.url : fallbackImageSrc
@@ -74,19 +78,27 @@ export function Card({superhero}) {
               />
             </div>
             <div className="c-card__card-content c-card__card-content">
-              <div className="c-card__card-title" tabIndex={1}>
-                <Link to={`/details/${superhero.id}/${seoUrl(superhero.name)}`}>
+              <div className="c-card__card-title">
+                <Link
+                  tabIndex={0}
+                  to={`/details/${superhero.id}/${seoUrl(superhero.name)}`}
+                  title={superhero.name}>
                   {superhero.name}
                 </Link>
               </div>
-              <AddToTeamComponent superhero={superhero} />
-              <Link
-                title="Click here to see more information"
+              <AddToTeamComponent tabIndex={0} superhero={superhero} />
+              <UpCircleOutlined
+                tabIndex={0}
+                className="c-card__arrow-circle"
                 onClick={() => {
                   toggleHeroDescription();
-                }}>
-                <UpCircleOutlined className="c-card__arrow-circle" />
-              </Link>
+                }}
+                onKeyPress={(e) => {
+                  if (e.key === 'Enter') {
+                    toggleHeroDescription();
+                  }
+                }}
+              />
             </div>
           </>
         )}
