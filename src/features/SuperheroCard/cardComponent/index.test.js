@@ -1,5 +1,5 @@
 import React from 'react';
-import {render, unmountComponentAtNode} from 'react-dom';
+import {unmountComponentAtNode, render} from 'react-dom';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import configureMockStore from 'redux-mock-store';
@@ -8,7 +8,9 @@ import {act} from 'react-dom/test-utils';
 import Card from '../cardComponent';
 import thunk from 'redux-thunk';
 import * as redux from 'react-redux';
-import AddToTeamComponent from '../addToTeamComponent';
+import '@testing-library/jest-dom';
+import userEvent from '@testing-library/user-event';
+import {screen} from '@testing-library/react';
 
 const middlewares = [thunk];
 const initialState = {id: 1};
@@ -30,9 +32,6 @@ afterEach(() => {
 const mockDispatch = jest.fn();
 const spyMyTeamSelector = jest.spyOn(redux, 'useSelector');
 spyMyTeamSelector.mockReturnValue([]);
-
-const spyMyTeamDispatch = jest.spyOn(redux, 'useSelector');
-spyMyTeamDispatch.mockReturnValue([]);
 
 const mockupHero = {
   id: '69',
@@ -81,6 +80,9 @@ const mockupHero = {
     url: 'https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg',
   },
 };
+
+const spyMyTeamDispatch = jest.spyOn(redux, 'useDispatch');
+spyMyTeamDispatch.mockReturnValue([mockupHero]);
 
 it('renders a super hero card without data', () => {
   act(() => {
@@ -151,34 +153,105 @@ it('should display a down arrow toggle when the toggle at the bottom is clicked 
   ).toBe(true);
 });
 
-/* NEED FIX*/
-/*
-it('should toggle selected when the switch is clicked', () => {
+it('should be accessible via keyboard to Add to Team', () => {
   act(() => {
-    const {getByRole} = render(
+    render(
       <Provider store={mockStore(initialState)}>
         <Router>
-          <AddToTeamComponent superhero={mockupHero} />
+          <Card superhero={mockupHero} />
         </Router>
       </Provider>,
       container,
     );
   });
 
-  let element = container.querySelector('[role="switch"]');
-  expect(element.checked).toEqual(false);
+  const title = container.querySelector('.c-card__card-title > a');
+  const switchButton = container.querySelector('[role="switch"]');
 
-  element.value = true; //CHECK
-  expect(element.value).toEqual('true');
+  userEvent.tab();
+  userEvent.tab();
+  expect(title).toHaveFocus();
 
-  expect(
-    container
-      .querySelector('.ant-switch')
-      .classList.contains('ant-switch-checked'),
-  ).toBe(true);
+  userEvent.tab();
+  expect(switchButton).toHaveFocus();
+});
+
+it('should be accessible via keyboard to see the superhero stats via the toggle at the bottom', () => {
+  act(() => {
+    render(
+      <Provider store={mockStore(initialState)}>
+        <Router>
+          <Card superhero={mockupHero} />
+        </Router>
+      </Provider>,
+      container,
+    );
+  });
+
+  const title = container.querySelector('.c-card__card-title > a');
+  const toggleButton = container.querySelector('.c-card__arrow-circle');
+
+  title.focus();
+  expect(title).toHaveFocus();
+
+  userEvent.tab();
+  userEvent.tab();
+  expect(toggleButton).toHaveFocus();
+});
+
+/* screen reader should read the superhero name on focus */
+it('screen reader should read the superhero name on focus', () => {
+  act(() => {
+    render(
+      <Provider store={mockStore(initialState)}>
+        <Router>
+          <Card superhero={mockupHero} />
+        </Router>
+      </Provider>,
+      container,
+    );
+  });
+  const title = container.querySelector('.c-card__card-title > a');
+
+  title.focus();
+  expect(title.title).toBe(mockupHero.name);
+});
+
+/*
+it('should have the correct border style when hovering with a mouse', () => {
+  act(() => {
+    render(
+      <Provider store={mockStore(initialState)}>
+        <Router>
+          <Card superhero={mockupHero} />
+        </Router>
+      </Provider>,
+      container,
+    );
+  });
+
+  const card = container.querySelector('.c-card');
+  fireEvent.mouseOver(card);
+  expect(card).toHaveStyle(`border: 4px solid orange;`);
+});
+
+
+it('should toggle selected when the switch is clicked', () => {
+  act(() => {
+    render(
+      <Provider store={mockStore(initialState)}>
+        <Router>
+          <Card superhero={mockupHero} />
+        </Router>
+      </Provider>,
+      container,
+    );
+  });
+
+  const switchButton = container.querySelector('[role="switch"]');
+  fireEvent.change(switchButton, {checked: true});
+  redux.useDispatch.mockReturnValue(spyMyTeamDispatch);
+
+  expect(switchButton).toHaveClass('ant-switch-checked');
 });
 */
-/* should be accessible via keyboard to Add to Team */
-/* should be accessible via keyboard to see the superhero stats via the toggle at the bottom */
-/* should have the correct border style when hovering with a mouse */
-/* screen reader should read the superhero name on focus */
