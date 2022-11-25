@@ -1,5 +1,5 @@
 {
-  "name": "adk_web_kit",
+  "name": "superhero-web",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -90,7 +90,6 @@
     "glob": "7.1.6",
     "husky": "7.0.2",
     "iotacss-objs-grid": "1.0.4",
-    "javascript-obfuscator": "0.18.3",
     "jest": "24.9.0",
     "less-loader": "4.1.0",
     "react-app-rewire-alias": "1.1.7",
