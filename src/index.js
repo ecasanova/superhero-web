@@ -6,13 +6,13 @@ import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import {ConnectedRouter} from 'connected-react-router';
 
-import store, {persistor, history} from '@/bootstrap/redux';
-import Loading from '@/shared/components/Loading';
-import ScrollToTop from '@/shared/components/Layout/scrollToTop';
-import './shared/styles/app.scss';
+import store, {persistor, history} from './bootstrap/redux/index';
+import Loading from '@shared/components/Loading';
+import ScrollToTop from '@shared/components/Layout/scrollToTop';
+import '@shared/styles/app.scss';
 
-import Routes from './shared/components/routes';
-import routesConfig from './shared/components/routes/config';
+import Routes from '@shared/components/routes';
+import routesConfig from '@shared/components/routes/config';
 
 const NODE = 'root';
 

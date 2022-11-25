@@ -7,6 +7,8 @@ const {
   addWebpackModuleRule,
 } = require('customize-cra');
 
+const {alias} = require('react-app-rewire-alias');
+
 /* Need to edit your webpack configuration past this extent?
  * https://github.com/arackaf/customize-cra/blob/master/api.md
  */
@@ -30,6 +32,15 @@ module.exports = override(
   }),
   fixBabelImports('lodash', {
     libraryDirectory: '',
+  }),
+  alias({
+    '@core': 'src/core',
+    '@features': 'src/features',
+    '@pages': 'src/pages',
+    '@shared': 'src/shared',
+    '@bootstrap': 'src/bootstrap',
+    '@utils': 'src/utils',
+    '@screens': 'src/screens',
   }),
   // https://ant.design/docs/react/customize-theme (Customize in webpack)
   addLessLoader({

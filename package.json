@@ -49,19 +49,9 @@
     "styled-components": "5.3.3"
   },
   "scripts": {
-    "prepare": "husky install",
-    "pre-commit": "eslint",
-    "pre-push": "eslint",
-    "start": "env-cmd -f .env.development --use-shell 'react-app-rewired start'",
-    "start:staging": "env-cmd -f .env.staging --use-shell 'react-app-rewired start'",
-    "start:prod": "env-cmd -f .env.production --use-shell 'react-app-rewired start'",
-    "build:dev": "env-cmd -f .env.development --use-shell 'react-app-rewired build'",
-    "build:staging": "env-cmd -f .env.staging --use-shell 'react-app-rewired build'",
-    "build:prod": "env-cmd -f .env.production --use-shell 'react-app-rewired build'",
-    "build:ci": "react-app-rewired build",
-    "upload-sourcemaps:dev": "env-cmd -f .env.development node src/utils/bugsnag/process-sourcemaps.js",
-    "test": "react-app-rewired test",
-    "extract-translation-keys": "cd src && cd utils && cd i18next && node generateLocaleMaster & cd ../../../"
+    "start": "react-app-rewired  start",
+    "build": "react-app-rewired  build",
+    "test": "react-app-rewired  test"
   },
   "husky": {
     "hooks": {
@@ -103,6 +93,7 @@
     "javascript-obfuscator": "0.18.3",
     "jest": "24.9.0",
     "less-loader": "4.1.0",
+    "react-app-rewire-alias": "1.1.7",
     "react-app-rewired": "2.1.5",
     "redux-immutable-state-invariant": "2.1.0",
     "shelljs": "0.8.3",
