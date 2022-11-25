@@ -1,4 +1,4 @@
-import {axios} from '@adk/apiclient';
+import {axios} from 'axios';
 import Client from './apiClient';
 import jsonData from '@/data.json';
 class SuperheroeService extends Client {
