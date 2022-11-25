@@ -47,6 +47,7 @@
     "sass-resources-loader": "2.0.1",
     "styled-components": "5.3.3"
   },
+  "homepage": "https://superhero-web.vercel.app",
   "scripts": {
     "start": "react-app-rewired  start",
     "build": "react-app-rewired  build",
