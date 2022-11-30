@@ -6,6 +6,7 @@ Training exercise / onboarding ADK Colombia
 
 ## Scripts
 `npm start` Start the project in the development enviroment.
+
 `npm build` Build the project for production.
 
 ## API 
