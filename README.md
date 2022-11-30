@@ -12,6 +12,7 @@ React project using create-react-app and redux
 
 # API 
 
-Get all SuperHeroes and Villians data from all universes under a single API. (https://www.superheroapi.com/)[https://www.superheroapi.com/]
+Get all SuperHeroes and Villians data from all universes under a single API. 
+https://www.superheroapi.com/
 
 
